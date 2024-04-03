@@ -1,0 +1,7 @@
+.*
+**/tsconfig.json
+**/stories-addons
+
+node_modules
+src
+site

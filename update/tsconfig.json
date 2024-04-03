@@ -1,10 +1,10 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "module": "commonjs",
-    "moduleResolution": "node",
-    "types": ["webpack-env", "jest"],
+    "target": "ESNext",
+    "lib": ["dom", "dom.iterable", "ESNext"],
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "types": ["jest"],
     "outDir": "lib",
     "forceConsistentCasingInFileNames": true,
     "noUnusedLocals": true,
@@ -28,8 +28,5 @@
     "build",
     "coverage",
     "site"
-  ],
-  "awesomeTypescriptLoaderOptions": {
-    "useBabel": true
-  }
+  ]
 }
