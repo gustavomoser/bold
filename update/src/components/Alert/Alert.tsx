@@ -1,4 +1,4 @@
-import { Interpolation } from 'emotion'
+import { Interpolation } from '@emotion/react'
 import React, { CSSProperties } from 'react'
 import { useLocale } from '../../i18n'
 import { Theme, useStyles } from '../../styles'
@@ -14,8 +14,9 @@ export interface AlertProps extends React.HTMLAttributes<HTMLDivElement> {
   onCloseClick?: any
   inline?: boolean
   styles?: {
-    wrapper?: Interpolation
-    container?: Interpolation
+    // TODO FIX INTERPOLATION
+    wrapper?: Interpolation<CSSProperties>
+    container?: Interpolation<CSSProperties>
   }
 }
 
