@@ -32,6 +32,7 @@
     }
   },
   "dependencies": {
+    "@emotion/css": "^11.11.2",
     "@emotion/react": "^11.11.4",
     "@popperjs/core": "^2.11.8",
     "csstype": "^3.1.3",

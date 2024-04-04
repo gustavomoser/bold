@@ -1,8 +1,8 @@
-import { FontWeightProperty } from 'csstype'
 import { Theme } from '../../../styles'
-import { calculateCellColor } from './utils'
+import { FontWeight } from '../../../styles/theme/createTypography'
 import { PivotTableCellProps } from './PivotTableCell'
 import { PivotTableCellType } from './model'
+import { calculateCellColor } from './utils'
 
 export const pivotTableCellCreateStyles = (
   theme: Theme,
@@ -26,7 +26,7 @@ export const pivotTableCellCreateStyles = (
       borderLeft: `1px solid ${theme.pallete.divider}`,
       display: 'flex',
       justifyContent: isValueOrEmpty ? 'flex-end' : 'flex-start',
-      fontWeight: (isHeaderOrTotal ? 'bold' : 'normal') as FontWeightProperty,
+      fontWeight: (isHeaderOrTotal ? 'bold' : 'normal') as FontWeight,
       alignItems: 'center',
       width: '100%',
       height: '100%',

@@ -1,9 +1,8 @@
-import { FontStyleProperty, FontWeightProperty, TextDecorationProperty } from 'csstype'
 import React, { CSSProperties, HTMLAttributes } from 'react'
 
 import { ExternalStyles, TextColor, useStyles } from '../../styles'
-import { getTextColor, Theme } from '../../styles/theme/createTheme'
-import { TypographyVariant } from '../../styles/theme/createTypography'
+import { Theme, getTextColor } from '../../styles/theme/createTheme'
+import { FontStyle, FontWeight, TextDecoration, TypographyVariant } from '../../styles/theme/createTypography'
 import { Omit } from '../../util'
 
 export interface BaseTextProps {
@@ -11,9 +10,9 @@ export interface BaseTextProps {
   variant?: TypographyVariant
   color?: TextColor
   fontSize?: number
-  fontWeight?: FontWeightProperty
-  fontStyle?: FontStyleProperty
-  textDecoration?: TextDecorationProperty<string>
+  fontWeight?: FontWeight
+  fontStyle?: FontStyle
+  textDecoration?: TextDecoration
   style?: ExternalStyles
   [key: string]: any
 }

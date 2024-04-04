@@ -1,4 +1,4 @@
-import { Interpolation } from 'emotion'
+import { CSSInterpolation } from '@emotion/css'
 import React, { CSSProperties, MouseEvent, useCallback, useMemo } from 'react'
 
 import { Theme, useStyles } from '../../styles'
@@ -7,7 +7,7 @@ import { HFlow } from '../HFlow'
 
 import { MonthControl } from './MonthControl'
 import { MonthView, MonthViewProps } from './MonthView'
-import { isSameDay, isBelongingAWeek } from './util'
+import { isBelongingAWeek, isSameDay } from './util'
 import { YearControl } from './YearControl'
 
 export interface CalendarProps extends MonthViewProps {
@@ -124,7 +124,7 @@ export interface ModifierPredicateMap {
   [key: string]: ModifierFn
 }
 
-export type ModifierStyleMap = { [key in keyof ModifierPredicateMap]: (theme: Theme) => Interpolation }
+export type ModifierStyleMap = { [key in keyof ModifierPredicateMap]: (theme: Theme) => CSSInterpolation }
 
 export const defaultDayModifiers: ModifierPredicateMap = {
   today: (day: Date) => isSameDay(new Date(), day),
@@ -168,7 +168,7 @@ export const defaultModifierStyles: ModifierStyleMap = {
 export const createStylesFn = (modifiers: ModifierPredicateMap, styles: ModifierStyleMap, theme: Theme) => (
   element: any,
   props: MonthViewProps
-): Interpolation => {
+): CSSInterpolation => {
   return Object.keys(modifiers).reduce((s, modifier) => {
     if (!styles[modifier]) {
       throw new Error(`You must provied a modifierStyle for predicate "${modifier}"`)

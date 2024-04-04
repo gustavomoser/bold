@@ -1,12 +1,12 @@
 import { keyframes } from '@emotion/react'
 
-import { Breakpoints, createBreakpoints } from './createBreakpoints'
-import { createPallete, Pallete, PalleteConfig, TextColor, textColorMap } from './createPallete'
-import { createShadows, Shadows } from './createShadows'
-import { createTypography, Typography, TypographyConfig } from './createTypography'
-import { radius, Radius } from './radius'
-import { zIndex, ZIndex } from './zIndex'
 import { Color } from '../colors'
+import { Breakpoints, createBreakpoints } from './createBreakpoints'
+import { Pallete, PalleteConfig, TextColor, createPallete, textColorMap } from './createPallete'
+import { Shadows, createShadows } from './createShadows'
+import { Typography, TypographyConfig, createTypography } from './createTypography'
+import { Radius, radius } from './radius'
+import { ZIndex, zIndex } from './zIndex'
 
 export interface Theme {
   pallete: Pallete

@@ -1,10 +1,9 @@
-import React from 'react'
-import { times } from 'lodash'
 import { boolean, number, select, text } from '@storybook/addon-knobs'
+import { times } from 'lodash'
+import React from 'react'
 import { HFlow } from '../../HFlow'
 import { PivotTableCell } from './PivotTableCell'
 import { GridArea } from './classes/GridArea'
-import { PivotTableProvider } from './PivotTableProvider'
 import { PivotTableCellType } from './model'
 
 export default {

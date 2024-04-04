@@ -6,6 +6,9 @@ import { merge } from '../../util'
 import { Pallete } from './createPallete'
 
 export type FontSize = Property.FontSize<string> | number
+export type FontWeight = Property.FontWeight
+export type FontStyle = Property.FontStyle
+export type TextDecoration = Property.TextDecoration
 
 export type TypographyVariant = 'main' | 'secondary' | 'disabled' | 'link' | 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6'
 

@@ -1,8 +1,8 @@
-import { PositionProperty } from 'csstype'
 import React, { CSSProperties } from 'react'
 
 import { useScrollPosition } from '../../hooks/useScrollPosition'
 import { ExternalStyles, Theme, useStyles } from '../../styles'
+import { Position } from '../../styles/theme/zIndex'
 import { Omit } from '../../util'
 
 export interface StickyContainerProps extends Omit<React.HTMLAttributes<HTMLDivElement>, 'style'> {
@@ -20,7 +20,7 @@ export function StickyContainer(props: StickyContainerProps) {
   return <div className={css(classes.container, style)} {...rest} />
 }
 
-export const createStyles = (theme: Theme, { left, top }: StickyContainerProps, position: PositionProperty) => ({
+export const createStyles = (theme: Theme, { left, top }: StickyContainerProps, position: Position) => ({
   container: {
     position,
     top: position === 'fixed' ? 0 : top,

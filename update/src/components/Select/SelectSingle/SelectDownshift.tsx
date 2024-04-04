@@ -1,5 +1,5 @@
 import Downshift, { ControllerStateAndHelpers, DownshiftProps, DownshiftState, StateChangeOptions } from 'downshift'
-import matchSorter from 'match-sorter'
+import { matchSorter } from 'match-sorter'
 import React, { useEffect, useMemo, useState } from 'react'
 
 import { Omit } from '../../../util'
@@ -113,7 +113,7 @@ export function SelectDownshift<T>(props: SelectDownshiftProps<T>) {
     props.onChange && props.onChange(item, getStateAndHelpers(downshift))
   }
 
-  const createGetInputProps = getInputProps => (options: any) => {
+  const createGetInputProps = (getInputProps) => (options: any) => {
     const { autoComplete, ...rest } = getInputProps(options)
     return rest
   }
@@ -128,7 +128,7 @@ export function SelectDownshift<T>(props: SelectDownshiftProps<T>) {
 
   return (
     <Downshift {...rest} stateReducer={stateReducer} onStateChange={handleStateChange} onChange={handleChange}>
-      {downshift => children(getStateAndHelpers(downshift))}
+      {(downshift) => children(getStateAndHelpers(downshift))}
     </Downshift>
   )
 }

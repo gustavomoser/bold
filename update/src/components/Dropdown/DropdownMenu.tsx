@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { CSSProperties } from 'react'
 
 import { useRovingTabIndex } from '../../hooks/useRovingTabIndex'
 import { ExternalStyles, Theme, useStyles } from '../../styles'
@@ -34,5 +34,5 @@ export const styles = (theme: Theme) => ({
     width: 'auto',
     minWidth: '150px',
     background: theme.pallete.surface.main,
-  } as React.CSSProperties,
+  } as CSSProperties,
 })

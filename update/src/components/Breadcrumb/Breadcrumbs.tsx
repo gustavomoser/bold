@@ -12,7 +12,7 @@ export function Breadcrumbs(props: BreadcrumbsProps) {
   const { children } = props
 
   const rootRef = useRovingTabIndex({
-    getItems: root => Array.from(root.querySelectorAll('a')),
+    getItems: (root) => Array.from(root.querySelectorAll('a')),
   })
 
   const { classes, css } = useStyles(createStyles)

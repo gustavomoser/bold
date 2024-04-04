@@ -1,5 +1,6 @@
-import { sheet } from '@emotion/react'
+import { sheet } from '@emotion/css'
 
+import React from 'react'
 import { DefaultGlobalCss, GlobalCss } from './GlobalCss'
 
 describe('GlobalCss', () => {

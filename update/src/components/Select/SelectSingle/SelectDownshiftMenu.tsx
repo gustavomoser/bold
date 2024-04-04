@@ -1,10 +1,10 @@
 import { ControllerStateAndHelpers } from 'downshift'
-import React, { useState, CSSProperties } from 'react'
-import { usePopper, PopperProps } from 'react-popper'
+import React, { CSSProperties, useState } from 'react'
+import { PopperProps, usePopper } from 'react-popper'
+import { Theme, useStyles, useTheme } from '../../../styles'
 import { composeRefs } from '../../../util/react'
 import { SelectEmptyItem, SelectLoadingItem, SelectMenu, SelectMenuItem } from '../SelectMenu'
 import { SelectCreateItem } from '../SelectMenu/SelectMenuItem'
-import { Theme, useStyles, useTheme } from '../../../styles'
 
 export interface SelectDownshiftMenuProps<T> {
   items: T[]
@@ -76,7 +76,7 @@ export function SelectDownshiftMenu<T>(props: SelectDownshiftMenuProps<T>) {
     attributes: { placement },
   } = usePopper(anchorRef.current, menuRef, { placement: 'bottom-start', ...popperProps })
 
-  const { dropdownMenuRef, ...menuProps } = getMenuProps({ refKey: 'dropdownMenuRef' }, { suppressRefError: true })
+  const { ref: dropdownMenuRef, ...menuProps } = getMenuProps({ refKey: 'dropdownMenuRef' }, { suppressRefError: true }) // TODO review ref
 
   const { classes, css } = useStyles(createStyles)
 

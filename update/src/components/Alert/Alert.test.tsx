@@ -1,9 +1,8 @@
 import { fireEvent, render } from '@testing-library/react'
-import { Alert } from './Alert'
-import { LocaleContext } from '../../i18n'
 import React from 'react'
-
+import { LocaleContext } from '../../i18n'
 import ptBr from '../../i18n/locales/pt-BR'
+import { Alert } from './Alert'
 
 jest.mock('../../util/string')
 

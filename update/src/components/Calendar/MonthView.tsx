@@ -1,4 +1,4 @@
-import { Interpolation } from 'emotion'
+import { CSSInterpolation } from '@emotion/css'
 import React, { CSSProperties, useCallback, useMemo } from 'react'
 
 import { Theme, useStyles } from '../../styles'
@@ -14,7 +14,7 @@ export interface MonthViewProps {
    */
   visibleDate: Date
 
-  createDateStyles?(element: any, props: MonthViewProps): Interpolation
+  createDateStyles?(element: any, props: MonthViewProps): CSSInterpolation
 
   onDayClick?(day: Date): void
   onDayHover?(day: Date): void

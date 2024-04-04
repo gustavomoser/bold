@@ -1,6 +1,7 @@
 import React from 'react'
 
 export interface FocusManagerContainerProps {
+  children: React.ReactNode
   onFocusIn?(e: React.FocusEvent<HTMLDivElement>): void
   onFocusOut?(e: React.FocusEvent<HTMLDivElement>): void
 }

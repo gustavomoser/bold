@@ -1,15 +1,15 @@
+import { matchSorter } from 'match-sorter'
 import React, { useState } from 'react'
 import { useDrag } from 'react-dnd'
-import matchSorter from 'match-sorter'
 import { Button, Checkbox, Dropdown, DropdownItem, HFlow, Icon, TextField } from '../..'
-import { useStyles } from '../../../styles'
 import { useLocale } from '../../../i18n'
+import { useStyles } from '../../../styles'
+import { DraggableRow } from './DraggableRow'
+import { DraggableWrapper } from './DraggableWrapper'
 import { FilterDraggableProps } from './FilterDraggable'
+import { draggableCreateStyles } from './style'
 import { ActualQuantity } from './types/ActualQuantity'
 import { getKeyDirection, getQuantityValue } from './util'
-import { DraggableRow } from './DraggableRow'
-import { draggableCreateStyles } from './style'
-import { DraggableWrapper } from './DraggableWrapper'
 
 export function InternalFilterDraggable<T>(props: FilterDraggableProps<T>) {
   const {
@@ -36,7 +36,8 @@ export function InternalFilterDraggable<T>(props: FilterDraggableProps<T>) {
   const { classes } = useStyles(draggableCreateStyles)
 
   const [{ isDragging }, drag] = useDrag({
-    item: { type: type, name: name, origin },
+    type,
+    item: { type, name, origin }, // TODO
     end: (_item, monitor) => {
       if (monitor.getDropResult()['result']) onDragEnd()
     },

@@ -1,6 +1,6 @@
 /** @jsx jsx */
-import { jsx } from '@emotion/core'
-import { useMemo } from 'react'
+import { jsx } from '@emotion/react'
+import { useCallback, useMemo } from 'react'
 import { useDrop } from 'react-dnd'
 import { useLocale, useStyles } from '../../..'
 import { InternalDraggable } from '../Draggable/InternalDraggable'
@@ -112,12 +112,15 @@ export function Droppable<T>(props: DroppableProps<T>) {
     }),
   })
 
-  function deleteByKey(id: keyof T) {
-    let tempKeys = [...keyState]
-    const index = tempKeys.indexOf(id)
-    tempKeys.splice(index, 1)
-    handleKeyUpdate?.(tempKeys)
-  }
+  const deleteByKey = useCallback(
+    (id: keyof T) => {
+      let tempKeys = [...keyState]
+      const index = tempKeys.indexOf(id)
+      tempKeys.splice(index, 1)
+      handleKeyUpdate?.(tempKeys)
+    },
+    [handleKeyUpdate, keyState]
+  )
 
   const draggableButtons = useMemo(
     () =>

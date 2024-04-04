@@ -13,7 +13,8 @@ export function InternalDraggable<T>(props: DraggableProps<T>) {
   const { classes } = useStyles(draggableCreateStyles)
 
   const [{ isDragging }, drag] = useDrag({
-    item: { type: type, name: name, origin },
+    type,
+    item: { type, name, origin }, // TODO
     end: (_item, monitor) => {
       if (monitor.getDropResult()['result']) onDragEnd()
     },

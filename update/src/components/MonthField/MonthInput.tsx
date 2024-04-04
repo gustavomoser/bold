@@ -4,7 +4,7 @@ import { MaskedTextField, MaskedTextFieldProps } from '../MaskedTextField'
 import { ReferenceMonth } from '../MonthPicker'
 import { format } from './util'
 
-export interface MonthInputProps extends Omit<MaskedTextFieldProps, 'value' | 'onChange'> {
+export interface MonthInputProps extends Omit<MaskedTextFieldProps, 'value' | 'onChange' | 'mask'> {
   value?: ReferenceMonth
   onChange?(refMonth: ReferenceMonth | null): void
 }

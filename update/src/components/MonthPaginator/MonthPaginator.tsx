@@ -2,17 +2,17 @@ import { Placement } from '@popperjs/core'
 import React, { CSSProperties, useEffect, useState } from 'react'
 import { usePopper } from 'react-popper'
 
-import { css } from 'emotion'
+import { css } from '@emotion/css'
 import { useLocale } from '../../i18n'
 import { Theme, useStyles } from '../../styles'
-import { getUserLocale, getMonthShortFormat } from '../../util/locale'
+import { getMonthShortFormat, getUserLocale } from '../../util/locale'
 import { Button } from '../Button'
-import { Icon } from '../Icon'
+import { FocusManagerContainer } from '../FocusManagerContainer'
 import { HFlow } from '../HFlow'
+import { Icon } from '../Icon'
 import { MonthPicker, ReferenceMonth } from '../MonthPicker/MonthPicker'
 import { Text } from '../Text'
 import { Tooltip } from '../Tooltip'
-import { FocusManagerContainer } from '../FocusManagerContainer'
 
 export interface MonthPaginatorProps {
   month?: number

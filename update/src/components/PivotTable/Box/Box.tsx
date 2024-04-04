@@ -1,4 +1,4 @@
-import { SerializedStyles } from '@emotion/core'
+import { SerializedStyles } from '@emotion/react'
 import React, { CSSProperties, ReactElement } from 'react'
 import { Theme, useStyles } from '../../../styles'
 import { Icon, IconImage } from '../../Icon'

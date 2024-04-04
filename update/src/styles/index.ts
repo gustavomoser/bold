@@ -1,7 +1,6 @@
-import { Interpolation } from '@emotion/react'
+import { CSSInterpolation } from '@emotion/css'
 
 import * as palletes from './colors'
-import { CSSProperties } from 'react'
 
 export { DefaultGlobalCss, GlobalCss } from './global/GlobalCss'
 export * from './hooks'
@@ -10,4 +9,4 @@ export * from './utils'
 
 export const colors = palletes
 
-export type ExternalStyles = Interpolation<CSSProperties>
+export type ExternalStyles = CSSInterpolation

@@ -1,8 +1,8 @@
 import { Global as EmotionGlobal, Interpolation } from '@emotion/react'
 
+import React, { CSSProperties } from 'react'
 import { useTheme } from '../../hooks'
 import { Theme } from '../../theme/createTheme'
-import { CSSProperties } from 'react'
 
 export const GlobalCss = EmotionGlobal
 

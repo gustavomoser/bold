@@ -1,3 +1,7 @@
+import { Property } from 'csstype'
+
+export type Position = Property.Position
+
 export interface ZIndex {
   popper: number
   dropdown: number

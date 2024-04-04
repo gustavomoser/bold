@@ -1,13 +1,13 @@
-import { SerializedStyles } from '@emotion/serialize'
+import { SerializedStyles } from '@emotion/react'
 import React, { useContext, useEffect, useMemo, useRef } from 'react'
 import { hexToRGB, useStyles } from '../../../styles'
 import { range } from '../../../util'
 import { formatDecimalOrInteger } from '../../../util/number'
-import { GridArea } from './classes/GridArea'
-import { selectPivotTableCellElements } from './utils'
-import { pivotTableCellCreateStyles } from './styles'
 import { PivotTableContext } from './PivotTableProvider'
+import { GridArea } from './classes/GridArea'
 import { PivotTableCellType } from './model'
+import { pivotTableCellCreateStyles } from './styles'
+import { selectPivotTableCellElements } from './utils'
 
 export interface PivotTableCellProps {
   /**

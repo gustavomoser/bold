@@ -1,7 +1,7 @@
-import { Interpolation } from '@emotion/react'
+import { CSSInterpolation } from '@emotion/css'
 import React, { CSSProperties } from 'react'
 import { useLocale } from '../../i18n'
-import { Theme, useStyles } from '../../styles'
+import { ExternalStyles, Theme, useStyles } from '../../styles'
 import { Button } from '../Button'
 import { Icons } from '../Icon'
 import { Icon } from '../Icon/Icon'
@@ -14,9 +14,8 @@ export interface AlertProps extends React.HTMLAttributes<HTMLDivElement> {
   onCloseClick?: any
   inline?: boolean
   styles?: {
-    // TODO FIX INTERPOLATION
-    wrapper?: Interpolation<CSSProperties>
-    container?: Interpolation<CSSProperties>
+    wrapper?: ExternalStyles
+    container?: ExternalStyles
   }
 }
 
@@ -92,7 +91,7 @@ export const createTypesStyles = (
 ): {
   [key in AlertType]: {
     icon: Icons
-    style: Interpolation
+    style: CSSInterpolation
   }
 } => {
   return {

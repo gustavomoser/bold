@@ -1,9 +1,9 @@
-import { css, Interpolation } from 'emotion'
+import { css, CSSInterpolation } from '@emotion/css'
 import React, { CSSProperties, forwardRef, useCallback, useMemo } from 'react'
 
 import { useLocale } from '../../i18n'
 import { Theme, useStyles } from '../../styles'
-import { getUserLocale, getMonthNames } from '../../util/locale'
+import { getMonthNames, getUserLocale } from '../../util/locale'
 import { Button } from '../Button'
 import { ModifierFn } from '../Calendar/Calendar'
 import { Icon } from '../Icon'
@@ -143,7 +143,7 @@ export interface MonthModifierPredicateMap {
   [key: string]: ModifierFn
 }
 
-export type MonthModifierStyleMap = { [key in keyof MonthModifierPredicateMap]: (theme: Theme) => Interpolation }
+export type MonthModifierStyleMap = { [key in keyof MonthModifierPredicateMap]: (theme: Theme) => CSSInterpolation }
 
 export const defaultModifiers: MonthModifierPredicateMap = {
   current: (month: ReferenceMonth) =>
@@ -170,7 +170,7 @@ export const createMonthStylesFn = (
   modifiers: MonthModifierPredicateMap,
   styles: MonthModifierStyleMap,
   theme: Theme
-) => (month: ReferenceMonth): Interpolation => {
+) => (month: ReferenceMonth): CSSInterpolation => {
   return Object.keys(modifiers).reduce((s, modifier) => {
     if (!styles[modifier]) {
       throw new Error(`You must provied a modifierStyle for predicate "${modifier}"`)
