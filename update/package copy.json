@@ -7,40 +7,17 @@
   "engines": {
     "node": ">=14"
   },
-  "keywords": [
-    "react",
-    "bold-ui",
-    "bold design system"
-  ],
-  "files": [
-    "lib",
-    "icons"
-  ],
+  "keywords": ["react", "bold-ui", "bold design system"],
+  "files": ["lib", "icons"],
   "repository": {
     "url": "https://github.com/laboratoriobridge/bold"
   },
   "sideEffects": false,
   "scripts": {
-    "start": "yarn clean && tsc --watch",
-    "clean": "rm -rf lib",
-    "build": "yarn clean && tsc && webpack --mode=production",
-    "prepublishOnly": "yarn build",
-    "test": "yarn lint && TZ=UTC jest",
-    "test:loki": "STORYBOOK_LOKI=true build-storybook && loki --requireReference --reactUri file:./storybook-static",
-    "test:watch": "TZ=UTC jest --watch --collectCoverage=false",
-    "lint": "eslint 'src/**/*.tsx' 'src/**/*.ts'",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
-    "icons": "yarn icons:clean && yarn icons:svgr && yarn icons:index",
-    "icons:clean": "rm -rf ./src/components/Icon/generated",
-    "icons:svgr": "svgr --ext tsx --icon --template ./tools/IconTemplate.js --svgo-config svgo.config.json -d ./src/components/Icon/generated ./icons",
-    "icons:index": "babel-node ./tools/generateIconsIndex.js",
-    "now-build": "yarn --cwd site install && yarn build && yarn site:export",
-    "sonar": "sonar-scanner",
-    "site:start": "yarn --cwd site start",
-    "site:build": "yarn --cwd site build",
-    "site:export": "yarn site:build && touch site/public/.nojekyll && cp site/src/CNAME site/public/CNAME && build-storybook -o site/public/storybook",
-    "site:deploy": "yarn site:export && gh-pages -d site/public -t"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
   },
   "husky": {
     "hooks": {
