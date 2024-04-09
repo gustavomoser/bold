@@ -8,7 +8,7 @@
     "outDir": "lib",
     "forceConsistentCasingInFileNames": true,
     "noUnusedLocals": true,
-    "sourceMap": true,
+    // "sourceMap": true,
     "declaration": true,
     "jsx": "react",
     "esModuleInterop": true,

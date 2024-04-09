@@ -1,8 +1,7 @@
-import { Alert } from './Alert'
+import { action } from '@storybook/addon-actions'
 import React from 'react'
 import { VFlow } from '../VFlow'
-import { action } from '@storybook/addon-actions'
-import { boolean } from '@storybook/addon-knobs'
+import { Alert } from './Alert'
 
 const click = action('Close has been clicked')
 

@@ -11,3 +11,5 @@ storybook-static
 
 # Gatsby files
 site/public
+
+*storybook.log

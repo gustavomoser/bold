@@ -1,6 +1,4 @@
-import { Interpolation } from 'emotion'
-
-import { Theme } from '../../../styles'
+import { ExternalStyles, Theme } from '../../../styles'
 
 import { createStyles as createDefault } from './skins/default'
 import { createStyles as createGhost } from './skins/ghost'
@@ -43,11 +41,11 @@ export const createBaseStyles = (theme: Theme) => ({
       alignItems: 'center',
       display: 'inline-flex',
     },
-  } as Interpolation,
+  } as ExternalStyles,
   disabled: {
     cursor: 'not-allowed',
     opacity: 0.5,
-  } as Interpolation,
+  } as ExternalStyles,
   loading: {
     span: {
       color: 'transparent',
@@ -66,10 +64,10 @@ export const createBaseStyles = (theme: Theme) => ({
       left: 'calc(50% - (1.5em / 2))',
       top: 'calc(50% - (1.5em / 2))',
     },
-  } as Interpolation,
+  } as ExternalStyles,
   block: {
     width: '100%',
-  } as Interpolation,
+  } as ExternalStyles,
 })
 
 export const createSizeStyles = (theme: Theme) => ({
