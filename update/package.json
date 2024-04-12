@@ -25,7 +25,7 @@
   "scripts": {
     "start": "yarn clean && tsc --watch",
     "clean": "rm -rf lib",
-    "build": "yarn clean && tsc && webpack --mode=production",
+    "build": "yarn clean && tsc --p ./tsconfig.build.json && vite build",
     "prepublishOnly": "yarn build",
     "test": "yarn lint && TZ=UTC jest",
     "test:loki": "STORYBOOK_LOKI=true build-storybook && loki --requireReference --reactUri file:./storybook-static",
@@ -81,7 +81,6 @@
     "@testing-library/react-hooks": "^8.0.1",
     "@types/jest": "^29.5.12",
     "@types/lodash": "^4.17.0",
-    "@types/match-sorter": "^6.0.0",
     "@types/node": "^20.12.3",
     "@types/prop-types": "^15.7.12",
     "@types/react": "^18.2.66",
@@ -118,6 +117,7 @@
     "typescript": "^5.2.2",
     "url-loader": "^4.1.1",
     "vite": "^5.2.0",
+    "vite-plugin-dts": "^3.8.1",
     "waait": "^1.0.5"
   },
   "loki": {

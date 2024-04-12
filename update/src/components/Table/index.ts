@@ -1,11 +1,17 @@
 export * from './Table'
 
 export * from './SortableLabel/SortableLabel'
-export { TableFooter, TableFooterProps } from './TableFooter/TableFooter'
 
-export { DataTable, DataTableProps, DataTableDefault, DataTableRenderProps } from './DataTable/DataTable'
-export { TableFilledBody, TableFilledBodyProps } from './DataTable/TableFilledBody'
-export { TableLoadingRow, TableLoadingRowProps } from './DataTable/TableLoadingRow'
-export { TablePlaceholderRow, TablePlaceholderRowProps } from './DataTable/TablePlaceholderRow'
+export { DataTable, DataTableDefault } from './DataTable/DataTable'
+export { TableFilledBody } from './DataTable/TableFilledBody'
+export { TableLoadingRow } from './DataTable/TableLoadingRow'
+export { TablePlaceholderRow } from './DataTable/TablePlaceholderRow'
+export { PagedTable } from './PagedTable/PagedTable'
+export { TableFooter } from './TableFooter/TableFooter'
 
-export { PagedTable, PagedTableProps } from './PagedTable/PagedTable'
+export type { DataTableProps, DataTableRenderProps } from './DataTable/DataTable'
+export type { TableFilledBodyProps } from './DataTable/TableFilledBody'
+export type { TableLoadingRowProps } from './DataTable/TableLoadingRow'
+export type { TablePlaceholderRowProps } from './DataTable/TablePlaceholderRow'
+export type { PagedTableProps } from './PagedTable/PagedTable'
+export type { TableFooterProps } from './TableFooter/TableFooter'

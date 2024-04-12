@@ -1,1 +1,2 @@
-export { MonthPaginator, MonthPaginatorProps } from './MonthPaginator'
+export { MonthPaginator } from './MonthPaginator'
+export type { MonthPaginatorProps } from './MonthPaginator'

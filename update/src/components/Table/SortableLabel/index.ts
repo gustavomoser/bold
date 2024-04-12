@@ -1,1 +1,2 @@
-export { SortDirection, SortableLabel, SortableLabelProps } from './SortableLabel'
+export { SortableLabel } from './SortableLabel'
+export type { SortDirection, SortableLabelProps } from './SortableLabel'

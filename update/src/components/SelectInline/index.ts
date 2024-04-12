@@ -1,1 +1,2 @@
-export { SelectInline, SelectInlineProps } from './SelectInline'
+export { SelectInline } from './SelectInline'
+export type { SelectInlineProps } from './SelectInline'

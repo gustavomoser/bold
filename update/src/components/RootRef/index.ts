@@ -1,1 +1,2 @@
-export { RootRef, RootRefProps } from './RootRef'
+export { RootRef } from './RootRef'
+export type { RootRefProps } from './RootRef'

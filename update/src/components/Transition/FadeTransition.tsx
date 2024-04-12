@@ -3,7 +3,7 @@ import Transition, { TransitionProps, TransitionStatus } from 'react-transition-
 
 import { ClassNames, useStyles } from '../../styles'
 
-export type FadeTransitionProps = Partial<TransitionProps> & {
+export interface FadeTransitionProps extends Partial<Omit<TransitionProps, 'children'>> {
   children?(renderProps: FadeTransitionRenderProps): React.ReactNode
 }
 

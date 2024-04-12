@@ -1,1 +1,2 @@
-export { StickyContainer, StickyContainerProps } from './StickyContainer'
+export { StickyContainer } from './StickyContainer'
+export type { StickyContainerProps } from './StickyContainer'

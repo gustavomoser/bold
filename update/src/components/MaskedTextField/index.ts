@@ -1,1 +1,2 @@
-export { MaskType, MaskedTextField, MaskedTextFieldProps } from './MaskedTextField'
+export { MaskedTextField } from './MaskedTextField'
+export type { MaskType, MaskedTextFieldProps } from './MaskedTextField'

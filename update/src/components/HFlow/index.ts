@@ -1,1 +1,2 @@
-export { HFlow, HFlowProps } from './HFlow'
+export { HFlow } from './HFlow'
+export type { HFlowProps } from './HFlow'

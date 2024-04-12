@@ -1,2 +1,5 @@
-export { Grid, GridProps, AlignItems, Direction, JustifyContent } from './Grid'
-export { Cell, CellProps, CellSize, AlignSelf } from './Cell'
+export { Cell } from './Cell'
+export { Grid } from './Grid'
+
+export type { AlignSelf, CellProps, CellSize } from './Cell'
+export type { AlignItems, Direction, GridProps, JustifyContent } from './Grid'

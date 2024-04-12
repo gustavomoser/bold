@@ -1,1 +1,2 @@
-export { LocaleContext, useLocale, LocaleConfiguration } from './LocaleContext'
+export { LocaleContext, useLocale } from './LocaleContext'
+export type { LocaleConfiguration } from './LocaleContext'

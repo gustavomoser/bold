@@ -1,1 +1,2 @@
-export { Paper, PaperProps } from './Paper'
+export { Paper } from './Paper'
+export type { PaperProps } from './Paper'

@@ -1,2 +1,5 @@
-export { DateInput, DateInputProps } from './DateInput'
-export { DateField, DateFieldProps } from './DateField'
+export { DateField } from './DateField'
+export { DateInput } from './DateInput'
+
+export type { DateFieldProps } from './DateField'
+export type { DateInputProps } from './DateInput'

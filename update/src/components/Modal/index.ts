@@ -1,6 +1,13 @@
 export * from './auto'
-export { Modal, ModalProps, ModalSize } from './Modal'
-export { ModalBackdrop, ModalBackdropProps } from './ModalBackdrop'
-export { ModalBody, ModalBodyProps } from './ModalBody'
-export { ModalContainer, ModalContainerProps } from './ModalContainer'
-export { ModalFooter, ModalFooterProps } from './ModalFooter'
+
+export { Modal } from './Modal'
+export { ModalBackdrop } from './ModalBackdrop'
+export { ModalBody } from './ModalBody'
+export { ModalContainer } from './ModalContainer'
+export { ModalFooter } from './ModalFooter'
+
+export type { ModalProps, ModalSize } from './Modal'
+export type { ModalBackdropProps } from './ModalBackdrop'
+export type { ModalBodyProps } from './ModalBody'
+export type { ModalContainerProps } from './ModalContainer'
+export type { ModalFooterProps } from './ModalFooter'

@@ -1,1 +1,2 @@
-export { HeadingSection, HeadingSectionProps } from './HeadingSection'
+export { HeadingSection } from './HeadingSection'
+export type { HeadingSectionProps } from './HeadingSection'

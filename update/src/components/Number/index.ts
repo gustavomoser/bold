@@ -1,1 +1,2 @@
-export { Number, NumberProps } from './Number'
+export { Number } from './Number'
+export type { NumberProps } from './Number'

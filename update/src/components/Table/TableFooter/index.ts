@@ -1,2 +1,5 @@
-export { TableFooter, TableFooterProps } from './TableFooter'
-export { TableSizeDropdown, TableSizeDropdownProps } from './TableSizeDropdown'
+export { TableFooter } from './TableFooter'
+export { TableSizeDropdown } from './TableSizeDropdown'
+
+export type { TableFooterProps } from './TableFooter'
+export type { TableSizeDropdownProps } from './TableSizeDropdown'
