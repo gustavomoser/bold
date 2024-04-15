@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`input label label should have a htmlFor prop equals to the used id 1`] = `
-.emotion-9 {
+.emotion-0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -11,22 +11,29 @@ exports[`input label label should have a htmlFor prop equals to the used id 1`] 
   flex-direction: column;
 }
 
-.emotion-8 {
+.emotion-1 {
   display: inline-block;
   margin-bottom: 0rem;
   margin-top: 0rem;
 }
 
-.emotion-8:first-of-type {
+.emotion-1:first-of-type {
   margin-top: 0;
 }
 
-.emotion-8:last-of-type {
+.emotion-1:last-of-type {
   margin-bottom: 0;
 }
 
-.emotion-8:empty {
+.emotion-1:empty {
   display: none;
+}
+
+.emotion-3 {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.25rem;
+  line-height: 20px;
 }
 
 .emotion-5 {
@@ -37,7 +44,77 @@ exports[`input label label should have a htmlFor prop equals to the used id 1`] 
   padding-right: 3rem;
 }
 
-.emotion-4 {
+.emotion-6 {
+  background-color: #FFFFFF;
+  border: solid 1px #8F8FA2;
+  border-radius: 2px;
+  color: #24252E;
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1rem;
+  margin: 0;
+  padding: calc(0.5rem - 1px) 0.5rem;
+  width: 100%;
+  transition-property: box-shadow;
+  transition-duration: .2s;
+}
+
+.emotion-6[type="search"]::-webkit-search-decoration {
+  display: none;
+}
+
+.emotion-6[type="search"]::-webkit-search-cancel-button {
+  display: none;
+}
+
+.emotion-6[type="search"]::-webkit-search-results-button {
+  display: none;
+}
+
+.emotion-6[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+.emotion-6:required {
+  box-shadow: none;
+}
+
+.emotion-6::-webkit-input-placeholder {
+  color: #696979;
+}
+
+.emotion-6::-moz-placeholder {
+  color: #696979;
+}
+
+.emotion-6:-ms-input-placeholder {
+  color: #696979;
+}
+
+.emotion-6::placeholder {
+  color: #696979;
+}
+
+.emotion-6:disabled {
+  border-color: #D3D4DD;
+  background-color: #F0F0F5;
+}
+
+.emotion-6:not(:disabled):hover {
+  border-color: #7A7B8E;
+}
+
+.emotion-6:not(:disabled):focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
+}
+
+.emotion-6:not(:disabled):active {
+  border-color: #0069D0;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
+}
+
+.emotion-7 {
   position: absolute;
   background-color: #F0F0F5;
   display: -webkit-box;
@@ -49,8 +126,8 @@ exports[`input label label should have a htmlFor prop equals to the used id 1`] 
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   padding: 0.25rem;
   width: 2.5rem;
@@ -59,79 +136,7 @@ exports[`input label label should have a htmlFor prop equals to the used id 1`] 
   right: 1px;
 }
 
-.emotion-1 {
-  background-color: #FFFFFF;
-  border: solid 1px #8F8FA2;
-  border-radius: 2px;
-  color: #24252E;
-  font-family: "IBM Plex Sans",sans-serif;
-  font-size: 0.8125rem;
-  line-height: 1rem;
-  margin: 0;
-  padding: calc(0.5rem - 1px) 0.5rem;
-  width: 100%;
-  -webkit-transition-property: box-shadow;
-  transition-property: box-shadow;
-  -webkit-transition-duration: .2s;
-  transition-duration: .2s;
-}
-
-.emotion-1[type="search"]::-webkit-search-decoration {
-  display: none;
-}
-
-.emotion-1[type="search"]::-webkit-search-cancel-button {
-  display: none;
-}
-
-.emotion-1[type="search"]::-webkit-search-results-button {
-  display: none;
-}
-
-.emotion-1[type="search"]::-webkit-search-results-decoration {
-  display: none;
-}
-
-.emotion-1:required {
-  box-shadow: none;
-}
-
-.emotion-1::-webkit-input-placeholder {
-  color: #696979;
-}
-
-.emotion-1::-moz-placeholder {
-  color: #696979;
-}
-
-.emotion-1:-ms-input-placeholder {
-  color: #696979;
-}
-
-.emotion-1::placeholder {
-  color: #696979;
-}
-
-.emotion-1:disabled {
-  border-color: #D3D4DD;
-  background-color: #F0F0F5;
-}
-
-.emotion-1:not(:disabled):hover {
-  border-color: #7A7B8E;
-}
-
-.emotion-1:not(:disabled):focus {
-  outline: none;
-  box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
-}
-
-.emotion-1:not(:disabled):active {
-  border-color: #0069D0;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.09);
-}
-
-.emotion-3 {
+.emotion-8 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 0.8125rem;
   line-height: 1.5rem;
@@ -141,8 +146,8 @@ exports[`input label label should have a htmlFor prop equals to the used id 1`] 
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-user-select: none;
@@ -164,7 +169,7 @@ exports[`input label label should have a htmlFor prop equals to the used id 1`] 
   border-radius: inherit;
 }
 
-.emotion-3 > span {
+.emotion-8>span {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -175,47 +180,40 @@ exports[`input label label should have a htmlFor prop equals to the used id 1`] 
   display: inline-flex;
 }
 
-.emotion-3:not(:disabled):active {
-  box-shadow: inset 0 2px 8px 0 rgba(0,0,0,0.1);
+.emotion-8:not(:disabled):active {
+  box-shadow: inset 0 2px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
-.emotion-3:focus {
+.emotion-8:focus {
   outline: none;
   box-shadow: 0 0 0 2px #0069D0;
 }
 
-.emotion-3:not(:disabled):hover {
-  background-color: rgba(58,58,71,0.1);
+.emotion-8:not(:disabled):hover {
+  background-color: rgba(58, 58, 71, 0.1);
 }
 
-.emotion-3:focus {
+.emotion-8:focus {
   box-shadow: none;
 }
 
-.emotion-2 {
+.emotion-9 {
   fill: currentColor;
   font-size: 1.5rem;
 }
 
-.emotion-0 {
-  font-weight: bold;
-  display: block;
-  margin-bottom: 0.25rem;
-  line-height: 20px;
-}
-
 <div>
   <div
-    class="emotion-9"
+    class="emotion-0"
   >
     <div
-      class="emotion-8"
+      class="emotion-1"
     >
       <div
-        class="emotion-6"
+        class="emotion-2"
       >
         <label
-          class="emotion-0"
+          class="emotion-3"
           for="foo"
         >
           Foo
@@ -223,8 +221,8 @@ exports[`input label label should have a htmlFor prop equals to the used id 1`] 
         <div
           aria-expanded="false"
           aria-haspopup="listbox"
-          aria-labelledby="downshift-0-label"
-          class="emotion-6"
+          aria-labelledby="downshift-16-label"
+          class="emotion-4"
           role="combobox"
         >
           <div>
@@ -233,24 +231,24 @@ exports[`input label label should have a htmlFor prop equals to the used id 1`] 
             >
               <input
                 aria-autocomplete="list"
-                class="emotion-1"
-                id="downshift-0-input"
+                class="emotion-6"
+                id="downshift-16-input"
                 placeholder="Select a value..."
                 type="text"
                 value=""
               />
               <span
-                class="emotion-4"
+                class="emotion-7"
               >
                 <button
-                  class="emotion-3"
+                  class="emotion-8"
                   tabindex="-1"
                   type="button"
                 >
                   <span>
                     <svg
                       aria-hidden="true"
-                      class="emotion-2"
+                      class="emotion-9"
                       height="1em"
                       role="img"
                       viewBox="0 0 24 24"
@@ -274,7 +272,7 @@ exports[`input label label should have a htmlFor prop equals to the used id 1`] 
 `;
 
 exports[`input label should use aria-labelledby equals to an auto-assigned label id, if "id" is not provided 1`] = `
-.emotion-9 {
+.emotion-0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -284,22 +282,29 @@ exports[`input label should use aria-labelledby equals to an auto-assigned label
   flex-direction: column;
 }
 
-.emotion-8 {
+.emotion-1 {
   display: inline-block;
   margin-bottom: 0rem;
   margin-top: 0rem;
 }
 
-.emotion-8:first-of-type {
+.emotion-1:first-of-type {
   margin-top: 0;
 }
 
-.emotion-8:last-of-type {
+.emotion-1:last-of-type {
   margin-bottom: 0;
 }
 
-.emotion-8:empty {
+.emotion-1:empty {
   display: none;
+}
+
+.emotion-3 {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.25rem;
+  line-height: 20px;
 }
 
 .emotion-5 {
@@ -310,7 +315,77 @@ exports[`input label should use aria-labelledby equals to an auto-assigned label
   padding-right: 3rem;
 }
 
-.emotion-4 {
+.emotion-6 {
+  background-color: #FFFFFF;
+  border: solid 1px #8F8FA2;
+  border-radius: 2px;
+  color: #24252E;
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1rem;
+  margin: 0;
+  padding: calc(0.5rem - 1px) 0.5rem;
+  width: 100%;
+  transition-property: box-shadow;
+  transition-duration: .2s;
+}
+
+.emotion-6[type="search"]::-webkit-search-decoration {
+  display: none;
+}
+
+.emotion-6[type="search"]::-webkit-search-cancel-button {
+  display: none;
+}
+
+.emotion-6[type="search"]::-webkit-search-results-button {
+  display: none;
+}
+
+.emotion-6[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+.emotion-6:required {
+  box-shadow: none;
+}
+
+.emotion-6::-webkit-input-placeholder {
+  color: #696979;
+}
+
+.emotion-6::-moz-placeholder {
+  color: #696979;
+}
+
+.emotion-6:-ms-input-placeholder {
+  color: #696979;
+}
+
+.emotion-6::placeholder {
+  color: #696979;
+}
+
+.emotion-6:disabled {
+  border-color: #D3D4DD;
+  background-color: #F0F0F5;
+}
+
+.emotion-6:not(:disabled):hover {
+  border-color: #7A7B8E;
+}
+
+.emotion-6:not(:disabled):focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
+}
+
+.emotion-6:not(:disabled):active {
+  border-color: #0069D0;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
+}
+
+.emotion-7 {
   position: absolute;
   background-color: #F0F0F5;
   display: -webkit-box;
@@ -322,8 +397,8 @@ exports[`input label should use aria-labelledby equals to an auto-assigned label
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   padding: 0.25rem;
   width: 2.5rem;
@@ -332,79 +407,7 @@ exports[`input label should use aria-labelledby equals to an auto-assigned label
   right: 1px;
 }
 
-.emotion-1 {
-  background-color: #FFFFFF;
-  border: solid 1px #8F8FA2;
-  border-radius: 2px;
-  color: #24252E;
-  font-family: "IBM Plex Sans",sans-serif;
-  font-size: 0.8125rem;
-  line-height: 1rem;
-  margin: 0;
-  padding: calc(0.5rem - 1px) 0.5rem;
-  width: 100%;
-  -webkit-transition-property: box-shadow;
-  transition-property: box-shadow;
-  -webkit-transition-duration: .2s;
-  transition-duration: .2s;
-}
-
-.emotion-1[type="search"]::-webkit-search-decoration {
-  display: none;
-}
-
-.emotion-1[type="search"]::-webkit-search-cancel-button {
-  display: none;
-}
-
-.emotion-1[type="search"]::-webkit-search-results-button {
-  display: none;
-}
-
-.emotion-1[type="search"]::-webkit-search-results-decoration {
-  display: none;
-}
-
-.emotion-1:required {
-  box-shadow: none;
-}
-
-.emotion-1::-webkit-input-placeholder {
-  color: #696979;
-}
-
-.emotion-1::-moz-placeholder {
-  color: #696979;
-}
-
-.emotion-1:-ms-input-placeholder {
-  color: #696979;
-}
-
-.emotion-1::placeholder {
-  color: #696979;
-}
-
-.emotion-1:disabled {
-  border-color: #D3D4DD;
-  background-color: #F0F0F5;
-}
-
-.emotion-1:not(:disabled):hover {
-  border-color: #7A7B8E;
-}
-
-.emotion-1:not(:disabled):focus {
-  outline: none;
-  box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
-}
-
-.emotion-1:not(:disabled):active {
-  border-color: #0069D0;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.09);
-}
-
-.emotion-3 {
+.emotion-8 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 0.8125rem;
   line-height: 1.5rem;
@@ -414,8 +417,8 @@ exports[`input label should use aria-labelledby equals to an auto-assigned label
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-user-select: none;
@@ -437,7 +440,7 @@ exports[`input label should use aria-labelledby equals to an auto-assigned label
   border-radius: inherit;
 }
 
-.emotion-3 > span {
+.emotion-8>span {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -448,47 +451,40 @@ exports[`input label should use aria-labelledby equals to an auto-assigned label
   display: inline-flex;
 }
 
-.emotion-3:not(:disabled):active {
-  box-shadow: inset 0 2px 8px 0 rgba(0,0,0,0.1);
+.emotion-8:not(:disabled):active {
+  box-shadow: inset 0 2px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
-.emotion-3:focus {
+.emotion-8:focus {
   outline: none;
   box-shadow: 0 0 0 2px #0069D0;
 }
 
-.emotion-3:not(:disabled):hover {
-  background-color: rgba(58,58,71,0.1);
+.emotion-8:not(:disabled):hover {
+  background-color: rgba(58, 58, 71, 0.1);
 }
 
-.emotion-3:focus {
+.emotion-8:focus {
   box-shadow: none;
 }
 
-.emotion-2 {
+.emotion-9 {
   fill: currentColor;
   font-size: 1.5rem;
 }
 
-.emotion-0 {
-  font-weight: bold;
-  display: block;
-  margin-bottom: 0.25rem;
-  line-height: 20px;
-}
-
 <div>
   <div
-    class="emotion-9"
+    class="emotion-0"
   >
     <div
-      class="emotion-8"
+      class="emotion-1"
     >
       <div
-        class="emotion-6"
+        class="emotion-2"
       >
         <label
-          class="emotion-0"
+          class="emotion-3"
           id="label-abc"
         >
           test
@@ -497,7 +493,7 @@ exports[`input label should use aria-labelledby equals to an auto-assigned label
           aria-expanded="false"
           aria-haspopup="listbox"
           aria-labelledby="label-abc"
-          class="emotion-6"
+          class="emotion-4"
           role="combobox"
         >
           <div>
@@ -507,24 +503,24 @@ exports[`input label should use aria-labelledby equals to an auto-assigned label
               <input
                 aria-autocomplete="list"
                 aria-labelledby="label-abc"
-                class="emotion-1"
-                id="downshift-0-input"
+                class="emotion-6"
+                id="downshift-17-input"
                 placeholder="Select a value..."
                 type="text"
                 value=""
               />
               <span
-                class="emotion-4"
+                class="emotion-7"
               >
                 <button
-                  class="emotion-3"
+                  class="emotion-8"
                   tabindex="-1"
                   type="button"
                 >
                   <span>
                     <svg
                       aria-hidden="true"
-                      class="emotion-2"
+                      class="emotion-9"
                       height="1em"
                       role="img"
                       viewBox="0 0 24 24"
@@ -548,7 +544,7 @@ exports[`input label should use aria-labelledby equals to an auto-assigned label
 `;
 
 exports[`should render correctly when closed 1`] = `
-.emotion-8 {
+.emotion-0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -558,21 +554,21 @@ exports[`should render correctly when closed 1`] = `
   flex-direction: column;
 }
 
-.emotion-7 {
+.emotion-1 {
   display: inline-block;
   margin-bottom: 0rem;
   margin-top: 0rem;
 }
 
-.emotion-7:first-of-type {
+.emotion-1:first-of-type {
   margin-top: 0;
 }
 
-.emotion-7:last-of-type {
+.emotion-1:last-of-type {
   margin-bottom: 0;
 }
 
-.emotion-7:empty {
+.emotion-1:empty {
   display: none;
 }
 
@@ -584,7 +580,77 @@ exports[`should render correctly when closed 1`] = `
   padding-right: 3rem;
 }
 
-.emotion-3 {
+.emotion-5 {
+  background-color: #FFFFFF;
+  border: solid 1px #8F8FA2;
+  border-radius: 2px;
+  color: #24252E;
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1rem;
+  margin: 0;
+  padding: calc(0.5rem - 1px) 0.5rem;
+  width: 100%;
+  transition-property: box-shadow;
+  transition-duration: .2s;
+}
+
+.emotion-5[type="search"]::-webkit-search-decoration {
+  display: none;
+}
+
+.emotion-5[type="search"]::-webkit-search-cancel-button {
+  display: none;
+}
+
+.emotion-5[type="search"]::-webkit-search-results-button {
+  display: none;
+}
+
+.emotion-5[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+.emotion-5:required {
+  box-shadow: none;
+}
+
+.emotion-5::-webkit-input-placeholder {
+  color: #696979;
+}
+
+.emotion-5::-moz-placeholder {
+  color: #696979;
+}
+
+.emotion-5:-ms-input-placeholder {
+  color: #696979;
+}
+
+.emotion-5::placeholder {
+  color: #696979;
+}
+
+.emotion-5:disabled {
+  border-color: #D3D4DD;
+  background-color: #F0F0F5;
+}
+
+.emotion-5:not(:disabled):hover {
+  border-color: #7A7B8E;
+}
+
+.emotion-5:not(:disabled):focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
+}
+
+.emotion-5:not(:disabled):active {
+  border-color: #0069D0;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
+}
+
+.emotion-6 {
   position: absolute;
   background-color: #F0F0F5;
   display: -webkit-box;
@@ -596,8 +662,8 @@ exports[`should render correctly when closed 1`] = `
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   padding: 0.25rem;
   width: 2.5rem;
@@ -606,79 +672,7 @@ exports[`should render correctly when closed 1`] = `
   right: 1px;
 }
 
-.emotion-0 {
-  background-color: #FFFFFF;
-  border: solid 1px #8F8FA2;
-  border-radius: 2px;
-  color: #24252E;
-  font-family: "IBM Plex Sans",sans-serif;
-  font-size: 0.8125rem;
-  line-height: 1rem;
-  margin: 0;
-  padding: calc(0.5rem - 1px) 0.5rem;
-  width: 100%;
-  -webkit-transition-property: box-shadow;
-  transition-property: box-shadow;
-  -webkit-transition-duration: .2s;
-  transition-duration: .2s;
-}
-
-.emotion-0[type="search"]::-webkit-search-decoration {
-  display: none;
-}
-
-.emotion-0[type="search"]::-webkit-search-cancel-button {
-  display: none;
-}
-
-.emotion-0[type="search"]::-webkit-search-results-button {
-  display: none;
-}
-
-.emotion-0[type="search"]::-webkit-search-results-decoration {
-  display: none;
-}
-
-.emotion-0:required {
-  box-shadow: none;
-}
-
-.emotion-0::-webkit-input-placeholder {
-  color: #696979;
-}
-
-.emotion-0::-moz-placeholder {
-  color: #696979;
-}
-
-.emotion-0:-ms-input-placeholder {
-  color: #696979;
-}
-
-.emotion-0::placeholder {
-  color: #696979;
-}
-
-.emotion-0:disabled {
-  border-color: #D3D4DD;
-  background-color: #F0F0F5;
-}
-
-.emotion-0:not(:disabled):hover {
-  border-color: #7A7B8E;
-}
-
-.emotion-0:not(:disabled):focus {
-  outline: none;
-  box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
-}
-
-.emotion-0:not(:disabled):active {
-  border-color: #0069D0;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.09);
-}
-
-.emotion-2 {
+.emotion-7 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 0.8125rem;
   line-height: 1.5rem;
@@ -688,8 +682,8 @@ exports[`should render correctly when closed 1`] = `
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-user-select: none;
@@ -711,7 +705,7 @@ exports[`should render correctly when closed 1`] = `
   border-radius: inherit;
 }
 
-.emotion-2 > span {
+.emotion-7>span {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -722,43 +716,43 @@ exports[`should render correctly when closed 1`] = `
   display: inline-flex;
 }
 
-.emotion-2:not(:disabled):active {
-  box-shadow: inset 0 2px 8px 0 rgba(0,0,0,0.1);
+.emotion-7:not(:disabled):active {
+  box-shadow: inset 0 2px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
-.emotion-2:focus {
+.emotion-7:focus {
   outline: none;
   box-shadow: 0 0 0 2px #0069D0;
 }
 
-.emotion-2:not(:disabled):hover {
-  background-color: rgba(58,58,71,0.1);
+.emotion-7:not(:disabled):hover {
+  background-color: rgba(58, 58, 71, 0.1);
 }
 
-.emotion-2:focus {
+.emotion-7:focus {
   box-shadow: none;
 }
 
-.emotion-1 {
+.emotion-8 {
   fill: currentColor;
   font-size: 1.5rem;
 }
 
 <div>
   <div
-    class="emotion-8"
+    class="emotion-0"
   >
     <div
-      class="emotion-7"
+      class="emotion-1"
     >
       <div
-        class="emotion-5"
+        class="emotion-2"
       >
         <div
           aria-expanded="false"
           aria-haspopup="listbox"
           aria-labelledby="downshift-0-label"
-          class="emotion-5"
+          class="emotion-3"
           role="combobox"
         >
           <div>
@@ -767,24 +761,24 @@ exports[`should render correctly when closed 1`] = `
             >
               <input
                 aria-autocomplete="list"
-                class="emotion-0"
+                class="emotion-5"
                 id="downshift-0-input"
                 placeholder="Select a value..."
                 type="text"
                 value=""
               />
               <span
-                class="emotion-3"
+                class="emotion-6"
               >
                 <button
-                  class="emotion-2"
+                  class="emotion-7"
                   tabindex="-1"
                   type="button"
                 >
                   <span>
                     <svg
                       aria-hidden="true"
-                      class="emotion-1"
+                      class="emotion-8"
                       height="1em"
                       role="img"
                       viewBox="0 0 24 24"
@@ -808,7 +802,7 @@ exports[`should render correctly when closed 1`] = `
 `;
 
 exports[`should render correctly when opened 1`] = `
-.emotion-15 {
+.emotion-0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -818,21 +812,21 @@ exports[`should render correctly when opened 1`] = `
   flex-direction: column;
 }
 
-.emotion-14 {
+.emotion-1 {
   display: inline-block;
   margin-bottom: 0rem;
   margin-top: 0rem;
 }
 
-.emotion-14:first-of-type {
+.emotion-1:first-of-type {
   margin-top: 0;
 }
 
-.emotion-14:last-of-type {
+.emotion-1:last-of-type {
   margin-bottom: 0;
 }
 
-.emotion-14:empty {
+.emotion-1:empty {
   display: none;
 }
 
@@ -844,7 +838,77 @@ exports[`should render correctly when opened 1`] = `
   padding-right: 3rem;
 }
 
-.emotion-3 {
+.emotion-5 {
+  background-color: #FFFFFF;
+  border: solid 1px #8F8FA2;
+  border-radius: 2px;
+  color: #24252E;
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1rem;
+  margin: 0;
+  padding: calc(0.5rem - 1px) 0.5rem;
+  width: 100%;
+  transition-property: box-shadow;
+  transition-duration: .2s;
+}
+
+.emotion-5[type="search"]::-webkit-search-decoration {
+  display: none;
+}
+
+.emotion-5[type="search"]::-webkit-search-cancel-button {
+  display: none;
+}
+
+.emotion-5[type="search"]::-webkit-search-results-button {
+  display: none;
+}
+
+.emotion-5[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+.emotion-5:required {
+  box-shadow: none;
+}
+
+.emotion-5::-webkit-input-placeholder {
+  color: #696979;
+}
+
+.emotion-5::-moz-placeholder {
+  color: #696979;
+}
+
+.emotion-5:-ms-input-placeholder {
+  color: #696979;
+}
+
+.emotion-5::placeholder {
+  color: #696979;
+}
+
+.emotion-5:disabled {
+  border-color: #D3D4DD;
+  background-color: #F0F0F5;
+}
+
+.emotion-5:not(:disabled):hover {
+  border-color: #7A7B8E;
+}
+
+.emotion-5:not(:disabled):focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
+}
+
+.emotion-5:not(:disabled):active {
+  border-color: #0069D0;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
+}
+
+.emotion-6 {
   position: absolute;
   background-color: #F0F0F5;
   display: -webkit-box;
@@ -856,8 +920,8 @@ exports[`should render correctly when opened 1`] = `
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   padding: 0.25rem;
   width: 2.5rem;
@@ -866,79 +930,7 @@ exports[`should render correctly when opened 1`] = `
   right: 1px;
 }
 
-.emotion-0 {
-  background-color: #FFFFFF;
-  border: solid 1px #8F8FA2;
-  border-radius: 2px;
-  color: #24252E;
-  font-family: "IBM Plex Sans",sans-serif;
-  font-size: 0.8125rem;
-  line-height: 1rem;
-  margin: 0;
-  padding: calc(0.5rem - 1px) 0.5rem;
-  width: 100%;
-  -webkit-transition-property: box-shadow;
-  transition-property: box-shadow;
-  -webkit-transition-duration: .2s;
-  transition-duration: .2s;
-}
-
-.emotion-0[type="search"]::-webkit-search-decoration {
-  display: none;
-}
-
-.emotion-0[type="search"]::-webkit-search-cancel-button {
-  display: none;
-}
-
-.emotion-0[type="search"]::-webkit-search-results-button {
-  display: none;
-}
-
-.emotion-0[type="search"]::-webkit-search-results-decoration {
-  display: none;
-}
-
-.emotion-0:required {
-  box-shadow: none;
-}
-
-.emotion-0::-webkit-input-placeholder {
-  color: #696979;
-}
-
-.emotion-0::-moz-placeholder {
-  color: #696979;
-}
-
-.emotion-0:-ms-input-placeholder {
-  color: #696979;
-}
-
-.emotion-0::placeholder {
-  color: #696979;
-}
-
-.emotion-0:disabled {
-  border-color: #D3D4DD;
-  background-color: #F0F0F5;
-}
-
-.emotion-0:not(:disabled):hover {
-  border-color: #7A7B8E;
-}
-
-.emotion-0:not(:disabled):focus {
-  outline: none;
-  box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
-}
-
-.emotion-0:not(:disabled):active {
-  border-color: #0069D0;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.09);
-}
-
-.emotion-2 {
+.emotion-7 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 0.8125rem;
   line-height: 1.5rem;
@@ -948,8 +940,8 @@ exports[`should render correctly when opened 1`] = `
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-user-select: none;
@@ -971,7 +963,7 @@ exports[`should render correctly when opened 1`] = `
   border-radius: inherit;
 }
 
-.emotion-2 > span {
+.emotion-7>span {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -982,29 +974,29 @@ exports[`should render correctly when opened 1`] = `
   display: inline-flex;
 }
 
-.emotion-2:not(:disabled):active {
-  box-shadow: inset 0 2px 8px 0 rgba(0,0,0,0.1);
+.emotion-7:not(:disabled):active {
+  box-shadow: inset 0 2px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
-.emotion-2:focus {
+.emotion-7:focus {
   outline: none;
   box-shadow: 0 0 0 2px #0069D0;
 }
 
-.emotion-2:not(:disabled):hover {
-  background-color: rgba(58,58,71,0.1);
+.emotion-7:not(:disabled):hover {
+  background-color: rgba(58, 58, 71, 0.1);
 }
 
-.emotion-2:focus {
+.emotion-7:focus {
   box-shadow: none;
 }
 
-.emotion-1 {
+.emotion-8 {
   fill: currentColor;
   font-size: 1.5rem;
 }
 
-.emotion-11 {
+.emotion-9 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1016,7 +1008,7 @@ exports[`should render correctly when opened 1`] = `
   border: 1px solid #D3D4DD;
   border-radius: 2px;
   background-color: #FFFFFF;
-  box-shadow: 0 2px 4px -1px rgba(0,0,0,0.2),0 1px 10px 0 rgba(0,0,0,0.12),0 4px 5px 0 rgba(0,0,0,0.14);
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2),0 1px 10px 0 rgba(0, 0, 0, 0.12),0 4px 5px 0 rgba(0, 0, 0, 0.14);
   max-height: 20rem;
 }
 
@@ -1027,7 +1019,7 @@ exports[`should render correctly when opened 1`] = `
   border: 1px solid #D3D4DD;
   border-radius: 2px;
   background-color: #FFFFFF;
-  box-shadow: 0 2px 4px -1px rgba(0,0,0,0.2),0 1px 10px 0 rgba(0,0,0,0.12),0 4px 5px 0 rgba(0,0,0,0.14);
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2),0 1px 10px 0 rgba(0, 0, 0, 0.12),0 4px 5px 0 rgba(0, 0, 0, 0.14);
   max-height: 20rem;
   overflow-y: auto;
   overflow-x: hidden;
@@ -1040,7 +1032,7 @@ exports[`should render correctly when opened 1`] = `
   max-height: auto;
 }
 
-.emotion-5 {
+.emotion-11 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 0.8125rem;
   line-height: 1.5;
@@ -1052,15 +1044,15 @@ exports[`should render correctly when opened 1`] = `
   transition: .1s ease;
 }
 
-.emotion-5:last-of-type {
+.emotion-11:last-of-type {
   border-bottom: none;
 }
 
-.emotion-5:hover {
+.emotion-11:hover {
   background: #F0F0F5;
 }
 
-.emotion-5:focus {
+.emotion-11:focus {
   outline: 0;
   border-radius: 3px;
   box-shadow: inset 0 0 0 2px #0069D0;
@@ -1068,20 +1060,20 @@ exports[`should render correctly when opened 1`] = `
 
 <div>
   <div
-    class="emotion-15"
+    class="emotion-0"
   >
     <div
-      class="emotion-14"
+      class="emotion-1"
     >
       <div
-        class="emotion-12"
+        class="emotion-2"
       >
         <div
           aria-expanded="true"
           aria-haspopup="listbox"
-          aria-labelledby="downshift-0-label"
-          aria-owns="downshift-0-menu"
-          class="emotion-12"
+          aria-labelledby="downshift-1-label"
+          aria-owns="downshift-1-menu"
+          class="emotion-3"
           role="combobox"
         >
           <div>
@@ -1090,25 +1082,25 @@ exports[`should render correctly when opened 1`] = `
             >
               <input
                 aria-autocomplete="list"
-                aria-controls="downshift-0-menu"
-                class="emotion-0"
-                id="downshift-0-input"
+                aria-controls="downshift-1-menu"
+                class="emotion-5"
+                id="downshift-1-input"
                 placeholder="Select a value..."
                 type="text"
                 value=""
               />
               <span
-                class="emotion-3"
+                class="emotion-6"
               >
                 <button
-                  class="emotion-2"
+                  class="emotion-7"
                   tabindex="-1"
                   type="button"
                 >
                   <span>
                     <svg
                       aria-hidden="true"
-                      class="emotion-1"
+                      class="emotion-8"
                       height="1em"
                       role="img"
                       viewBox="0 0 24 24"
@@ -1125,9 +1117,9 @@ exports[`should render correctly when opened 1`] = `
             </div>
           </div>
           <div
-            aria-labelledby="downshift-0-label"
-            class="emotion-11"
-            id="downshift-0-menu"
+            aria-labelledby="downshift-1-label"
+            class="emotion-9"
+            id="downshift-1-menu"
             role="listbox"
             style="position: absolute; left: 0px; top: 0px; width: 0px;"
           >
@@ -1136,40 +1128,40 @@ exports[`should render correctly when opened 1`] = `
             >
               <li
                 aria-selected="false"
-                class="emotion-5"
-                id="downshift-0-item-0"
+                class="emotion-11"
+                id="downshift-1-item-0"
                 role="option"
               >
                 Apple
               </li>
               <li
                 aria-selected="false"
-                class="emotion-5"
-                id="downshift-0-item-1"
+                class="emotion-11"
+                id="downshift-1-item-1"
                 role="option"
               >
                 Banana
               </li>
               <li
                 aria-selected="false"
-                class="emotion-5"
-                id="downshift-0-item-2"
+                class="emotion-11"
+                id="downshift-1-item-2"
                 role="option"
               >
                 Grape
               </li>
               <li
                 aria-selected="false"
-                class="emotion-5"
-                id="downshift-0-item-3"
+                class="emotion-11"
+                id="downshift-1-item-3"
                 role="option"
               >
                 Orange
               </li>
               <li
                 aria-selected="false"
-                class="emotion-5"
-                id="downshift-0-item-4"
+                class="emotion-11"
+                id="downshift-1-item-4"
                 role="option"
               >
                 Pear
@@ -1184,7 +1176,7 @@ exports[`should render correctly when opened 1`] = `
 `;
 
 exports[`should respect the specified menu min-width 1`] = `
-.emotion-15 {
+.emotion-0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1194,21 +1186,21 @@ exports[`should respect the specified menu min-width 1`] = `
   flex-direction: column;
 }
 
-.emotion-14 {
+.emotion-1 {
   display: inline-block;
   margin-bottom: 0rem;
   margin-top: 0rem;
 }
 
-.emotion-14:first-of-type {
+.emotion-1:first-of-type {
   margin-top: 0;
 }
 
-.emotion-14:last-of-type {
+.emotion-1:last-of-type {
   margin-bottom: 0;
 }
 
-.emotion-14:empty {
+.emotion-1:empty {
   display: none;
 }
 
@@ -1220,7 +1212,77 @@ exports[`should respect the specified menu min-width 1`] = `
   padding-right: 3rem;
 }
 
-.emotion-3 {
+.emotion-5 {
+  background-color: #FFFFFF;
+  border: solid 1px #8F8FA2;
+  border-radius: 2px;
+  color: #24252E;
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1rem;
+  margin: 0;
+  padding: calc(0.5rem - 1px) 0.5rem;
+  width: 100%;
+  transition-property: box-shadow;
+  transition-duration: .2s;
+}
+
+.emotion-5[type="search"]::-webkit-search-decoration {
+  display: none;
+}
+
+.emotion-5[type="search"]::-webkit-search-cancel-button {
+  display: none;
+}
+
+.emotion-5[type="search"]::-webkit-search-results-button {
+  display: none;
+}
+
+.emotion-5[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+.emotion-5:required {
+  box-shadow: none;
+}
+
+.emotion-5::-webkit-input-placeholder {
+  color: #696979;
+}
+
+.emotion-5::-moz-placeholder {
+  color: #696979;
+}
+
+.emotion-5:-ms-input-placeholder {
+  color: #696979;
+}
+
+.emotion-5::placeholder {
+  color: #696979;
+}
+
+.emotion-5:disabled {
+  border-color: #D3D4DD;
+  background-color: #F0F0F5;
+}
+
+.emotion-5:not(:disabled):hover {
+  border-color: #7A7B8E;
+}
+
+.emotion-5:not(:disabled):focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
+}
+
+.emotion-5:not(:disabled):active {
+  border-color: #0069D0;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
+}
+
+.emotion-6 {
   position: absolute;
   background-color: #F0F0F5;
   display: -webkit-box;
@@ -1232,8 +1294,8 @@ exports[`should respect the specified menu min-width 1`] = `
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   padding: 0.25rem;
   width: 2.5rem;
@@ -1242,79 +1304,7 @@ exports[`should respect the specified menu min-width 1`] = `
   right: 1px;
 }
 
-.emotion-0 {
-  background-color: #FFFFFF;
-  border: solid 1px #8F8FA2;
-  border-radius: 2px;
-  color: #24252E;
-  font-family: "IBM Plex Sans",sans-serif;
-  font-size: 0.8125rem;
-  line-height: 1rem;
-  margin: 0;
-  padding: calc(0.5rem - 1px) 0.5rem;
-  width: 100%;
-  -webkit-transition-property: box-shadow;
-  transition-property: box-shadow;
-  -webkit-transition-duration: .2s;
-  transition-duration: .2s;
-}
-
-.emotion-0[type="search"]::-webkit-search-decoration {
-  display: none;
-}
-
-.emotion-0[type="search"]::-webkit-search-cancel-button {
-  display: none;
-}
-
-.emotion-0[type="search"]::-webkit-search-results-button {
-  display: none;
-}
-
-.emotion-0[type="search"]::-webkit-search-results-decoration {
-  display: none;
-}
-
-.emotion-0:required {
-  box-shadow: none;
-}
-
-.emotion-0::-webkit-input-placeholder {
-  color: #696979;
-}
-
-.emotion-0::-moz-placeholder {
-  color: #696979;
-}
-
-.emotion-0:-ms-input-placeholder {
-  color: #696979;
-}
-
-.emotion-0::placeholder {
-  color: #696979;
-}
-
-.emotion-0:disabled {
-  border-color: #D3D4DD;
-  background-color: #F0F0F5;
-}
-
-.emotion-0:not(:disabled):hover {
-  border-color: #7A7B8E;
-}
-
-.emotion-0:not(:disabled):focus {
-  outline: none;
-  box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
-}
-
-.emotion-0:not(:disabled):active {
-  border-color: #0069D0;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.09);
-}
-
-.emotion-2 {
+.emotion-7 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 0.8125rem;
   line-height: 1.5rem;
@@ -1324,8 +1314,8 @@ exports[`should respect the specified menu min-width 1`] = `
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-user-select: none;
@@ -1347,7 +1337,7 @@ exports[`should respect the specified menu min-width 1`] = `
   border-radius: inherit;
 }
 
-.emotion-2 > span {
+.emotion-7>span {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -1358,29 +1348,29 @@ exports[`should respect the specified menu min-width 1`] = `
   display: inline-flex;
 }
 
-.emotion-2:not(:disabled):active {
-  box-shadow: inset 0 2px 8px 0 rgba(0,0,0,0.1);
+.emotion-7:not(:disabled):active {
+  box-shadow: inset 0 2px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
-.emotion-2:focus {
+.emotion-7:focus {
   outline: none;
   box-shadow: 0 0 0 2px #0069D0;
 }
 
-.emotion-2:not(:disabled):hover {
-  background-color: rgba(58,58,71,0.1);
+.emotion-7:not(:disabled):hover {
+  background-color: rgba(58, 58, 71, 0.1);
 }
 
-.emotion-2:focus {
+.emotion-7:focus {
   box-shadow: none;
 }
 
-.emotion-1 {
+.emotion-8 {
   fill: currentColor;
   font-size: 1.5rem;
 }
 
-.emotion-11 {
+.emotion-9 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1392,7 +1382,7 @@ exports[`should respect the specified menu min-width 1`] = `
   border: 1px solid #D3D4DD;
   border-radius: 2px;
   background-color: #FFFFFF;
-  box-shadow: 0 2px 4px -1px rgba(0,0,0,0.2),0 1px 10px 0 rgba(0,0,0,0.12),0 4px 5px 0 rgba(0,0,0,0.14);
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2),0 1px 10px 0 rgba(0, 0, 0, 0.12),0 4px 5px 0 rgba(0, 0, 0, 0.14);
   max-height: 20rem;
 }
 
@@ -1403,7 +1393,7 @@ exports[`should respect the specified menu min-width 1`] = `
   border: 1px solid #D3D4DD;
   border-radius: 2px;
   background-color: #FFFFFF;
-  box-shadow: 0 2px 4px -1px rgba(0,0,0,0.2),0 1px 10px 0 rgba(0,0,0,0.12),0 4px 5px 0 rgba(0,0,0,0.14);
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2),0 1px 10px 0 rgba(0, 0, 0, 0.12),0 4px 5px 0 rgba(0, 0, 0, 0.14);
   max-height: 20rem;
   overflow-y: auto;
   overflow-x: hidden;
@@ -1416,7 +1406,7 @@ exports[`should respect the specified menu min-width 1`] = `
   max-height: auto;
 }
 
-.emotion-5 {
+.emotion-11 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 0.8125rem;
   line-height: 1.5;
@@ -1428,15 +1418,15 @@ exports[`should respect the specified menu min-width 1`] = `
   transition: .1s ease;
 }
 
-.emotion-5:last-of-type {
+.emotion-11:last-of-type {
   border-bottom: none;
 }
 
-.emotion-5:hover {
+.emotion-11:hover {
   background: #F0F0F5;
 }
 
-.emotion-5:focus {
+.emotion-11:focus {
   outline: 0;
   border-radius: 3px;
   box-shadow: inset 0 0 0 2px #0069D0;
@@ -1444,20 +1434,20 @@ exports[`should respect the specified menu min-width 1`] = `
 
 <div>
   <div
-    class="emotion-15"
+    class="emotion-0"
   >
     <div
-      class="emotion-14"
+      class="emotion-1"
     >
       <div
-        class="emotion-12"
+        class="emotion-2"
       >
         <div
           aria-expanded="true"
           aria-haspopup="listbox"
-          aria-labelledby="downshift-0-label"
-          aria-owns="downshift-0-menu"
-          class="emotion-12"
+          aria-labelledby="downshift-4-label"
+          aria-owns="downshift-4-menu"
+          class="emotion-3"
           role="combobox"
         >
           <div>
@@ -1466,25 +1456,25 @@ exports[`should respect the specified menu min-width 1`] = `
             >
               <input
                 aria-autocomplete="list"
-                aria-controls="downshift-0-menu"
-                class="emotion-0"
-                id="downshift-0-input"
+                aria-controls="downshift-4-menu"
+                class="emotion-5"
+                id="downshift-4-input"
                 placeholder="Select a value..."
                 type="text"
                 value=""
               />
               <span
-                class="emotion-3"
+                class="emotion-6"
               >
                 <button
-                  class="emotion-2"
+                  class="emotion-7"
                   tabindex="-1"
                   type="button"
                 >
                   <span>
                     <svg
                       aria-hidden="true"
-                      class="emotion-1"
+                      class="emotion-8"
                       height="1em"
                       role="img"
                       viewBox="0 0 24 24"
@@ -1501,9 +1491,9 @@ exports[`should respect the specified menu min-width 1`] = `
             </div>
           </div>
           <div
-            aria-labelledby="downshift-0-label"
-            class="emotion-11"
-            id="downshift-0-menu"
+            aria-labelledby="downshift-4-label"
+            class="emotion-9"
+            id="downshift-4-menu"
             role="listbox"
             style="position: absolute; left: 0px; top: 0px; min-width: 577px; width: 0px;"
           >
@@ -1512,40 +1502,40 @@ exports[`should respect the specified menu min-width 1`] = `
             >
               <li
                 aria-selected="false"
-                class="emotion-5"
-                id="downshift-0-item-0"
+                class="emotion-11"
+                id="downshift-4-item-0"
                 role="option"
               >
                 Apple
               </li>
               <li
                 aria-selected="false"
-                class="emotion-5"
-                id="downshift-0-item-1"
+                class="emotion-11"
+                id="downshift-4-item-1"
                 role="option"
               >
                 Banana
               </li>
               <li
                 aria-selected="false"
-                class="emotion-5"
-                id="downshift-0-item-2"
+                class="emotion-11"
+                id="downshift-4-item-2"
                 role="option"
               >
                 Grape
               </li>
               <li
                 aria-selected="false"
-                class="emotion-5"
-                id="downshift-0-item-3"
+                class="emotion-11"
+                id="downshift-4-item-3"
                 role="option"
               >
                 Orange
               </li>
               <li
                 aria-selected="false"
-                class="emotion-5"
-                id="downshift-0-item-4"
+                class="emotion-11"
+                id="downshift-4-item-4"
                 role="option"
               >
                 Pear

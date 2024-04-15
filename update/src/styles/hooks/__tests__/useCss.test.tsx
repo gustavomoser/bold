@@ -1,5 +1,5 @@
+import { css } from '@emotion/css'
 import { renderHook } from '@testing-library/react-hooks'
-import { css as emotionCss } from 'emotion'
 import React from 'react'
 
 import { createTheme } from '../../theme/createTheme'
@@ -10,13 +10,12 @@ jest.unmock('../useTheme')
 
 it('should return a "css" function that transforms a CSS properties object to a classname', () => {
   const { result } = renderHook(() => useCss())
-  expect(result.current.css).toEqual(emotionCss)
+  expect(JSON.stringify(result.current.css)).toEqual(JSON.stringify(css))
 })
 
 it('should return the current theme from ThemeContext', () => {
   const theme = createTheme()
-  const { result } = renderHook(() => useCss(), {
-    wrapper: ({ children }) => <ThemeContext.Provider value={theme}>{children}</ThemeContext.Provider>,
-  })
-  expect(result.current.theme).toEqual(theme)
+  const wrapper = ({ children }) => <ThemeContext.Provider value={theme}>{children}</ThemeContext.Provider>
+  const { result } = renderHook(() => useCss(), { wrapper })
+  expect(JSON.stringify(result.current.theme)).toEqual(JSON.stringify(theme))
 })

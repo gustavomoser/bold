@@ -1,9 +1,9 @@
-import React, { useRef, useCallback } from 'react'
+import React, { useCallback, useRef } from 'react'
 
 import { useFormControl, UseFormControlProps } from '../../../hooks/useFormControl'
 import { useStyles } from '../../../styles'
 import { Omit } from '../../../util'
-import { composeRefs, composeHandlers } from '../../../util/react'
+import { composeHandlers, composeRefs } from '../../../util/react'
 import { FormControl } from '../../FormControl'
 import { TextInput, TextInputProps } from '../../TextField'
 
@@ -38,7 +38,7 @@ export interface SelectSingleProps<T = DefaultItemType>
 export function SelectSingle<T>(props: SelectSingleProps<T>) {
   const {
     value,
-    items,
+    items = [],
     itemToString,
     onChange,
     isOpen,

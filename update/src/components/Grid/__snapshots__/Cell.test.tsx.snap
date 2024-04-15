@@ -58,25 +58,25 @@ exports[`should accept responsive sizes 1`] = `
   width: calc(100% / 12 * 12);
 }
 
-@media (min-width:600px) {
+@media (min-width: 600px) {
   .emotion-0 {
     width: calc(100% / 12 * 6);
   }
 }
 
-@media (min-width:960px) {
+@media (min-width: 960px) {
   .emotion-0 {
     width: calc(100% / 12 * 4);
   }
 }
 
-@media (min-width:1280px) {
+@media (min-width: 1280px) {
   .emotion-0 {
     width: calc(100% / 12 * 3);
   }
 }
 
-@media (min-width:1920px) {
+@media (min-width: 1920px) {
   .emotion-0 {
     width: calc(100% / 12 * 2);
   }

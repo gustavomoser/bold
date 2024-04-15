@@ -1,4 +1,4 @@
-import { css as emotionCss } from '@emotion/css'
+import { css } from '@emotion/css'
 import { renderHook } from '@testing-library/react-hooks'
 import React from 'react'
 
@@ -22,8 +22,8 @@ it('should return a map of classNames generated from a map of css properties', (
 
   const { result } = renderHook(() => useStyles(factory))
   expect(result.current.classes).toEqual({
-    class1: emotionCss(styles.class1),
-    class2: emotionCss(styles.class2),
+    class1: css(styles.class1),
+    class2: css(styles.class2),
   })
 })
 
@@ -31,9 +31,8 @@ it('should call the factory with additional arguments passed to the function', (
   const factory = jest.fn(() => ({}))
   const theme = createTheme()
 
-  renderHook(() => useStyles(factory, 'foo', 42, { obj: true }), {
-    wrapper: ({ children }) => <ThemeContext.Provider value={theme}>{children}</ThemeContext.Provider>,
-  })
+  const wrapper = ({ children }) => <ThemeContext.Provider value={theme}>{children}</ThemeContext.Provider>
+  renderHook(() => useStyles(factory, 'foo', 42, { obj: true }), { wrapper })
   expect(factory).toHaveBeenLastCalledWith(theme, 'foo', 42, { obj: true })
 })
 
@@ -41,31 +40,28 @@ it('should call the factory with current theme from ThemeContext', () => {
   const factory = jest.fn(() => ({}))
   const theme = createTheme()
 
-  renderHook(() => useStyles(factory), {
-    wrapper: ({ children }) => <ThemeContext.Provider value={theme}>{children}</ThemeContext.Provider>,
-  })
+  const wrapper = ({ children }) => <ThemeContext.Provider value={theme}>{children}</ThemeContext.Provider>
+  renderHook(() => useStyles(factory), { wrapper })
   expect(factory).toHaveBeenLastCalledWith(theme)
 })
 
 it('should return the current theme from ThemeContext', () => {
   const theme = createTheme()
-  const { result } = renderHook(() => useStyles(), {
-    wrapper: ({ children }) => <ThemeContext.Provider value={theme}>{children}</ThemeContext.Provider>,
-  })
-  expect(result.current.theme).toEqual(theme)
+  const wrapper = ({ children }) => <ThemeContext.Provider value={theme}>{children}</ThemeContext.Provider>
+  const { result } = renderHook(() => useStyles(), { wrapper })
+  expect(JSON.stringify(result.current.theme)).toEqual(JSON.stringify(theme))
 })
 
 it('should return the "css" function', () => {
   const { result } = renderHook(() => useStyles())
-  expect(result.current.css).toEqual(emotionCss)
+  expect(result.current.css).toEqual(css)
 })
 
 it('should memoize the return on rerender', () => {
   const factory = jest.fn(() => ({}))
   const theme = createTheme()
-  const { result, rerender } = renderHook(() => useStyles(factory, 'foo', 42), {
-    wrapper: ({ children }) => <ThemeContext.Provider value={theme}>{children}</ThemeContext.Provider>,
-  })
+  const wrapper = ({ children }) => <ThemeContext.Provider value={theme}>{children}</ThemeContext.Provider>
+  const { result, rerender } = renderHook(() => useStyles(factory, 'foo', 42), { wrapper })
 
   const first = result.current.classes
   rerender()

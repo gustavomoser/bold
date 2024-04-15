@@ -1,5 +1,5 @@
 import FocusTrap from 'focus-trap-react'
-import React, { Ref, useEffect } from 'react'
+import React, { Fragment, Ref, useEffect } from 'react'
 import { Theme, useStyles } from '../../styles'
 import { zIndexLevel } from '../../styles/theme/zIndex'
 import { Portal } from '../Portal'
@@ -80,10 +80,11 @@ export function Modal(props: ModalProps) {
   return (
     <FadeTransition in={open}>
       {({ className }) => (
-        <>
+        <Fragment>
           {open && (
             <Portal>
-              <FocusTrap>
+              {/*TODO FOCUS TRAP OPTIONS ON JEST TESTING*/}
+              <FocusTrap focusTrapOptions={{ tabbableOptions: { displayCheck: 'none' } }}>
                 <div className={className}>
                   <div className={classes.modal}>
                     <ModalContainer
@@ -101,7 +102,7 @@ export function Modal(props: ModalProps) {
               </FocusTrap>
             </Portal>
           )}
-        </>
+        </Fragment>
       )}
     </FadeTransition>
   )

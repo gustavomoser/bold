@@ -1,4 +1,4 @@
-import css from '@emotion/css'
+import { css } from '@emotion/react'
 import { render } from '@testing-library/react'
 import React from 'react'
 

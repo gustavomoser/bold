@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should render correctly 1`] = `
-.emotion-13 {
+.emotion-0 {
   background-color: #FFFFFF;
   border: solid 1px #8F8FA2;
   border-radius: 2px;
@@ -12,15 +12,14 @@ exports[`should render correctly 1`] = `
   margin: 0;
   padding: calc(0.25rem - 1px) 0.25rem;
   width: 100%;
-  -webkit-transition-property: box-shadow;
   transition-property: box-shadow;
-  -webkit-transition-duration: .2s;
   transition-duration: .2s;
   cursor: text;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
@@ -30,103 +29,41 @@ exports[`should render correctly 1`] = `
   align-items: center;
 }
 
-.emotion-13[type="search"]::-webkit-search-decoration {
+.emotion-0[type="search"]::-webkit-search-decoration {
   display: none;
 }
 
-.emotion-13[type="search"]::-webkit-search-cancel-button {
+.emotion-0[type="search"]::-webkit-search-cancel-button {
   display: none;
 }
 
-.emotion-13[type="search"]::-webkit-search-results-button {
+.emotion-0[type="search"]::-webkit-search-results-button {
   display: none;
 }
 
-.emotion-13[type="search"]::-webkit-search-results-decoration {
+.emotion-0[type="search"]::-webkit-search-results-decoration {
   display: none;
 }
 
-.emotion-13:required {
+.emotion-0:required {
   box-shadow: none;
 }
 
-.emotion-13:hover {
+.emotion-0:hover {
   border-color: #7A7B8E;
 }
 
-.emotion-13:active {
+.emotion-0:active {
   border-color: #0069D0;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.09);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
 }
 
-.emotion-13:focus-within {
+.emotion-0:focus-within {
   outline: none;
   box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
 }
 
-.emotion-12 {
-  font-family: "IBM Plex Sans",sans-serif;
-  font-size: 0.8125rem;
-  color: #24252E;
-  line-height: 1rem;
-  background: #FFFFFF;
-  padding: 0;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  border: 0;
-  outline: 0;
-}
-
-.emotion-12::-webkit-input-placeholder {
-  color: #696979;
-}
-
-.emotion-12::-moz-placeholder {
-  color: #696979;
-}
-
-.emotion-12:-ms-input-placeholder {
-  color: #696979;
-}
-
-.emotion-12::placeholder {
-  color: #696979;
-}
-
-.emotion-12:disabled {
-  border-color: #D3D4DD;
-  background-color: #F0F0F5;
-}
-
-.emotion-0 {
-  padding: calc(0.125rem - 1px) 0.25rem;
-}
-
 .emotion-1 {
-  background: #F0F0F5;
-  cursor: pointer;
-  font-size: 1.25rem;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding: calc(0.125rem - 1px) 0;
-}
-
-.emotion-1:hover {
-  color: #D01E29;
-}
-
-.emotion-1 svg {
-  fill: currentColor;
-}
-
-.emotion-2 {
   border: 1px solid #D3D4DD;
   border-radius: 4px;
   display: -webkit-inline-box;
@@ -141,20 +78,82 @@ exports[`should render correctly 1`] = `
   margin-right: 0.25rem;
 }
 
+.emotion-2 {
+  padding: calc(0.125rem - 1px) 0.25rem;
+}
+
+.emotion-3 {
+  background: #F0F0F5;
+  cursor: pointer;
+  font-size: 1.25rem;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: calc(0.125rem - 1px) 0;
+}
+
+.emotion-3:hover {
+  color: #D01E29;
+}
+
+.emotion-3 svg {
+  fill: currentColor;
+}
+
+.emotion-13 {
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 0.8125rem;
+  color: #24252E;
+  line-height: 1rem;
+  background: #FFFFFF;
+  padding: 0;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  border: 0;
+  outline: 0;
+}
+
+.emotion-13::-webkit-input-placeholder {
+  color: #696979;
+}
+
+.emotion-13::-moz-placeholder {
+  color: #696979;
+}
+
+.emotion-13:-ms-input-placeholder {
+  color: #696979;
+}
+
+.emotion-13::placeholder {
+  color: #696979;
+}
+
+.emotion-13:disabled {
+  border-color: #D3D4DD;
+  background-color: #F0F0F5;
+}
+
 <div>
   <div
-    class="emotion-13"
+    class="emotion-0"
   >
     <span
-      class="emotion-2"
+      class="emotion-1"
     >
       <span
-        class="emotion-0"
+        class="emotion-2"
       >
         Apple
       </span>
       <span
-        class="emotion-1"
+        class="emotion-3"
         title="Remove"
       >
         <svg
@@ -170,15 +169,15 @@ exports[`should render correctly 1`] = `
       </span>
     </span>
     <span
-      class="emotion-2"
+      class="emotion-1"
     >
       <span
-        class="emotion-0"
+        class="emotion-2"
       >
         Banana
       </span>
       <span
-        class="emotion-1"
+        class="emotion-3"
         title="Remove"
       >
         <svg
@@ -194,15 +193,15 @@ exports[`should render correctly 1`] = `
       </span>
     </span>
     <span
-      class="emotion-2"
+      class="emotion-1"
     >
       <span
-        class="emotion-0"
+        class="emotion-2"
       >
         Grape
       </span>
       <span
-        class="emotion-1"
+        class="emotion-3"
         title="Remove"
       >
         <svg
@@ -218,15 +217,15 @@ exports[`should render correctly 1`] = `
       </span>
     </span>
     <span
-      class="emotion-2"
+      class="emotion-1"
     >
       <span
-        class="emotion-0"
+        class="emotion-2"
       >
         Pear
       </span>
       <span
-        class="emotion-1"
+        class="emotion-3"
         title="Remove"
       >
         <svg
@@ -242,7 +241,7 @@ exports[`should render correctly 1`] = `
       </span>
     </span>
     <input
-      class="emotion-12"
+      class="emotion-13"
       type="text"
     />
   </div>

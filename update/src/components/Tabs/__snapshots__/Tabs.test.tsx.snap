@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-.emotion-8 {
+.emotion-0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -25,7 +25,7 @@ exports[`renders correctly 1`] = `
   margin-left: 0.25rem;
 }
 
-.emotion-0 {
+.emotion-2 {
   display: inline-block;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -43,22 +43,22 @@ exports[`renders correctly 1`] = `
   transition: background .15s,border-color .15s;
 }
 
-.emotion-0:not(.disabled):hover {
+.emotion-2:not(.disabled):hover {
   cursor: pointer;
   background: #D3D4DD;
 }
 
-.emotion-0:not(.disabled):active {
+.emotion-2:not(.disabled):active {
   background: #D3D4DD;
-  box-shadow: inset 0 1px 4px 0 rgba(0,0,0,0.14),inset 0 2px 4px 0 rgba(0,0,0,0.08);
+  box-shadow: inset 0 1px 4px 0 rgba(0, 0, 0, 0.14),inset 0 2px 4px 0 rgba(0, 0, 0, 0.08);
 }
 
-.emotion-0:focus {
+.emotion-2:focus {
   box-shadow: inset 0 0 0 2px #0069D0;
   border-radius: 4px;
 }
 
-.emotion-4 {
+.emotion-6 {
   display: inline-block;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -81,22 +81,22 @@ exports[`renders correctly 1`] = `
   position: relative;
 }
 
-.emotion-4:not(.disabled):hover {
+.emotion-6:not(.disabled):hover {
   cursor: pointer;
   background: #D3D4DD;
 }
 
-.emotion-4:not(.disabled):active {
+.emotion-6:not(.disabled):active {
   background: #D3D4DD;
-  box-shadow: inset 0 1px 4px 0 rgba(0,0,0,0.14),inset 0 2px 4px 0 rgba(0,0,0,0.08);
+  box-shadow: inset 0 1px 4px 0 rgba(0, 0, 0, 0.14),inset 0 2px 4px 0 rgba(0, 0, 0, 0.08);
 }
 
-.emotion-4:focus {
+.emotion-6:focus {
   box-shadow: inset 0 0 0 2px #0069D0;
   border-radius: 4px;
 }
 
-.emotion-4::before {
+.emotion-6::before {
   content: "";
   position: absolute;
   bottom: -1px;
@@ -106,15 +106,15 @@ exports[`renders correctly 1`] = `
   background: #FFFFFF;
 }
 
-.emotion-4:not(.disabled):hover {
+.emotion-6:not(.disabled):hover {
   background: #F0F0F5;
 }
 
-.emotion-4:not(.disabled):active {
+.emotion-6:not(.disabled):active {
   background: #F0F0F5;
 }
 
-.emotion-6 {
+.emotion-8 {
   display: inline-block;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -133,35 +133,35 @@ exports[`renders correctly 1`] = `
   color: #AAAAB9;
 }
 
-.emotion-6:not(.disabled):hover {
+.emotion-8:not(.disabled):hover {
   cursor: pointer;
   background: #D3D4DD;
 }
 
-.emotion-6:not(.disabled):active {
+.emotion-8:not(.disabled):active {
   background: #D3D4DD;
-  box-shadow: inset 0 1px 4px 0 rgba(0,0,0,0.14),inset 0 2px 4px 0 rgba(0,0,0,0.08);
+  box-shadow: inset 0 1px 4px 0 rgba(0, 0, 0, 0.14),inset 0 2px 4px 0 rgba(0, 0, 0, 0.08);
 }
 
-.emotion-6:focus {
+.emotion-8:focus {
   box-shadow: inset 0 0 0 2px #0069D0;
   border-radius: 4px;
 }
 
-.emotion-6:hover {
+.emotion-8:hover {
   cursor: not-allowed;
 }
 
 <div>
   <ul
-    class="emotion-8"
+    class="emotion-0"
     role="tablist"
   >
     <li
       class="emotion-1"
     >
       <span
-        class="emotion-0"
+        class="emotion-2"
         role="tab"
         tabindex="0"
       >
@@ -172,7 +172,7 @@ exports[`renders correctly 1`] = `
       class="emotion-1"
     >
       <span
-        class="emotion-0"
+        class="emotion-2"
         role="tab"
         tabindex="-1"
       >
@@ -183,7 +183,7 @@ exports[`renders correctly 1`] = `
       class="emotion-1"
     >
       <span
-        class="emotion-4"
+        class="emotion-6"
         role="tab"
         tabindex="-1"
       >
@@ -194,7 +194,7 @@ exports[`renders correctly 1`] = `
       class="emotion-1"
     >
       <span
-        class="emotion-6 disabled"
+        class="emotion-8 disabled"
         role="tab"
       >
         Disabled

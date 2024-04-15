@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`SortableLabel should render correctly 1`] = `
-.emotion-3 {
+.emotion-0 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -13,7 +13,7 @@ exports[`SortableLabel should render correctly 1`] = `
   cursor: pointer;
 }
 
-.emotion-2 {
+.emotion-1 {
   margin-left: 0.25rem;
   font-size: 1rem;
   fill: #AAAAB9;
@@ -21,20 +21,20 @@ exports[`SortableLabel should render correctly 1`] = `
 
 <div>
   <span
-    class="emotion-3"
+    class="emotion-0"
   >
     <svg
-      class="emotion-2"
+      class="emotion-1"
       height="1em"
       viewBox="0 0 24 24"
       width="1em"
     >
       <polygon
-        class="emotion-0"
+        class="emotion-2"
         points="12 4.94 16.95 9.89 18.36 8.47 12 2.11 5.64 8.47 7.05 9.89 12 4.94"
       />
       <polygon
-        class="emotion-0"
+        class="emotion-2"
         points="12 19.06 7.05 14.11 5.64 15.53 12 21.89 18.36 15.53 16.95 14.11 12 19.06"
       />
     </svg>
@@ -43,7 +43,7 @@ exports[`SortableLabel should render correctly 1`] = `
 `;
 
 exports[`SortableLabel should render correctly 2`] = `
-.emotion-3 {
+.emotion-0 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -55,32 +55,32 @@ exports[`SortableLabel should render correctly 2`] = `
   cursor: pointer;
 }
 
-.emotion-2 {
+.emotion-1 {
   margin-left: 0.25rem;
   font-size: 1rem;
   fill: #AAAAB9;
 }
 
-.emotion-0 {
+.emotion-2 {
   fill: #0069D0;
 }
 
 <div>
   <span
-    class="emotion-3"
+    class="emotion-0"
   >
     <svg
-      class="emotion-2"
+      class="emotion-1"
       height="1em"
       viewBox="0 0 24 24"
       width="1em"
     >
       <polygon
-        class="emotion-0"
+        class="emotion-2"
         points="12 4.94 16.95 9.89 18.36 8.47 12 2.11 5.64 8.47 7.05 9.89 12 4.94"
       />
       <polygon
-        class="emotion-1"
+        class="emotion-3"
         points="12 19.06 7.05 14.11 5.64 15.53 12 21.89 18.36 15.53 16.95 14.11 12 19.06"
       />
     </svg>
@@ -89,7 +89,7 @@ exports[`SortableLabel should render correctly 2`] = `
 `;
 
 exports[`SortableLabel should render correctly 3`] = `
-.emotion-3 {
+.emotion-0 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -101,32 +101,32 @@ exports[`SortableLabel should render correctly 3`] = `
   cursor: pointer;
 }
 
-.emotion-2 {
+.emotion-1 {
   margin-left: 0.25rem;
   font-size: 1rem;
   fill: #AAAAB9;
 }
 
-.emotion-1 {
+.emotion-3 {
   fill: #0069D0;
 }
 
 <div>
   <span
-    class="emotion-3"
+    class="emotion-0"
   >
     <svg
-      class="emotion-2"
+      class="emotion-1"
       height="1em"
       viewBox="0 0 24 24"
       width="1em"
     >
       <polygon
-        class="emotion-0"
+        class="emotion-2"
         points="12 4.94 16.95 9.89 18.36 8.47 12 2.11 5.64 8.47 7.05 9.89 12 4.94"
       />
       <polygon
-        class="emotion-1"
+        class="emotion-3"
         points="12 19.06 7.05 14.11 5.64 15.53 12 21.89 18.36 15.53 16.95 14.11 12 19.06"
       />
     </svg>

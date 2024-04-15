@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should accept color prop 1`] = `
-.emotion-0 {
+.emotion-1 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 1.5rem;
   line-height: 1.5;
@@ -13,10 +13,10 @@ exports[`should accept color prop 1`] = `
 
 <div>
   <div
-    class="emotion-1"
+    class="emotion-0"
   >
     <h1
-      class="emotion-0"
+      class="emotion-1"
     >
       Heading section title 1
     </h1>
@@ -27,6 +27,10 @@ exports[`should accept color prop 1`] = `
 
 exports[`should accept style prop 1`] = `
 .emotion-0 {
+  color: red;
+}
+
+.emotion-1 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 1.5rem;
   line-height: 1.5;
@@ -35,16 +39,12 @@ exports[`should accept style prop 1`] = `
   margin-bottom: 1rem;
 }
 
-.emotion-1 {
-  color: red;
-}
-
 <div>
   <div
-    class="emotion-1"
+    class="emotion-0"
   >
     <h1
-      class="emotion-0"
+      class="emotion-1"
     >
       Heading section title 1
     </h1>
@@ -54,7 +54,7 @@ exports[`should accept style prop 1`] = `
 `;
 
 exports[`should accept vSpace prop 1`] = `
-.emotion-0 {
+.emotion-1 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 1.5rem;
   line-height: 1.5;
@@ -65,10 +65,10 @@ exports[`should accept vSpace prop 1`] = `
 
 <div>
   <div
-    class="emotion-1"
+    class="emotion-0"
   >
     <h1
-      class="emotion-0"
+      class="emotion-1"
     >
       Some title
     </h1>
@@ -78,7 +78,7 @@ exports[`should accept vSpace prop 1`] = `
 `;
 
 exports[`should render correctly 1`] = `
-.emotion-0 {
+.emotion-1 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 1.5rem;
   line-height: 1.5;
@@ -89,10 +89,10 @@ exports[`should render correctly 1`] = `
 
 <div>
   <div
-    class="emotion-1"
+    class="emotion-0"
   >
     <h1
-      class="emotion-0"
+      class="emotion-1"
     >
       Heading section title 1
     </h1>
@@ -102,7 +102,7 @@ exports[`should render correctly 1`] = `
 `;
 
 exports[`should render correctly 2`] = `
-.emotion-0 {
+.emotion-1 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 1.25rem;
   line-height: 1.5;
@@ -113,10 +113,10 @@ exports[`should render correctly 2`] = `
 
 <div>
   <div
-    class="emotion-1"
+    class="emotion-0"
   >
     <h2
-      class="emotion-0"
+      class="emotion-1"
     >
       Heading section title 2
     </h2>
@@ -126,7 +126,7 @@ exports[`should render correctly 2`] = `
 `;
 
 exports[`should render correctly 3`] = `
-.emotion-0 {
+.emotion-1 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 1rem;
   line-height: 1.5;
@@ -137,10 +137,10 @@ exports[`should render correctly 3`] = `
 
 <div>
   <div
-    class="emotion-1"
+    class="emotion-0"
   >
     <h3
-      class="emotion-0"
+      class="emotion-1"
     >
       Heading section title 3
     </h3>
@@ -150,7 +150,7 @@ exports[`should render correctly 3`] = `
 `;
 
 exports[`should render correctly 4`] = `
-.emotion-0 {
+.emotion-1 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 0.875rem;
   line-height: 1.5;
@@ -161,10 +161,10 @@ exports[`should render correctly 4`] = `
 
 <div>
   <div
-    class="emotion-1"
+    class="emotion-0"
   >
     <h4
-      class="emotion-0"
+      class="emotion-1"
     >
       Heading section title 4
     </h4>
@@ -174,7 +174,7 @@ exports[`should render correctly 4`] = `
 `;
 
 exports[`should render correctly 5`] = `
-.emotion-0 {
+.emotion-1 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 0.8125rem;
   line-height: 1.5;
@@ -185,10 +185,10 @@ exports[`should render correctly 5`] = `
 
 <div>
   <div
-    class="emotion-1"
+    class="emotion-0"
   >
     <h5
-      class="emotion-0"
+      class="emotion-1"
     >
       Heading section title 5
     </h5>
@@ -198,7 +198,7 @@ exports[`should render correctly 5`] = `
 `;
 
 exports[`should render correctly 6`] = `
-.emotion-0 {
+.emotion-1 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 0.75rem;
   line-height: 1.5;
@@ -209,10 +209,10 @@ exports[`should render correctly 6`] = `
 
 <div>
   <div
-    class="emotion-1"
+    class="emotion-0"
   >
     <h6
-      class="emotion-0"
+      class="emotion-1"
     >
       Heading section title 6
     </h6>

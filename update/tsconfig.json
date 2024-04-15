@@ -3,7 +3,7 @@
     "target": "ESNext",
     "lib": ["ESNext", "dom", "dom.iterable"],
     "module": "ESNext",
-    "types": ["jest"],
+    "types": ["jest, ts-jest"],
     "outDir": "lib",
 
     "moduleResolution": "Bundler",
@@ -22,16 +22,5 @@
     "noImplicitAny": false,
     "noUnusedLocals": true
   },
-  "include": ["src", "lib"],
-  "exclude": [
-    "node_modules",
-    "**/*.test.ts*",
-    "**/__tests__",
-    "**/__mocks__",
-    "node",
-    "target",
-    "build",
-    "coverage",
-    "site"
-  ]
+  "exclude": ["target", "build", "coverage", "site"]
 }

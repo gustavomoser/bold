@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should render correctly 1`] = `
-.emotion-10 {
+.emotion-0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -29,6 +29,40 @@ exports[`should render correctly 1`] = `
   color: #0069D0;
 }
 
+.emotion-2 {
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: #0069D0;
+  font-weight: bold;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  cursor: pointer;
+  outline: none;
+  -webkit-transition: box-shadow .2s ease;
+  transition: box-shadow .2s ease;
+}
+
+.emotion-2:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-2:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  border-radius: 2px;
+  box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
+}
+
+.emotion-4 {
+  fill: currentColor;
+  font-size: 1rem;
+  color: #AAAAB9;
+  margin: 0 .5rem;
+  font-size: 1rem;
+}
+
 .emotion-9 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -43,52 +77,18 @@ exports[`should render correctly 1`] = `
   pointer-events: none;
 }
 
-.emotion-0 {
-  font-family: "IBM Plex Sans",sans-serif;
-  font-size: 0.8125rem;
-  line-height: 1.5;
-  color: #0069D0;
-  font-weight: bold;
-  -webkit-text-decoration: underline;
-  text-decoration: underline;
-  cursor: pointer;
-  outline: none;
-  -webkit-transition: box-shadow .2s ease;
-  transition: box-shadow .2s ease;
-}
-
-.emotion-0:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.emotion-0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  border-radius: 2px;
-  box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
-}
-
-.emotion-2 {
-  fill: currentColor;
-  font-size: 1rem;
-  color: #AAAAB9;
-  margin: 0 .5rem;
-  font-size: 1rem;
-}
-
 <div>
   <nav
     aria-label="Breadcrumbs"
   >
     <ol
-      class="emotion-10"
+      class="emotion-0"
     >
       <li
         class="emotion-1"
       >
         <a
-          class="emotion-0"
+          class="emotion-2"
           href="/first"
           tabindex="0"
         >
@@ -102,7 +102,7 @@ exports[`should render correctly 1`] = `
       >
         <svg
           aria-hidden="true"
-          class="emotion-2"
+          class="emotion-4"
           height="1em"
           role="img"
           viewBox="0 0 24 24"
@@ -118,7 +118,7 @@ exports[`should render correctly 1`] = `
         class="emotion-1"
       >
         <a
-          class="emotion-0"
+          class="emotion-2"
           href="/first/second"
           tabindex="-1"
         >
@@ -132,7 +132,7 @@ exports[`should render correctly 1`] = `
       >
         <svg
           aria-hidden="true"
-          class="emotion-2"
+          class="emotion-4"
           height="1em"
           role="img"
           viewBox="0 0 24 24"
@@ -148,7 +148,7 @@ exports[`should render correctly 1`] = `
         class="emotion-9"
       >
         <a
-          class="emotion-0"
+          class="emotion-2"
           href="/first/second/third"
           tabindex="-1"
         >

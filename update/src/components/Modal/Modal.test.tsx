@@ -40,7 +40,7 @@ describe('Modal', () => {
     expect(document.body).toMatchSnapshot()
   })
 
-  it(`should'n add "overflow: hidden" property to document when manageOverflow is false`, () => {
+  it(`shouldn't add "overflow: hidden" property to document when manageOverflow is false`, () => {
     render(
       <Modal open={true} manageOverflow={false}>
         Testing.

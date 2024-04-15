@@ -1,12 +1,11 @@
-import React from 'react'
-import { Interpolation } from 'emotion'
-import { matchers } from 'jest-emotion'
+import { matchers } from '@emotion/jest'
 import { fireEvent, render } from '@testing-library/react'
+import React from 'react'
 
-import { createTheme } from '../../../../styles'
-import { defaultModifierStyles } from '../../Calendar'
+import { ExternalStyles, createTheme } from '../../../../styles'
 import { DateRange } from '../../../DateRangePicker/BaseDateRangeInput'
-import { dayHoverStyle, DateRangeCalendar, DateRangeCalendarProps } from './DateRangeCalendar'
+import { defaultModifierStyles } from '../../Calendar'
+import { DateRangeCalendar, DateRangeCalendarProps, dayHoverStyle } from './DateRangeCalendar'
 
 expect.extend(matchers)
 
@@ -65,7 +64,7 @@ describe('DateRangeCalendar', () => {
       const { getByText } = render(
         createComponent({ value: { startDate: new Date('2019-02-15'), endDate: undefined } as DateRange })
       )
-      const expectedStyle: Interpolation = defaultModifierStyles.selected(theme)
+      const expectedStyle: ExternalStyles = defaultModifierStyles.selected(theme)
 
       iterateObjectFields(expectedStyle, (fieldName: string, fieldValue: any) => {
         expect(getByText('14')).not.toHaveStyleRule(normalizeCssClassNames(fieldName), fieldValue)
@@ -90,7 +89,7 @@ describe('DateRangeCalendar', () => {
       const { getByText } = render(
         createComponent({ value: { startDate: new Date('2019-02-11'), endDate: new Date('2019-02-13') } as DateRange })
       )
-      const expectedStyle: Interpolation = defaultModifierStyles.selected(theme)
+      const expectedStyle: ExternalStyles = defaultModifierStyles.selected(theme)
 
       iterateObjectFields(expectedStyle, (fieldName: string, fieldValue: any) => {
         expect(getByText('10')).not.toHaveStyleRule(normalizeCssClassNames(fieldName), fieldValue)

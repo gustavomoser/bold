@@ -1,5 +1,5 @@
+import { matchers } from '@emotion/jest'
 import { fireEvent, render } from '@testing-library/react'
-import { matchers } from 'jest-emotion'
 import React from 'react'
 import { DateRange } from '../../../DateRangePicker/BaseDateRangeInput'
 import { ControlledDateRangeCalendar, ControlledDateRangeCalendarProps } from './ControlledDateRangeCalendar'

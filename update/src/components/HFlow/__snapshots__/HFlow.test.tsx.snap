@@ -4,7 +4,7 @@ exports[`should accept "style" prop 1`] = `
 .emotion-0 {
   display: grid;
   grid-auto-flow: column;
-  grid-auto-columns: minmax(min-content,max-content);
+  grid-auto-columns: minmax(min-content, max-content);
   grid-gap: 1rem;
   color: red;
 }
@@ -30,7 +30,7 @@ exports[`should accept some grid props 1`] = `
 .emotion-0 {
   display: grid;
   grid-auto-flow: column;
-  grid-auto-columns: minmax(min-content,max-content);
+  grid-auto-columns: minmax(min-content, max-content);
   grid-gap: 2rem;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -38,7 +38,6 @@ exports[`should accept some grid props 1`] = `
   align-items: center;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
@@ -63,7 +62,7 @@ exports[`should render correctly 1`] = `
 .emotion-0 {
   display: grid;
   grid-auto-flow: column;
-  grid-auto-columns: minmax(min-content,max-content);
+  grid-auto-columns: minmax(min-content, max-content);
   grid-gap: 1rem;
 }
 

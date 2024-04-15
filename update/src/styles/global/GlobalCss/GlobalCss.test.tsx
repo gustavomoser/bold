@@ -1,4 +1,5 @@
 import { sheet } from '@emotion/css'
+import { render } from '@testing-library/react'
 
 import React from 'react'
 import { DefaultGlobalCss, GlobalCss } from './GlobalCss'

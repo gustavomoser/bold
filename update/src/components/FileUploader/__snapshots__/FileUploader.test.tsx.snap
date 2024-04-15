@@ -1,80 +1,53 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should render correct without extension 1`] = `
-.emotion-5 {
+.emotion-0 {
   border-radius: 4px;
   background-color: #FFFFFF;
   -webkit-transition: box-shadow .2s ease;
   transition: box-shadow .2s ease;
 }
 
-.emotion-5:focus {
+.emotion-0:focus {
   outline: none;
   position: relative;
   box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
 }
 
-.emotion-4 {
+.emotion-1 {
   border: 1px solid#696979;
   border-radius: 4px;
   cursor: pointer;
   padding: 0.25em;
 }
 
-.emotion-3 {
+.emotion-2 {
   border: 1px dashed transparent;
   border-radius: 4px;
   padding: 0.52em;
 }
 
-.emotion-10 {
-  background-color: #FFFFFF;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-11 {
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  margin-left: 1rem;
-}
-
-.emotion-2 {
+.emotion-3 {
   display: grid;
   grid-auto-flow: column;
-  grid-auto-columns: minmax(min-content,max-content);
+  grid-auto-columns: minmax(min-content, max-content);
   grid-gap: 0.5rem;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
 }
 
-.emotion-0 {
+.emotion-4 {
   fill: #696979;
   font-size: 1.5rem;
 }
 
-.emotion-9 {
-  font-family: "IBM Plex Sans",sans-serif;
-  font-size: 0.8125rem;
-  line-height: 1.5;
-  color: #24252E;
-}
-
-.emotion-1 {
+.emotion-5 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 0.8125rem;
   line-height: 1.5;
@@ -84,7 +57,7 @@ exports[`should render correct without extension 1`] = `
   font-weight: bold;
 }
 
-.emotion-12 {
+.emotion-6 {
   border-radius: 4px;
   border-bottom: 1px solid #D3D4DD;
   border-left: 1px solid #D3D4DD;
@@ -101,7 +74,7 @@ exports[`should render correct without extension 1`] = `
   display: flex;
 }
 
-.emotion-6 {
+.emotion-7 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 0.8125rem;
   line-height: 1.5;
@@ -114,6 +87,32 @@ exports[`should render correct without extension 1`] = `
 }
 
 .emotion-8 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  margin-left: 1rem;
+}
+
+.emotion-9 {
+  background-color: #FFFFFF;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-10 {
+  fill: #0069D0;
+  font-size: 1rem;
+  margin-right: 5px;
+}
+
+.emotion-11 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 0.8125rem;
   line-height: 1.5;
@@ -122,36 +121,37 @@ exports[`should render correct without extension 1`] = `
   margin-right: 10px;
 }
 
-.emotion-7 {
-  fill: #0069D0;
-  font-size: 1rem;
-  margin-right: 5px;
+.emotion-12 {
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: #24252E;
 }
 
 <div>
   <div
-    class="emotion-5"
+    class="emotion-0"
+    role="presentation"
     tabindex="0"
   >
     <input
-      autocomplete="off"
       multiple=""
       style="display: none;"
       tabindex="-1"
       type="file"
     />
     <div
-      class="emotion-4"
+      class="emotion-1"
     >
       <div
-        class="emotion-3"
+        class="emotion-2"
       >
         <div
-          class="emotion-2"
+          class="emotion-3"
         >
           <svg
             aria-hidden="true"
-            class="emotion-0"
+            class="emotion-4"
             height="1em"
             role="img"
             viewBox="0 0 24 24"
@@ -163,27 +163,27 @@ exports[`should render correct without extension 1`] = `
             />
           </svg>
           <span
-            class="emotion-1"
+            class="emotion-5"
           />
         </div>
       </div>
     </div>
   </div>
   <div
-    class="emotion-12"
+    class="emotion-6"
   >
     <span
-      class="emotion-6"
+      class="emotion-7"
     />
     <div
-      class="emotion-11"
+      class="emotion-8"
     >
       <div
-        class="emotion-10"
+        class="emotion-9"
       >
         <svg
           aria-hidden="true"
-          class="emotion-7"
+          class="emotion-10"
           height="1em"
           role="img"
           viewBox="0 0 24 24"
@@ -195,12 +195,12 @@ exports[`should render correct without extension 1`] = `
           />
         </svg>
         <span
-          class="emotion-8"
+          class="emotion-11"
         >
           teste.pdf
         </span>
         <span
-          class="emotion-9"
+          class="emotion-12"
         >
           0 Bytes
         </span>
@@ -211,53 +211,53 @@ exports[`should render correct without extension 1`] = `
 `;
 
 exports[`should render correctly at initial state 1`] = `
-.emotion-5 {
+.emotion-0 {
   border-radius: 4px;
   background-color: #FFFFFF;
   -webkit-transition: box-shadow .2s ease;
   transition: box-shadow .2s ease;
 }
 
-.emotion-5:focus {
+.emotion-0:focus {
   outline: none;
   position: relative;
   box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
 }
 
-.emotion-4 {
+.emotion-1 {
   border: 1px solid#696979;
   border-radius: 4px;
   cursor: pointer;
   padding: 0.25em;
 }
 
-.emotion-3 {
+.emotion-2 {
   border: 1px dashed transparent;
   border-radius: 4px;
   padding: 0.52em;
 }
 
-.emotion-2 {
+.emotion-3 {
   display: grid;
   grid-auto-flow: column;
-  grid-auto-columns: minmax(min-content,max-content);
+  grid-auto-columns: minmax(min-content, max-content);
   grid-gap: 0.5rem;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
 }
 
-.emotion-0 {
+.emotion-4 {
   fill: #696979;
   font-size: 1.5rem;
 }
 
-.emotion-1 {
+.emotion-5 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 0.8125rem;
   line-height: 1.5;
@@ -269,28 +269,28 @@ exports[`should render correctly at initial state 1`] = `
 
 <div>
   <div
-    class="emotion-5"
+    class="emotion-0"
+    role="presentation"
     tabindex="0"
   >
     <input
-      autocomplete="off"
       multiple=""
       style="display: none;"
       tabindex="-1"
       type="file"
     />
     <div
-      class="emotion-4"
+      class="emotion-1"
     >
       <div
-        class="emotion-3"
+        class="emotion-2"
       >
         <div
-          class="emotion-2"
+          class="emotion-3"
         >
           <svg
             aria-hidden="true"
-            class="emotion-0"
+            class="emotion-4"
             height="1em"
             role="img"
             viewBox="0 0 24 24"
@@ -302,7 +302,7 @@ exports[`should render correctly at initial state 1`] = `
             />
           </svg>
           <span
-            class="emotion-1"
+            class="emotion-5"
           />
         </div>
       </div>
@@ -312,80 +312,53 @@ exports[`should render correctly at initial state 1`] = `
 `;
 
 exports[`should render correctly at uploading state 1`] = `
-.emotion-5 {
+.emotion-0 {
   border-radius: 4px;
   background-color: #FFFFFF;
   -webkit-transition: box-shadow .2s ease;
   transition: box-shadow .2s ease;
 }
 
-.emotion-5:focus {
+.emotion-0:focus {
   outline: none;
   position: relative;
   box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
 }
 
-.emotion-4 {
+.emotion-1 {
   border: 1px solid#696979;
   border-radius: 4px;
   cursor: pointer;
   padding: 0.25em;
 }
 
-.emotion-3 {
+.emotion-2 {
   border: 1px dashed transparent;
   border-radius: 4px;
   padding: 0.52em;
 }
 
-.emotion-9 {
-  background-color: #FFFFFF;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-11 {
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  margin-left: 1rem;
-}
-
-.emotion-2 {
+.emotion-3 {
   display: grid;
   grid-auto-flow: column;
-  grid-auto-columns: minmax(min-content,max-content);
+  grid-auto-columns: minmax(min-content, max-content);
   grid-gap: 0.5rem;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
 }
 
-.emotion-0 {
+.emotion-4 {
   fill: #696979;
   font-size: 1.5rem;
 }
 
-.emotion-8 {
-  font-family: "IBM Plex Sans",sans-serif;
-  font-size: 0.8125rem;
-  line-height: 1.5;
-  color: #24252E;
-}
-
-.emotion-1 {
+.emotion-5 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 0.8125rem;
   line-height: 1.5;
@@ -395,7 +368,7 @@ exports[`should render correctly at uploading state 1`] = `
   font-weight: bold;
 }
 
-.emotion-12 {
+.emotion-6 {
   border-radius: 4px;
   border-bottom: 1px solid #D3D4DD;
   border-left: 1px solid #D3D4DD;
@@ -412,7 +385,7 @@ exports[`should render correctly at uploading state 1`] = `
   display: flex;
 }
 
-.emotion-6 {
+.emotion-7 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 0.8125rem;
   line-height: 1.5;
@@ -424,7 +397,27 @@ exports[`should render correctly at uploading state 1`] = `
   padding: 1rem;
 }
 
-.emotion-7 {
+.emotion-8 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  margin-left: 1rem;
+}
+
+.emotion-9 {
+  background-color: #FFFFFF;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-10 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 0.8125rem;
   line-height: 1.5;
@@ -433,28 +426,36 @@ exports[`should render correctly at uploading state 1`] = `
   margin-right: 10px;
 }
 
-.emotion-10 {
+.emotion-11 {
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: #24252E;
+}
+
+.emotion-12 {
   -webkit-appearance: none;
   -moz-appearance: none;
+  -ms-appearance: none;
   appearance: none;
   border: none;
   height: 4px;
   width: 100%;
 }
 
-.emotion-10::-webkit-progress-bar {
+.emotion-12::-webkit-progress-bar {
   background-color: #F0F0F5;
   border-radius: 4px;
 }
 
-.emotion-10::-webkit-progress-value {
+.emotion-12::-webkit-progress-value {
   background-color: #0069D0;
   border-radius: 4px;
   -webkit-transition: all .3s;
   transition: all .3s;
 }
 
-.emotion-10::-moz-progress-bar {
+.emotion-12::-moz-progress-bar {
   background-color: #0069D0;
   border-radius: 4px;
   -webkit-transition: all .3s;
@@ -463,28 +464,28 @@ exports[`should render correctly at uploading state 1`] = `
 
 <div>
   <div
-    class="emotion-5"
+    class="emotion-0"
+    role="presentation"
     tabindex="0"
   >
     <input
-      autocomplete="off"
       multiple=""
       style="display: none;"
       tabindex="-1"
       type="file"
     />
     <div
-      class="emotion-4"
+      class="emotion-1"
     >
       <div
-        class="emotion-3"
+        class="emotion-2"
       >
         <div
-          class="emotion-2"
+          class="emotion-3"
         >
           <svg
             aria-hidden="true"
-            class="emotion-0"
+            class="emotion-4"
             height="1em"
             role="img"
             viewBox="0 0 24 24"
@@ -496,39 +497,39 @@ exports[`should render correctly at uploading state 1`] = `
             />
           </svg>
           <span
-            class="emotion-1"
+            class="emotion-5"
           />
         </div>
       </div>
     </div>
   </div>
   <div
-    class="emotion-12"
+    class="emotion-6"
   >
     <span
-      class="emotion-6"
+      class="emotion-7"
     >
       pdf
     </span>
     <div
-      class="emotion-11"
+      class="emotion-8"
     >
       <div
         class="emotion-9"
       >
         <span
-          class="emotion-7"
+          class="emotion-10"
         >
           teste.pdf
         </span>
         <span
-          class="emotion-8"
+          class="emotion-11"
         >
           0 Bytes
         </span>
       </div>
       <progress
-        class="emotion-10"
+        class="emotion-12"
         max="100"
         value="40"
       />
@@ -538,80 +539,53 @@ exports[`should render correctly at uploading state 1`] = `
 `;
 
 exports[`should render correctly complete state 1`] = `
-.emotion-5 {
+.emotion-0 {
   border-radius: 4px;
   background-color: #FFFFFF;
   -webkit-transition: box-shadow .2s ease;
   transition: box-shadow .2s ease;
 }
 
-.emotion-5:focus {
+.emotion-0:focus {
   outline: none;
   position: relative;
   box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
 }
 
-.emotion-4 {
+.emotion-1 {
   border: 1px solid#696979;
   border-radius: 4px;
   cursor: pointer;
   padding: 0.25em;
 }
 
-.emotion-3 {
+.emotion-2 {
   border: 1px dashed transparent;
   border-radius: 4px;
   padding: 0.52em;
 }
 
-.emotion-10 {
-  background-color: #FFFFFF;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-11 {
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  margin-left: 1rem;
-}
-
-.emotion-2 {
+.emotion-3 {
   display: grid;
   grid-auto-flow: column;
-  grid-auto-columns: minmax(min-content,max-content);
+  grid-auto-columns: minmax(min-content, max-content);
   grid-gap: 0.5rem;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
 }
 
-.emotion-0 {
+.emotion-4 {
   fill: #696979;
   font-size: 1.5rem;
 }
 
-.emotion-9 {
-  font-family: "IBM Plex Sans",sans-serif;
-  font-size: 0.8125rem;
-  line-height: 1.5;
-  color: #24252E;
-}
-
-.emotion-1 {
+.emotion-5 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 0.8125rem;
   line-height: 1.5;
@@ -621,7 +595,7 @@ exports[`should render correctly complete state 1`] = `
   font-weight: bold;
 }
 
-.emotion-12 {
+.emotion-6 {
   border-radius: 4px;
   border-bottom: 1px solid #D3D4DD;
   border-left: 1px solid #D3D4DD;
@@ -638,7 +612,7 @@ exports[`should render correctly complete state 1`] = `
   display: flex;
 }
 
-.emotion-6 {
+.emotion-7 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 0.8125rem;
   line-height: 1.5;
@@ -651,6 +625,32 @@ exports[`should render correctly complete state 1`] = `
 }
 
 .emotion-8 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  margin-left: 1rem;
+}
+
+.emotion-9 {
+  background-color: #FFFFFF;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-10 {
+  fill: #0069D0;
+  font-size: 1rem;
+  margin-right: 5px;
+}
+
+.emotion-11 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 0.8125rem;
   line-height: 1.5;
@@ -659,36 +659,37 @@ exports[`should render correctly complete state 1`] = `
   margin-right: 10px;
 }
 
-.emotion-7 {
-  fill: #0069D0;
-  font-size: 1rem;
-  margin-right: 5px;
+.emotion-12 {
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: #24252E;
 }
 
 <div>
   <div
-    class="emotion-5"
+    class="emotion-0"
+    role="presentation"
     tabindex="0"
   >
     <input
-      autocomplete="off"
       multiple=""
       style="display: none;"
       tabindex="-1"
       type="file"
     />
     <div
-      class="emotion-4"
+      class="emotion-1"
     >
       <div
-        class="emotion-3"
+        class="emotion-2"
       >
         <div
-          class="emotion-2"
+          class="emotion-3"
         >
           <svg
             aria-hidden="true"
-            class="emotion-0"
+            class="emotion-4"
             height="1em"
             role="img"
             viewBox="0 0 24 24"
@@ -700,29 +701,29 @@ exports[`should render correctly complete state 1`] = `
             />
           </svg>
           <span
-            class="emotion-1"
+            class="emotion-5"
           />
         </div>
       </div>
     </div>
   </div>
   <div
-    class="emotion-12"
+    class="emotion-6"
   >
     <span
-      class="emotion-6"
+      class="emotion-7"
     >
       pdf
     </span>
     <div
-      class="emotion-11"
+      class="emotion-8"
     >
       <div
-        class="emotion-10"
+        class="emotion-9"
       >
         <svg
           aria-hidden="true"
-          class="emotion-7"
+          class="emotion-10"
           height="1em"
           role="img"
           viewBox="0 0 24 24"
@@ -734,12 +735,12 @@ exports[`should render correctly complete state 1`] = `
           />
         </svg>
         <span
-          class="emotion-8"
+          class="emotion-11"
         >
           teste.pdf
         </span>
         <span
-          class="emotion-9"
+          class="emotion-12"
         >
           0 Bytes
         </span>

@@ -1,1 +1,2 @@
-export { VFlow, VFlowProps } from './VFlow'
+export { VFlow } from './VFlow'
+export type { VFlowProps } from './VFlow'

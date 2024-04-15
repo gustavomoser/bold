@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should renders correctly 1`] = `
-.emotion-15 {
+.emotion-0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -14,7 +14,7 @@ exports[`should renders correctly 1`] = `
   height: 40px;
 }
 
-.emotion-0 {
+.emotion-1 {
   font-weight: bold;
   display: -webkit-box;
   display: -webkit-flex;
@@ -28,7 +28,7 @@ exports[`should renders correctly 1`] = `
   padding-left: 1rem;
 }
 
-.emotion-14 {
+.emotion-2 {
   border-left: 1px solid #D3D4DD;
   display: -webkit-box;
   display: -webkit-flex;
@@ -43,15 +43,14 @@ exports[`should renders correctly 1`] = `
   flex: 1;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 4px 1rem;
 }
 
-.emotion-5 {
+.emotion-3 {
   display: grid;
   grid-auto-flow: column;
-  grid-auto-columns: minmax(min-content,max-content);
+  grid-auto-columns: minmax(min-content, max-content);
   grid-gap: 0.5rem;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -59,14 +58,14 @@ exports[`should renders correctly 1`] = `
   align-items: center;
 }
 
-.emotion-1 {
+.emotion-4 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 0.8125rem;
   line-height: 1.5;
   color: #24252E;
 }
 
-.emotion-4 {
+.emotion-5 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 0.8125rem;
   line-height: 1.5rem;
@@ -76,8 +75,8 @@ exports[`should renders correctly 1`] = `
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-user-select: none;
@@ -99,7 +98,7 @@ exports[`should renders correctly 1`] = `
   padding: 0 0.25rem;
 }
 
-.emotion-4 > span {
+.emotion-5>span {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -110,31 +109,26 @@ exports[`should renders correctly 1`] = `
   display: inline-flex;
 }
 
-.emotion-4:not(:disabled):active {
-  box-shadow: inset 0 2px 8px 0 rgba(0,0,0,0.1);
+.emotion-5:not(:disabled):active {
+  box-shadow: inset 0 2px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
-.emotion-4:focus {
+.emotion-5:focus {
   outline: none;
   box-shadow: 0 0 0 2px #0069D0;
 }
 
-.emotion-4:not(:disabled):hover {
-  background-color: rgba(58,58,71,0.1);
+.emotion-5:not(:disabled):hover {
+  background-color: rgba(58, 58, 71, 0.1);
 }
 
-.emotion-6 {
-  fill: currentColor;
-  font-size: 1.5rem;
-}
-
-.emotion-3 {
+.emotion-7 {
   fill: currentColor;
   font-size: 1.5rem;
   margin-left: 0.125rem;
 }
 
-.emotion-13 {
+.emotion-8 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -146,7 +140,7 @@ exports[`should renders correctly 1`] = `
   margin: 0;
 }
 
-.emotion-7 {
+.emotion-9 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 0.8125rem;
   line-height: 1.5rem;
@@ -156,8 +150,8 @@ exports[`should renders correctly 1`] = `
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-user-select: none;
@@ -178,7 +172,7 @@ exports[`should renders correctly 1`] = `
   padding: calc(0.25rem - 1px) calc(0.5rem - 1px);
 }
 
-.emotion-7 > span {
+.emotion-9>span {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -189,24 +183,29 @@ exports[`should renders correctly 1`] = `
   display: inline-flex;
 }
 
-.emotion-7:not(:disabled):active {
-  box-shadow: inset 0 2px 8px 0 rgba(0,0,0,0.1);
+.emotion-9:not(:disabled):active {
+  box-shadow: inset 0 2px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
-.emotion-7:focus {
+.emotion-9:focus {
   outline: none;
   box-shadow: 0 0 0 2px #0069D0;
 }
 
-.emotion-7:not(:disabled):hover {
-  background-color: rgba(58,58,71,0.1);
+.emotion-9:not(:disabled):hover {
+  background-color: rgba(58, 58, 71, 0.1);
 }
 
-.emotion-9 {
+.emotion-10 {
+  fill: currentColor;
+  font-size: 1.5rem;
+}
+
+.emotion-11 {
   position: relative;
 }
 
-.emotion-8 {
+.emotion-12 {
   background-color: #FFFFFF;
   border: solid 1px #8F8FA2;
   border-radius: 2px;
@@ -217,71 +216,69 @@ exports[`should renders correctly 1`] = `
   margin: 0;
   padding: calc(0.5rem - 1px) 0.5rem;
   width: 100%;
-  -webkit-transition-property: box-shadow;
   transition-property: box-shadow;
-  -webkit-transition-duration: .2s;
   transition-duration: .2s;
   width: 68px;
   text-align: center;
   margin: 0 0.5rem 0 0.25rem;
 }
 
-.emotion-8[type="search"]::-webkit-search-decoration {
+.emotion-12[type="search"]::-webkit-search-decoration {
   display: none;
 }
 
-.emotion-8[type="search"]::-webkit-search-cancel-button {
+.emotion-12[type="search"]::-webkit-search-cancel-button {
   display: none;
 }
 
-.emotion-8[type="search"]::-webkit-search-results-button {
+.emotion-12[type="search"]::-webkit-search-results-button {
   display: none;
 }
 
-.emotion-8[type="search"]::-webkit-search-results-decoration {
+.emotion-12[type="search"]::-webkit-search-results-decoration {
   display: none;
 }
 
-.emotion-8:required {
+.emotion-12:required {
   box-shadow: none;
 }
 
-.emotion-8::-webkit-input-placeholder {
+.emotion-12::-webkit-input-placeholder {
   color: #696979;
 }
 
-.emotion-8::-moz-placeholder {
+.emotion-12::-moz-placeholder {
   color: #696979;
 }
 
-.emotion-8:-ms-input-placeholder {
+.emotion-12:-ms-input-placeholder {
   color: #696979;
 }
 
-.emotion-8::placeholder {
+.emotion-12::placeholder {
   color: #696979;
 }
 
-.emotion-8:disabled {
+.emotion-12:disabled {
   border-color: #D3D4DD;
   background-color: #F0F0F5;
 }
 
-.emotion-8:not(:disabled):hover {
+.emotion-12:not(:disabled):hover {
   border-color: #7A7B8E;
 }
 
-.emotion-8:not(:disabled):focus {
+.emotion-12:not(:disabled):focus {
   outline: none;
   box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
 }
 
-.emotion-8:not(:disabled):active {
+.emotion-12:not(:disabled):active {
   border-color: #0069D0;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.09);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
 }
 
-.emotion-12 {
+.emotion-14 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 0.8125rem;
   line-height: 1.5rem;
@@ -291,8 +288,8 @@ exports[`should renders correctly 1`] = `
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-user-select: none;
@@ -314,7 +311,7 @@ exports[`should renders correctly 1`] = `
   margin-left: 0.25rem;
 }
 
-.emotion-12 > span {
+.emotion-14>span {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -325,55 +322,55 @@ exports[`should renders correctly 1`] = `
   display: inline-flex;
 }
 
-.emotion-12:not(:disabled):active {
-  box-shadow: inset 0 2px 8px 0 rgba(0,0,0,0.1);
+.emotion-14:not(:disabled):active {
+  box-shadow: inset 0 2px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
-.emotion-12:focus {
+.emotion-14:focus {
   outline: none;
   box-shadow: 0 0 0 2px #0069D0;
 }
 
-.emotion-12:not(:disabled):hover {
-  background-color: rgba(58,58,71,0.1);
+.emotion-14:not(:disabled):hover {
+  background-color: rgba(58, 58, 71, 0.1);
 }
 
 <div>
   <div
-    class="emotion-15"
+    class="emotion-0"
   >
     <span
-      class="emotion-0"
+      class="emotion-1"
     >
       <span>
         100 results
       </span>
     </span>
     <div
-      class="emotion-14"
+      class="emotion-2"
     >
       <div
-        class="emotion-5"
+        class="emotion-3"
       >
         <span
-          class="emotion-1"
+          class="emotion-4"
         >
           Mostrar:
         </span>
         <button
           aria-haspopup="true"
-          class="emotion-4"
+          class="emotion-5"
           type="button"
         >
           <span>
             <span
-              class="emotion-1"
+              class="emotion-4"
             >
               10
             </span>
             <svg
               aria-hidden="true"
-              class="emotion-3"
+              class="emotion-7"
               height="1em"
               role="img"
               viewBox="0 0 24 24"
@@ -388,17 +385,17 @@ exports[`should renders correctly 1`] = `
         </button>
       </div>
       <div
-        class="emotion-13"
+        class="emotion-8"
       >
         <button
-          class="emotion-7"
+          class="emotion-9"
           title="Previous page"
           type="button"
         >
           <span>
             <svg
               aria-hidden="true"
-              class="emotion-6"
+              class="emotion-10"
               height="1em"
               role="img"
               viewBox="0 0 24 24"
@@ -412,10 +409,10 @@ exports[`should renders correctly 1`] = `
           </span>
         </button>
         <div
-          class="emotion-9"
+          class="emotion-11"
         >
           <input
-            class="emotion-8"
+            class="emotion-12"
             maxlength="4"
             title="Current page"
             type="text"
@@ -423,21 +420,21 @@ exports[`should renders correctly 1`] = `
           />
         </div>
         <span
-          class="emotion-1"
+          class="emotion-4"
         >
           of
            
           10
         </span>
         <button
-          class="emotion-12"
+          class="emotion-14"
           title="Next page"
           type="button"
         >
           <span>
             <svg
               aria-hidden="true"
-              class="emotion-6"
+              class="emotion-10"
               height="1em"
               role="img"
               viewBox="0 0 24 24"
@@ -457,7 +454,7 @@ exports[`should renders correctly 1`] = `
 `;
 
 exports[`should renders correctly without pagination 1`] = `
-.emotion-1 {
+.emotion-0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -470,7 +467,7 @@ exports[`should renders correctly without pagination 1`] = `
   height: 40px;
 }
 
-.emotion-0 {
+.emotion-1 {
   font-weight: bold;
   display: -webkit-box;
   display: -webkit-flex;
@@ -486,10 +483,10 @@ exports[`should renders correctly without pagination 1`] = `
 
 <div>
   <div
-    class="emotion-1"
+    class="emotion-0"
   >
     <span
-      class="emotion-0"
+      class="emotion-1"
     >
       <span>
         10 results

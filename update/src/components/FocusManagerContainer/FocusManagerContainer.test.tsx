@@ -1,4 +1,4 @@
-import { fireEvent, render, wait } from '@testing-library/react'
+import { fireEvent, render, waitFor } from '@testing-library/react'
 import React from 'react'
 
 import { act } from 'react-dom/test-utils'
@@ -41,17 +41,14 @@ it('should call onFocusOut prop when focus leaves the container', async () => {
   expect(focusOut).not.toHaveBeenCalled()
 
   fireEvent.focus(container.querySelector('#input1'))
-  await wait()
-  expect(focusOut).not.toHaveBeenCalled()
+  await waitFor(() => expect(focusOut).not.toHaveBeenCalled())
 
   fireEvent.focus(container.querySelector('#input2'))
-  await wait()
-  expect(focusOut).not.toHaveBeenCalled()
+  await waitFor(() => expect(focusOut).not.toHaveBeenCalled())
 
   fireEvent.blur(container.querySelector('#input2'))
 
   act(() => jest.runAllTimers())
 
-  await wait()
-  expect(focusOut).toHaveBeenCalledTimes(1)
+  await waitFor(() => expect(focusOut).toHaveBeenCalledTimes(1))
 })

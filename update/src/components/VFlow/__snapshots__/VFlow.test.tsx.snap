@@ -2,24 +2,6 @@
 
 exports[`should accept "style" prop 1`] = `
 .emotion-0 {
-  display: inline-block;
-  margin-bottom: 0.5rem;
-  margin-top: 0.5rem;
-}
-
-.emotion-0:first-of-type {
-  margin-top: 0;
-}
-
-.emotion-0:last-of-type {
-  margin-bottom: 0;
-}
-
-.emotion-0:empty {
-  display: none;
-}
-
-.emotion-3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -30,26 +12,44 @@ exports[`should accept "style" prop 1`] = `
   color: red;
 }
 
+.emotion-1 {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.emotion-1:first-of-type {
+  margin-top: 0;
+}
+
+.emotion-1:last-of-type {
+  margin-bottom: 0;
+}
+
+.emotion-1:empty {
+  display: none;
+}
+
 <div>
   <div
-    class="emotion-3"
+    class="emotion-0"
   >
     <div
-      class="emotion-0"
+      class="emotion-1"
     >
       <span>
         1
       </span>
     </div>
     <div
-      class="emotion-0"
+      class="emotion-1"
     >
       <span>
         2
       </span>
     </div>
     <div
-      class="emotion-0"
+      class="emotion-1"
     >
       <span>
         3
@@ -60,7 +60,7 @@ exports[`should accept "style" prop 1`] = `
 `;
 
 exports[`should render correctly 1`] = `
-.emotion-4 {
+.emotion-0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -70,51 +70,51 @@ exports[`should render correctly 1`] = `
   flex-direction: column;
 }
 
-.emotion-0 {
+.emotion-1 {
   display: inline-block;
   margin-bottom: 0.5rem;
   margin-top: 0.5rem;
 }
 
-.emotion-0:first-of-type {
+.emotion-1:first-of-type {
   margin-top: 0;
 }
 
-.emotion-0:last-of-type {
+.emotion-1:last-of-type {
   margin-bottom: 0;
 }
 
-.emotion-0:empty {
+.emotion-1:empty {
   display: none;
 }
 
 <div>
   <div
-    class="emotion-4"
+    class="emotion-0"
   >
     <div
-      class="emotion-0"
+      class="emotion-1"
     >
       <span>
         1
       </span>
     </div>
     <div
-      class="emotion-0"
+      class="emotion-1"
     >
       <span>
         2
       </span>
     </div>
     <div
-      class="emotion-0"
+      class="emotion-1"
     >
       <span>
         3
       </span>
     </div>
     <div
-      class="emotion-0"
+      class="emotion-1"
     >
       456
     </div>
@@ -123,7 +123,7 @@ exports[`should render correctly 1`] = `
 `;
 
 exports[`should render wrappers only for valid children 1`] = `
-.emotion-2 {
+.emotion-0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -133,37 +133,37 @@ exports[`should render wrappers only for valid children 1`] = `
   flex-direction: column;
 }
 
-.emotion-0 {
+.emotion-1 {
   display: inline-block;
   margin-bottom: 0.5rem;
   margin-top: 0.5rem;
 }
 
-.emotion-0:first-of-type {
+.emotion-1:first-of-type {
   margin-top: 0;
 }
 
-.emotion-0:last-of-type {
+.emotion-1:last-of-type {
   margin-bottom: 0;
 }
 
-.emotion-0:empty {
+.emotion-1:empty {
   display: none;
 }
 
 <div>
   <div
-    class="emotion-2"
+    class="emotion-0"
   >
     <div
-      class="emotion-0"
+      class="emotion-1"
     >
       <span>
         testing vflow
       </span>
     </div>
     <div
-      class="emotion-0"
+      class="emotion-1"
     >
       <span>
         testing vflow

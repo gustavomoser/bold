@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`DateRangePicker render should render correctly 1`] = `
-.emotion-4 {
+.emotion-0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -11,25 +11,25 @@ exports[`DateRangePicker render should render correctly 1`] = `
   flex-direction: column;
 }
 
-.emotion-3 {
+.emotion-1 {
   display: inline-block;
   margin-bottom: 0rem;
   margin-top: 0rem;
 }
 
-.emotion-3:first-of-type {
+.emotion-1:first-of-type {
   margin-top: 0;
 }
 
-.emotion-3:last-of-type {
+.emotion-1:last-of-type {
   margin-bottom: 0;
 }
 
-.emotion-3:empty {
+.emotion-1:empty {
   display: none;
 }
 
-.emotion-16 {
+.emotion-3 {
   background-color: #FFFFFF;
   border: 1px solid#AAAAB9;
   border-radius: 2px;
@@ -43,25 +43,126 @@ exports[`DateRangePicker render should render correctly 1`] = `
   transition: box-shadow .2s ease;
 }
 
-.emotion-16:required {
+.emotion-3:required {
   box-shadow: none;
 }
 
-.emotion-16:not(:disabled):hover {
+.emotion-3:not(:disabled):hover {
   border-color: #8F8FA2;
 }
 
-.emotion-16:not(:disabled):active {
+.emotion-3:not(:disabled):active {
   border-color: #0069D0;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.09);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
 }
 
-.emotion-16:focus-within:not(:disabled) {
+.emotion-3:focus-within:not(:disabled) {
   box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
   outline: none;
 }
 
-.emotion-6 {
+.emotion-4 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.emotion-8 {
+  position: relative;
+}
+
+.emotion-9 {
+  background-color: #FFFFFF;
+  border: solid 1px #8F8FA2;
+  border-radius: 2px;
+  color: #24252E;
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1rem;
+  margin: 0;
+  padding: calc(0.5rem - 1px) 0.5rem;
+  width: 100%;
+  transition-property: box-shadow;
+  transition-duration: .2s;
+  border: none;
+}
+
+.emotion-9[type="search"]::-webkit-search-decoration {
+  display: none;
+}
+
+.emotion-9[type="search"]::-webkit-search-cancel-button {
+  display: none;
+}
+
+.emotion-9[type="search"]::-webkit-search-results-button {
+  display: none;
+}
+
+.emotion-9[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+.emotion-9:required {
+  box-shadow: none;
+}
+
+.emotion-9::-webkit-input-placeholder {
+  color: #696979;
+}
+
+.emotion-9::-moz-placeholder {
+  color: #696979;
+}
+
+.emotion-9:-ms-input-placeholder {
+  color: #696979;
+}
+
+.emotion-9::placeholder {
+  color: #696979;
+}
+
+.emotion-9:disabled {
+  border-color: #D3D4DD;
+  background-color: #F0F0F5;
+}
+
+.emotion-9:not(:disabled):hover {
+  border-color: #7A7B8E;
+}
+
+.emotion-9:not(:disabled):focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
+}
+
+.emotion-9:not(:disabled):active {
+  border-color: #0069D0;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
+}
+
+.emotion-9::-webkit-input-placeholder {
+  color: #696979;
+}
+
+.emotion-9::-moz-placeholder {
+  color: #696979;
+}
+
+.emotion-9:-ms-input-placeholder {
+  color: #696979;
+}
+
+.emotion-9::placeholder {
+  color: #696979;
+}
+
+.emotion-9:focus {
+  box-shadow: none!important;
+}
+
+.emotion-10 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -75,13 +176,7 @@ exports[`DateRangePicker render should render correctly 1`] = `
   position: relative;
 }
 
-.emotion-5 {
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-}
-
-.emotion-15 {
+.emotion-17 {
   background-color: #F0F0F5;
   display: -webkit-box;
   display: -webkit-flex;
@@ -92,112 +187,15 @@ exports[`DateRangePicker render should render correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   width: 2.5rem;
   border-top-right-radius: 1px;
   border-bottom-right-radius: 1px;
 }
 
-.emotion-1 {
-  position: relative;
-}
-
-.emotion-0 {
-  background-color: #FFFFFF;
-  border: solid 1px #8F8FA2;
-  border-radius: 2px;
-  color: #24252E;
-  font-family: "IBM Plex Sans",sans-serif;
-  font-size: 0.8125rem;
-  line-height: 1rem;
-  margin: 0;
-  padding: calc(0.5rem - 1px) 0.5rem;
-  width: 100%;
-  -webkit-transition-property: box-shadow;
-  transition-property: box-shadow;
-  -webkit-transition-duration: .2s;
-  transition-duration: .2s;
-  border: none;
-}
-
-.emotion-0[type="search"]::-webkit-search-decoration {
-  display: none;
-}
-
-.emotion-0[type="search"]::-webkit-search-cancel-button {
-  display: none;
-}
-
-.emotion-0[type="search"]::-webkit-search-results-button {
-  display: none;
-}
-
-.emotion-0[type="search"]::-webkit-search-results-decoration {
-  display: none;
-}
-
-.emotion-0:required {
-  box-shadow: none;
-}
-
-.emotion-0::-webkit-input-placeholder {
-  color: #696979;
-}
-
-.emotion-0::-moz-placeholder {
-  color: #696979;
-}
-
-.emotion-0:-ms-input-placeholder {
-  color: #696979;
-}
-
-.emotion-0::placeholder {
-  color: #696979;
-}
-
-.emotion-0:disabled {
-  border-color: #D3D4DD;
-  background-color: #F0F0F5;
-}
-
-.emotion-0:not(:disabled):hover {
-  border-color: #7A7B8E;
-}
-
-.emotion-0:not(:disabled):focus {
-  outline: none;
-  box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
-}
-
-.emotion-0:not(:disabled):active {
-  border-color: #0069D0;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.09);
-}
-
-.emotion-0::-webkit-input-placeholder {
-  color: #696979;
-}
-
-.emotion-0::-moz-placeholder {
-  color: #696979;
-}
-
-.emotion-0:-ms-input-placeholder {
-  color: #696979;
-}
-
-.emotion-0::placeholder {
-  color: #696979;
-}
-
-.emotion-0:focus {
-  box-shadow: none !important;
-}
-
-.emotion-14 {
+.emotion-18 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 0.8125rem;
   line-height: 1.5rem;
@@ -207,8 +205,8 @@ exports[`DateRangePicker render should render correctly 1`] = `
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-user-select: none;
@@ -231,7 +229,7 @@ exports[`DateRangePicker render should render correctly 1`] = `
   border-radius: inherit;
 }
 
-.emotion-14 > span {
+.emotion-18>span {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -242,24 +240,24 @@ exports[`DateRangePicker render should render correctly 1`] = `
   display: inline-flex;
 }
 
-.emotion-14:not(:disabled):active {
-  box-shadow: inset 0 2px 8px 0 rgba(0,0,0,0.1);
+.emotion-18:not(:disabled):active {
+  box-shadow: inset 0 2px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
-.emotion-14:focus {
+.emotion-18:focus {
   outline: none;
   box-shadow: 0 0 0 2px #0069D0;
 }
 
-.emotion-14:not(:disabled):hover {
-  background-color: rgba(58,58,71,0.1);
+.emotion-18:not(:disabled):hover {
+  background-color: rgba(58, 58, 71, 0.1);
 }
 
-.emotion-14:focus {
+.emotion-18:focus {
   box-shadow: none;
 }
 
-.emotion-13 {
+.emotion-19 {
   fill: currentColor;
   font-size: 1.5rem;
 }
@@ -267,36 +265,36 @@ exports[`DateRangePicker render should render correctly 1`] = `
 <div>
   <div>
     <div
-      class="emotion-4"
+      class="emotion-0"
     >
       <div
-        class="emotion-3"
+        class="emotion-1"
       >
         <div
           class="emotion-2"
         >
           <div>
             <div
-              class="emotion-16"
+              class="emotion-3"
             >
               <div
-                class="emotion-5"
+                class="emotion-4"
               >
                 <div
-                  class="emotion-4"
+                  class="emotion-0"
                 >
                   <div
-                    class="emotion-3"
+                    class="emotion-1"
                   >
                     <div
                       class="emotion-2"
                     >
                       <div
-                        class="emotion-1"
+                        class="emotion-8"
                       >
                         <input
                           autocomplete="off"
-                          class="emotion-0"
+                          class="emotion-9"
                           name="startDate"
                           placeholder="mm/dd/yyyy"
                           type="text"
@@ -308,30 +306,30 @@ exports[`DateRangePicker render should render correctly 1`] = `
                 </div>
               </div>
               <span
-                class="emotion-6"
+                class="emotion-10"
               >
                 <strong>
                   until
                 </strong>
               </span>
               <div
-                class="emotion-5"
+                class="emotion-4"
               >
                 <div
-                  class="emotion-4"
+                  class="emotion-0"
                 >
                   <div
-                    class="emotion-3"
+                    class="emotion-1"
                   >
                     <div
                       class="emotion-2"
                     >
                       <div
-                        class="emotion-1"
+                        class="emotion-8"
                       >
                         <input
                           autocomplete="off"
-                          class="emotion-0"
+                          class="emotion-9"
                           name="endDate"
                           placeholder="mm/dd/yyyy"
                           type="text"
@@ -343,17 +341,17 @@ exports[`DateRangePicker render should render correctly 1`] = `
                 </div>
               </div>
               <span
-                class="emotion-15"
+                class="emotion-17"
               >
                 <button
-                  class="emotion-14"
+                  class="emotion-18"
                   tabindex="-1"
                   type="button"
                 >
                   <span>
                     <svg
                       aria-hidden="true"
-                      class="emotion-13"
+                      class="emotion-19"
                       height="1em"
                       role="img"
                       viewBox="0 0 24 24"
@@ -376,7 +374,7 @@ exports[`DateRangePicker render should render correctly 1`] = `
 `;
 
 exports[`DateRangePicker render should render correctly when disabled 1`] = `
-.emotion-4 {
+.emotion-0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -386,152 +384,25 @@ exports[`DateRangePicker render should render correctly when disabled 1`] = `
   flex-direction: column;
 }
 
-.emotion-3 {
+.emotion-1 {
   display: inline-block;
   margin-bottom: 0rem;
   margin-top: 0rem;
 }
 
-.emotion-3:first-of-type {
+.emotion-1:first-of-type {
   margin-top: 0;
 }
 
-.emotion-3:last-of-type {
+.emotion-1:last-of-type {
   margin-bottom: 0;
 }
 
-.emotion-3:empty {
+.emotion-1:empty {
   display: none;
 }
 
-.emotion-5 {
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-}
-
-.emotion-15 {
-  background-color: #F0F0F5;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  width: 2.5rem;
-  border-top-right-radius: 1px;
-  border-bottom-right-radius: 1px;
-}
-
-.emotion-1 {
-  position: relative;
-}
-
-.emotion-0 {
-  background-color: #FFFFFF;
-  border: solid 1px #8F8FA2;
-  border-radius: 2px;
-  color: #24252E;
-  font-family: "IBM Plex Sans",sans-serif;
-  font-size: 0.8125rem;
-  line-height: 1rem;
-  margin: 0;
-  padding: calc(0.5rem - 1px) 0.5rem;
-  width: 100%;
-  -webkit-transition-property: box-shadow;
-  transition-property: box-shadow;
-  -webkit-transition-duration: .2s;
-  transition-duration: .2s;
-  border: none;
-}
-
-.emotion-0[type="search"]::-webkit-search-decoration {
-  display: none;
-}
-
-.emotion-0[type="search"]::-webkit-search-cancel-button {
-  display: none;
-}
-
-.emotion-0[type="search"]::-webkit-search-results-button {
-  display: none;
-}
-
-.emotion-0[type="search"]::-webkit-search-results-decoration {
-  display: none;
-}
-
-.emotion-0:required {
-  box-shadow: none;
-}
-
-.emotion-0::-webkit-input-placeholder {
-  color: #696979;
-}
-
-.emotion-0::-moz-placeholder {
-  color: #696979;
-}
-
-.emotion-0:-ms-input-placeholder {
-  color: #696979;
-}
-
-.emotion-0::placeholder {
-  color: #696979;
-}
-
-.emotion-0:disabled {
-  border-color: #D3D4DD;
-  background-color: #F0F0F5;
-}
-
-.emotion-0:not(:disabled):hover {
-  border-color: #7A7B8E;
-}
-
-.emotion-0:not(:disabled):focus {
-  outline: none;
-  box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
-}
-
-.emotion-0:not(:disabled):active {
-  border-color: #0069D0;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.09);
-}
-
-.emotion-0::-webkit-input-placeholder {
-  color: #696979;
-}
-
-.emotion-0::-moz-placeholder {
-  color: #696979;
-}
-
-.emotion-0:-ms-input-placeholder {
-  color: #696979;
-}
-
-.emotion-0::placeholder {
-  color: #696979;
-}
-
-.emotion-0:focus {
-  box-shadow: none !important;
-}
-
-.emotion-13 {
-  fill: currentColor;
-  font-size: 1.5rem;
-}
-
-.emotion-16 {
+.emotion-3 {
   background-color: #FFFFFF;
   border: 1px solid#AAAAB9;
   border-radius: 2px;
@@ -546,25 +417,126 @@ exports[`DateRangePicker render should render correctly when disabled 1`] = `
   background: #F0F0F5;
 }
 
-.emotion-16:required {
+.emotion-3:required {
   box-shadow: none;
 }
 
-.emotion-16:not(:disabled):hover {
+.emotion-3:not(:disabled):hover {
   border-color: #8F8FA2;
 }
 
-.emotion-16:not(:disabled):active {
+.emotion-3:not(:disabled):active {
   border-color: #0069D0;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.09);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
 }
 
-.emotion-16:focus-within:not(:disabled) {
+.emotion-3:focus-within:not(:disabled) {
   box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
   outline: none;
 }
 
-.emotion-6 {
+.emotion-4 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.emotion-8 {
+  position: relative;
+}
+
+.emotion-9 {
+  background-color: #FFFFFF;
+  border: solid 1px #8F8FA2;
+  border-radius: 2px;
+  color: #24252E;
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1rem;
+  margin: 0;
+  padding: calc(0.5rem - 1px) 0.5rem;
+  width: 100%;
+  transition-property: box-shadow;
+  transition-duration: .2s;
+  border: none;
+}
+
+.emotion-9[type="search"]::-webkit-search-decoration {
+  display: none;
+}
+
+.emotion-9[type="search"]::-webkit-search-cancel-button {
+  display: none;
+}
+
+.emotion-9[type="search"]::-webkit-search-results-button {
+  display: none;
+}
+
+.emotion-9[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+.emotion-9:required {
+  box-shadow: none;
+}
+
+.emotion-9::-webkit-input-placeholder {
+  color: #696979;
+}
+
+.emotion-9::-moz-placeholder {
+  color: #696979;
+}
+
+.emotion-9:-ms-input-placeholder {
+  color: #696979;
+}
+
+.emotion-9::placeholder {
+  color: #696979;
+}
+
+.emotion-9:disabled {
+  border-color: #D3D4DD;
+  background-color: #F0F0F5;
+}
+
+.emotion-9:not(:disabled):hover {
+  border-color: #7A7B8E;
+}
+
+.emotion-9:not(:disabled):focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
+}
+
+.emotion-9:not(:disabled):active {
+  border-color: #0069D0;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
+}
+
+.emotion-9::-webkit-input-placeholder {
+  color: #696979;
+}
+
+.emotion-9::-moz-placeholder {
+  color: #696979;
+}
+
+.emotion-9:-ms-input-placeholder {
+  color: #696979;
+}
+
+.emotion-9::placeholder {
+  color: #696979;
+}
+
+.emotion-9:focus {
+  box-shadow: none!important;
+}
+
+.emotion-10 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -579,7 +551,26 @@ exports[`DateRangePicker render should render correctly when disabled 1`] = `
   position: relative;
 }
 
-.emotion-14 {
+.emotion-17 {
+  background-color: #F0F0F5;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  width: 2.5rem;
+  border-top-right-radius: 1px;
+  border-bottom-right-radius: 1px;
+}
+
+.emotion-18 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 0.8125rem;
   line-height: 1.5rem;
@@ -589,8 +580,8 @@ exports[`DateRangePicker render should render correctly when disabled 1`] = `
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-user-select: none;
@@ -615,7 +606,7 @@ exports[`DateRangePicker render should render correctly when disabled 1`] = `
   border-radius: inherit;
 }
 
-.emotion-14 > span {
+.emotion-18>span {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -626,56 +617,61 @@ exports[`DateRangePicker render should render correctly when disabled 1`] = `
   display: inline-flex;
 }
 
-.emotion-14:not(:disabled):active {
-  box-shadow: inset 0 2px 8px 0 rgba(0,0,0,0.1);
+.emotion-18:not(:disabled):active {
+  box-shadow: inset 0 2px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
-.emotion-14:focus {
+.emotion-18:focus {
   outline: none;
   box-shadow: 0 0 0 2px #0069D0;
 }
 
-.emotion-14:not(:disabled):hover {
-  background-color: rgba(58,58,71,0.1);
+.emotion-18:not(:disabled):hover {
+  background-color: rgba(58, 58, 71, 0.1);
 }
 
-.emotion-14:focus {
+.emotion-18:focus {
   box-shadow: none;
+}
+
+.emotion-19 {
+  fill: currentColor;
+  font-size: 1.5rem;
 }
 
 <div>
   <div>
     <div
-      class="emotion-4"
+      class="emotion-0"
     >
       <div
-        class="emotion-3"
+        class="emotion-1"
       >
         <div
           class="emotion-2"
         >
           <div>
             <div
-              class="emotion-16"
+              class="emotion-3"
             >
               <div
-                class="emotion-5"
+                class="emotion-4"
               >
                 <div
-                  class="emotion-4"
+                  class="emotion-0"
                 >
                   <div
-                    class="emotion-3"
+                    class="emotion-1"
                   >
                     <div
                       class="emotion-2"
                     >
                       <div
-                        class="emotion-1"
+                        class="emotion-8"
                       >
                         <input
                           autocomplete="off"
-                          class="emotion-0"
+                          class="emotion-9"
                           disabled=""
                           name="startDate"
                           placeholder="mm/dd/yyyy"
@@ -688,30 +684,30 @@ exports[`DateRangePicker render should render correctly when disabled 1`] = `
                 </div>
               </div>
               <span
-                class="emotion-6"
+                class="emotion-10"
               >
                 <strong>
                   until
                 </strong>
               </span>
               <div
-                class="emotion-5"
+                class="emotion-4"
               >
                 <div
-                  class="emotion-4"
+                  class="emotion-0"
                 >
                   <div
-                    class="emotion-3"
+                    class="emotion-1"
                   >
                     <div
                       class="emotion-2"
                     >
                       <div
-                        class="emotion-1"
+                        class="emotion-8"
                       >
                         <input
                           autocomplete="off"
-                          class="emotion-0"
+                          class="emotion-9"
                           disabled=""
                           name="endDate"
                           placeholder="mm/dd/yyyy"
@@ -724,10 +720,10 @@ exports[`DateRangePicker render should render correctly when disabled 1`] = `
                 </div>
               </div>
               <span
-                class="emotion-15"
+                class="emotion-17"
               >
                 <button
-                  class="emotion-14"
+                  class="emotion-18"
                   disabled=""
                   tabindex="-1"
                   type="button"
@@ -735,7 +731,7 @@ exports[`DateRangePicker render should render correctly when disabled 1`] = `
                   <span>
                     <svg
                       aria-hidden="true"
-                      class="emotion-13"
+                      class="emotion-19"
                       height="1em"
                       role="img"
                       viewBox="0 0 24 24"
@@ -758,7 +754,7 @@ exports[`DateRangePicker render should render correctly when disabled 1`] = `
 `;
 
 exports[`DateRangePicker render should render correctly when invalid 1`] = `
-.emotion-4 {
+.emotion-0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -768,25 +764,170 @@ exports[`DateRangePicker render should render correctly when invalid 1`] = `
   flex-direction: column;
 }
 
-.emotion-3 {
+.emotion-1 {
   display: inline-block;
   margin-bottom: 0rem;
   margin-top: 0rem;
 }
 
-.emotion-3:first-of-type {
+.emotion-1:first-of-type {
   margin-top: 0;
 }
 
-.emotion-3:last-of-type {
+.emotion-1:last-of-type {
   margin-bottom: 0;
 }
 
-.emotion-3:empty {
+.emotion-1:empty {
   display: none;
 }
 
-.emotion-6 {
+.emotion-3 {
+  background-color: #FFFFFF;
+  border: 1px solid#AAAAB9;
+  border-radius: 2px;
+  cursor: default;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-transition: box-shadow .2s ease;
+  transition: box-shadow .2s ease;
+  border: solid 1px #D01E29;
+}
+
+.emotion-3:required {
+  box-shadow: none;
+}
+
+.emotion-3:not(:disabled):hover {
+  border-color: #8F8FA2;
+}
+
+.emotion-3:not(:disabled):active {
+  border-color: #0069D0;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
+}
+
+.emotion-3:focus-within:not(:disabled) {
+  box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
+  outline: none;
+}
+
+.emotion-3:focus-within:not(:disabled) {
+  border: solid 1px #D3D4DD;
+  box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #D01E29;
+}
+
+.emotion-4 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.emotion-8 {
+  position: relative;
+}
+
+.emotion-9 {
+  background-color: #FFFFFF;
+  border: solid 1px #8F8FA2;
+  border-radius: 2px;
+  color: #24252E;
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1rem;
+  margin: 0;
+  padding: calc(0.5rem - 1px) 0.5rem;
+  width: 100%;
+  transition-property: box-shadow;
+  transition-duration: .2s;
+  border: solid 1px #D01E29;
+  border: none;
+}
+
+.emotion-9[type="search"]::-webkit-search-decoration {
+  display: none;
+}
+
+.emotion-9[type="search"]::-webkit-search-cancel-button {
+  display: none;
+}
+
+.emotion-9[type="search"]::-webkit-search-results-button {
+  display: none;
+}
+
+.emotion-9[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+.emotion-9:required {
+  box-shadow: none;
+}
+
+.emotion-9::-webkit-input-placeholder {
+  color: #696979;
+}
+
+.emotion-9::-moz-placeholder {
+  color: #696979;
+}
+
+.emotion-9:-ms-input-placeholder {
+  color: #696979;
+}
+
+.emotion-9::placeholder {
+  color: #696979;
+}
+
+.emotion-9:disabled {
+  border-color: #D3D4DD;
+  background-color: #F0F0F5;
+}
+
+.emotion-9:not(:disabled):hover {
+  border-color: #7A7B8E;
+}
+
+.emotion-9:not(:disabled):focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
+}
+
+.emotion-9:not(:disabled):active {
+  border-color: #0069D0;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
+}
+
+.emotion-9:not(:disabled):focus {
+  border: solid 1px #D3D4DD;
+  box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #D01E29;
+}
+
+.emotion-9::-webkit-input-placeholder {
+  color: #696979;
+}
+
+.emotion-9::-moz-placeholder {
+  color: #696979;
+}
+
+.emotion-9:-ms-input-placeholder {
+  color: #696979;
+}
+
+.emotion-9::placeholder {
+  color: #696979;
+}
+
+.emotion-9:focus {
+  box-shadow: none!important;
+}
+
+.emotion-10 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -800,13 +941,7 @@ exports[`DateRangePicker render should render correctly when invalid 1`] = `
   position: relative;
 }
 
-.emotion-5 {
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-}
-
-.emotion-15 {
+.emotion-17 {
   background-color: #F0F0F5;
   display: -webkit-box;
   display: -webkit-flex;
@@ -817,19 +952,15 @@ exports[`DateRangePicker render should render correctly when invalid 1`] = `
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   width: 2.5rem;
   border-top-right-radius: 1px;
   border-bottom-right-radius: 1px;
 }
 
-.emotion-1 {
-  position: relative;
-}
-
-.emotion-14 {
+.emotion-18 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 0.8125rem;
   line-height: 1.5rem;
@@ -839,8 +970,8 @@ exports[`DateRangePicker render should render correctly when invalid 1`] = `
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-user-select: none;
@@ -863,7 +994,7 @@ exports[`DateRangePicker render should render correctly when invalid 1`] = `
   border-radius: inherit;
 }
 
-.emotion-14 > span {
+.emotion-18>span {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -874,198 +1005,61 @@ exports[`DateRangePicker render should render correctly when invalid 1`] = `
   display: inline-flex;
 }
 
-.emotion-14:not(:disabled):active {
-  box-shadow: inset 0 2px 8px 0 rgba(0,0,0,0.1);
+.emotion-18:not(:disabled):active {
+  box-shadow: inset 0 2px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
-.emotion-14:focus {
+.emotion-18:focus {
   outline: none;
   box-shadow: 0 0 0 2px #0069D0;
 }
 
-.emotion-14:not(:disabled):hover {
-  background-color: rgba(58,58,71,0.1);
+.emotion-18:not(:disabled):hover {
+  background-color: rgba(58, 58, 71, 0.1);
 }
 
-.emotion-14:focus {
+.emotion-18:focus {
   box-shadow: none;
 }
 
-.emotion-13 {
+.emotion-19 {
   fill: currentColor;
   font-size: 1.5rem;
-}
-
-.emotion-16 {
-  background-color: #FFFFFF;
-  border: 1px solid#AAAAB9;
-  border-radius: 2px;
-  cursor: default;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  position: relative;
-  -webkit-transition: box-shadow .2s ease;
-  transition: box-shadow .2s ease;
-  border: solid 1px #D01E29;
-}
-
-.emotion-16:required {
-  box-shadow: none;
-}
-
-.emotion-16:not(:disabled):hover {
-  border-color: #8F8FA2;
-}
-
-.emotion-16:not(:disabled):active {
-  border-color: #0069D0;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.09);
-}
-
-.emotion-16:focus-within:not(:disabled) {
-  box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
-  outline: none;
-}
-
-.emotion-16:focus-within:not(:disabled) {
-  border: solid 1px #D3D4DD;
-  box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #D01E29;
-}
-
-.emotion-0 {
-  background-color: #FFFFFF;
-  border: solid 1px #8F8FA2;
-  border-radius: 2px;
-  color: #24252E;
-  font-family: "IBM Plex Sans",sans-serif;
-  font-size: 0.8125rem;
-  line-height: 1rem;
-  margin: 0;
-  padding: calc(0.5rem - 1px) 0.5rem;
-  width: 100%;
-  -webkit-transition-property: box-shadow;
-  transition-property: box-shadow;
-  -webkit-transition-duration: .2s;
-  transition-duration: .2s;
-  border: solid 1px #D01E29;
-  border: none;
-}
-
-.emotion-0[type="search"]::-webkit-search-decoration {
-  display: none;
-}
-
-.emotion-0[type="search"]::-webkit-search-cancel-button {
-  display: none;
-}
-
-.emotion-0[type="search"]::-webkit-search-results-button {
-  display: none;
-}
-
-.emotion-0[type="search"]::-webkit-search-results-decoration {
-  display: none;
-}
-
-.emotion-0:required {
-  box-shadow: none;
-}
-
-.emotion-0::-webkit-input-placeholder {
-  color: #696979;
-}
-
-.emotion-0::-moz-placeholder {
-  color: #696979;
-}
-
-.emotion-0:-ms-input-placeholder {
-  color: #696979;
-}
-
-.emotion-0::placeholder {
-  color: #696979;
-}
-
-.emotion-0:disabled {
-  border-color: #D3D4DD;
-  background-color: #F0F0F5;
-}
-
-.emotion-0:not(:disabled):hover {
-  border-color: #7A7B8E;
-}
-
-.emotion-0:not(:disabled):focus {
-  outline: none;
-  box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
-}
-
-.emotion-0:not(:disabled):active {
-  border-color: #0069D0;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.09);
-}
-
-.emotion-0:not(:disabled):focus {
-  border: solid 1px #D3D4DD;
-  box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #D01E29;
-}
-
-.emotion-0::-webkit-input-placeholder {
-  color: #696979;
-}
-
-.emotion-0::-moz-placeholder {
-  color: #696979;
-}
-
-.emotion-0:-ms-input-placeholder {
-  color: #696979;
-}
-
-.emotion-0::placeholder {
-  color: #696979;
-}
-
-.emotion-0:focus {
-  box-shadow: none !important;
 }
 
 <div>
   <div>
     <div
-      class="emotion-4"
+      class="emotion-0"
     >
       <div
-        class="emotion-3"
+        class="emotion-1"
       >
         <div
           class="emotion-2"
         >
           <div>
             <div
-              class="emotion-16"
+              class="emotion-3"
             >
               <div
-                class="emotion-5"
+                class="emotion-4"
               >
                 <div
-                  class="emotion-4"
+                  class="emotion-0"
                 >
                   <div
-                    class="emotion-3"
+                    class="emotion-1"
                   >
                     <div
                       class="emotion-2"
                     >
                       <div
-                        class="emotion-1"
+                        class="emotion-8"
                       >
                         <input
                           autocomplete="off"
-                          class="emotion-0"
+                          class="emotion-9"
                           name="startDate"
                           placeholder="mm/dd/yyyy"
                           type="text"
@@ -1077,30 +1071,30 @@ exports[`DateRangePicker render should render correctly when invalid 1`] = `
                 </div>
               </div>
               <span
-                class="emotion-6"
+                class="emotion-10"
               >
                 <strong>
                   until
                 </strong>
               </span>
               <div
-                class="emotion-5"
+                class="emotion-4"
               >
                 <div
-                  class="emotion-4"
+                  class="emotion-0"
                 >
                   <div
-                    class="emotion-3"
+                    class="emotion-1"
                   >
                     <div
                       class="emotion-2"
                     >
                       <div
-                        class="emotion-1"
+                        class="emotion-8"
                       >
                         <input
                           autocomplete="off"
-                          class="emotion-0"
+                          class="emotion-9"
                           name="endDate"
                           placeholder="mm/dd/yyyy"
                           type="text"
@@ -1112,17 +1106,17 @@ exports[`DateRangePicker render should render correctly when invalid 1`] = `
                 </div>
               </div>
               <span
-                class="emotion-15"
+                class="emotion-17"
               >
                 <button
-                  class="emotion-14"
+                  class="emotion-18"
                   tabindex="-1"
                   type="button"
                 >
                   <span>
                     <svg
                       aria-hidden="true"
-                      class="emotion-13"
+                      class="emotion-19"
                       height="1em"
                       role="img"
                       viewBox="0 0 24 24"
@@ -1145,7 +1139,7 @@ exports[`DateRangePicker render should render correctly when invalid 1`] = `
 `;
 
 exports[`DateRangePicker render should render correctly when opened 1`] = `
-.emotion-4 {
+.emotion-0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1155,25 +1149,25 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
   flex-direction: column;
 }
 
-.emotion-3 {
+.emotion-1 {
   display: inline-block;
   margin-bottom: 0rem;
   margin-top: 0rem;
 }
 
-.emotion-3:first-of-type {
+.emotion-1:first-of-type {
   margin-top: 0;
 }
 
-.emotion-3:last-of-type {
+.emotion-1:last-of-type {
   margin-bottom: 0;
 }
 
-.emotion-3:empty {
+.emotion-1:empty {
   display: none;
 }
 
-.emotion-16 {
+.emotion-3 {
   background-color: #FFFFFF;
   border: 1px solid#AAAAB9;
   border-radius: 2px;
@@ -1187,25 +1181,126 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
   transition: box-shadow .2s ease;
 }
 
-.emotion-16:required {
+.emotion-3:required {
   box-shadow: none;
 }
 
-.emotion-16:not(:disabled):hover {
+.emotion-3:not(:disabled):hover {
   border-color: #8F8FA2;
 }
 
-.emotion-16:not(:disabled):active {
+.emotion-3:not(:disabled):active {
   border-color: #0069D0;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.09);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
 }
 
-.emotion-16:focus-within:not(:disabled) {
+.emotion-3:focus-within:not(:disabled) {
   box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
   outline: none;
 }
 
-.emotion-6 {
+.emotion-4 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.emotion-8 {
+  position: relative;
+}
+
+.emotion-9 {
+  background-color: #FFFFFF;
+  border: solid 1px #8F8FA2;
+  border-radius: 2px;
+  color: #24252E;
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1rem;
+  margin: 0;
+  padding: calc(0.5rem - 1px) 0.5rem;
+  width: 100%;
+  transition-property: box-shadow;
+  transition-duration: .2s;
+  border: none;
+}
+
+.emotion-9[type="search"]::-webkit-search-decoration {
+  display: none;
+}
+
+.emotion-9[type="search"]::-webkit-search-cancel-button {
+  display: none;
+}
+
+.emotion-9[type="search"]::-webkit-search-results-button {
+  display: none;
+}
+
+.emotion-9[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+.emotion-9:required {
+  box-shadow: none;
+}
+
+.emotion-9::-webkit-input-placeholder {
+  color: #696979;
+}
+
+.emotion-9::-moz-placeholder {
+  color: #696979;
+}
+
+.emotion-9:-ms-input-placeholder {
+  color: #696979;
+}
+
+.emotion-9::placeholder {
+  color: #696979;
+}
+
+.emotion-9:disabled {
+  border-color: #D3D4DD;
+  background-color: #F0F0F5;
+}
+
+.emotion-9:not(:disabled):hover {
+  border-color: #7A7B8E;
+}
+
+.emotion-9:not(:disabled):focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
+}
+
+.emotion-9:not(:disabled):active {
+  border-color: #0069D0;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
+}
+
+.emotion-9::-webkit-input-placeholder {
+  color: #696979;
+}
+
+.emotion-9::-moz-placeholder {
+  color: #696979;
+}
+
+.emotion-9:-ms-input-placeholder {
+  color: #696979;
+}
+
+.emotion-9::placeholder {
+  color: #696979;
+}
+
+.emotion-9:focus {
+  box-shadow: none!important;
+}
+
+.emotion-10 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -1219,13 +1314,7 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
   position: relative;
 }
 
-.emotion-5 {
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-}
-
-.emotion-15 {
+.emotion-17 {
   background-color: #F0F0F5;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1236,112 +1325,15 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   width: 2.5rem;
   border-top-right-radius: 1px;
   border-bottom-right-radius: 1px;
 }
 
-.emotion-1 {
-  position: relative;
-}
-
-.emotion-0 {
-  background-color: #FFFFFF;
-  border: solid 1px #8F8FA2;
-  border-radius: 2px;
-  color: #24252E;
-  font-family: "IBM Plex Sans",sans-serif;
-  font-size: 0.8125rem;
-  line-height: 1rem;
-  margin: 0;
-  padding: calc(0.5rem - 1px) 0.5rem;
-  width: 100%;
-  -webkit-transition-property: box-shadow;
-  transition-property: box-shadow;
-  -webkit-transition-duration: .2s;
-  transition-duration: .2s;
-  border: none;
-}
-
-.emotion-0[type="search"]::-webkit-search-decoration {
-  display: none;
-}
-
-.emotion-0[type="search"]::-webkit-search-cancel-button {
-  display: none;
-}
-
-.emotion-0[type="search"]::-webkit-search-results-button {
-  display: none;
-}
-
-.emotion-0[type="search"]::-webkit-search-results-decoration {
-  display: none;
-}
-
-.emotion-0:required {
-  box-shadow: none;
-}
-
-.emotion-0::-webkit-input-placeholder {
-  color: #696979;
-}
-
-.emotion-0::-moz-placeholder {
-  color: #696979;
-}
-
-.emotion-0:-ms-input-placeholder {
-  color: #696979;
-}
-
-.emotion-0::placeholder {
-  color: #696979;
-}
-
-.emotion-0:disabled {
-  border-color: #D3D4DD;
-  background-color: #F0F0F5;
-}
-
-.emotion-0:not(:disabled):hover {
-  border-color: #7A7B8E;
-}
-
-.emotion-0:not(:disabled):focus {
-  outline: none;
-  box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
-}
-
-.emotion-0:not(:disabled):active {
-  border-color: #0069D0;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.09);
-}
-
-.emotion-0::-webkit-input-placeholder {
-  color: #696979;
-}
-
-.emotion-0::-moz-placeholder {
-  color: #696979;
-}
-
-.emotion-0:-ms-input-placeholder {
-  color: #696979;
-}
-
-.emotion-0::placeholder {
-  color: #696979;
-}
-
-.emotion-0:focus {
-  box-shadow: none !important;
-}
-
-.emotion-14 {
+.emotion-18 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 0.8125rem;
   line-height: 1.5rem;
@@ -1351,8 +1343,8 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-user-select: none;
@@ -1375,7 +1367,7 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
   border-radius: inherit;
 }
 
-.emotion-14 > span {
+.emotion-18>span {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -1386,32 +1378,32 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
   display: inline-flex;
 }
 
-.emotion-14:not(:disabled):active {
-  box-shadow: inset 0 2px 8px 0 rgba(0,0,0,0.1);
+.emotion-18:not(:disabled):active {
+  box-shadow: inset 0 2px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
-.emotion-14:focus {
+.emotion-18:focus {
   outline: none;
   box-shadow: 0 0 0 2px #0069D0;
 }
 
-.emotion-14:not(:disabled):hover {
-  background-color: rgba(58,58,71,0.1);
+.emotion-18:not(:disabled):hover {
+  background-color: rgba(58, 58, 71, 0.1);
 }
 
-.emotion-14:focus {
+.emotion-18:focus {
   box-shadow: none;
 }
 
-.emotion-13 {
+.emotion-19 {
   fill: currentColor;
   font-size: 1.5rem;
 }
 
-.emotion-68 {
+.emotion-20 {
   z-index: 1200;
   background: #FFFFFF;
-  box-shadow: 0 2px 4px -1px rgba(0,0,0,0.2),0 1px 10px 0 rgba(0,0,0,0.12),0 4px 5px 0 rgba(0,0,0,0.14);
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2),0 1px 10px 0 rgba(0, 0, 0, 0.12),0 4px 5px 0 rgba(0, 0, 0, 0.14);
   border-radius: 2px;
   padding: 0.5rem .25rem .25rem .25rem;
   outline: none;
@@ -1420,27 +1412,27 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
   top: 0;
 }
 
-.emotion-67 {
+.emotion-21 {
   width: 288px;
 }
 
-.emotion-30 {
+.emotion-22 {
   display: grid;
   grid-auto-flow: column;
-  grid-auto-columns: minmax(min-content,max-content);
+  grid-auto-columns: minmax(min-content, max-content);
   grid-gap: 0.5rem;
   -webkit-box-pack: space-around;
-  -webkit-justify-content: space-around;
   -ms-flex-pack: space-around;
+  -webkit-justify-content: space-around;
   justify-content: space-around;
   margin-bottom: 0.5rem;
   font-weight: bold;
 }
 
-.emotion-24 {
+.emotion-23 {
   display: grid;
   grid-auto-flow: column;
-  grid-auto-columns: minmax(min-content,max-content);
+  grid-auto-columns: minmax(min-content, max-content);
   grid-gap: 0.5rem;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -1448,7 +1440,7 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
   align-items: center;
 }
 
-.emotion-21 {
+.emotion-24 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 0.8125rem;
   line-height: 1.5rem;
@@ -1458,8 +1450,8 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-user-select: none;
@@ -1480,7 +1472,7 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
   padding: calc(0.25rem - 1px) calc(0.5rem - 1px);
 }
 
-.emotion-21 > span {
+.emotion-24>span {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -1491,20 +1483,20 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
   display: inline-flex;
 }
 
-.emotion-21:not(:disabled):active {
-  box-shadow: inset 0 2px 8px 0 rgba(0,0,0,0.1);
+.emotion-24:not(:disabled):active {
+  box-shadow: inset 0 2px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
-.emotion-21:focus {
+.emotion-24:focus {
   outline: none;
   box-shadow: 0 0 0 2px #0069D0;
 }
 
-.emotion-21:not(:disabled):hover {
-  background-color: rgba(58,58,71,0.1);
+.emotion-24:not(:disabled):hover {
+  background-color: rgba(58, 58, 71, 0.1);
 }
 
-.emotion-66 {
+.emotion-33 {
   border-collapse: separate;
   text-align: center;
   line-height: 1.5rem;
@@ -1512,34 +1504,22 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
   border-spacing: 0 0.25rem;
 }
 
-.emotion-66 th {
+.emotion-33 th {
   width: 2rem;
   padding: 0.25rem 0;
 }
 
-.emotion-66 tr td:first-child {
+.emotion-33 tr td:first-child {
   border-top-left-radius: 10%;
   border-bottom-left-radius: 10%;
 }
 
-.emotion-66 tr td:last-child {
+.emotion-33 tr td:last-child {
   border-top-right-radius: 10%;
   border-bottom-right-radius: 10%;
 }
 
-.emotion-32 {
-  width: 2rem;
-  padding: 0.25rem 0;
-  display: inline-block;
-  border-radius: 50%;
-}
-
-.emotion-32:hover {
-  cursor: pointer;
-  background: #F0F0F5;
-}
-
-.emotion-31 {
+.emotion-34 {
   width: 2rem;
   padding: 0.25rem 0;
   display: inline-block;
@@ -1547,7 +1527,19 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
   color: #AAAAB9;
 }
 
-.emotion-31:hover {
+.emotion-34:hover {
+  cursor: pointer;
+  background: #F0F0F5;
+}
+
+.emotion-35 {
+  width: 2rem;
+  padding: 0.25rem 0;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.emotion-35:hover {
   cursor: pointer;
   background: #F0F0F5;
 }
@@ -1555,36 +1547,36 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
 <div>
   <div>
     <div
-      class="emotion-4"
+      class="emotion-0"
     >
       <div
-        class="emotion-3"
+        class="emotion-1"
       >
         <div
           class="emotion-2"
         >
           <div>
             <div
-              class="emotion-16"
+              class="emotion-3"
             >
               <div
-                class="emotion-5"
+                class="emotion-4"
               >
                 <div
-                  class="emotion-4"
+                  class="emotion-0"
                 >
                   <div
-                    class="emotion-3"
+                    class="emotion-1"
                   >
                     <div
                       class="emotion-2"
                     >
                       <div
-                        class="emotion-1"
+                        class="emotion-8"
                       >
                         <input
                           autocomplete="off"
-                          class="emotion-0"
+                          class="emotion-9"
                           name="startDate"
                           placeholder="mm/dd/yyyy"
                           type="text"
@@ -1596,30 +1588,30 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
                 </div>
               </div>
               <span
-                class="emotion-6"
+                class="emotion-10"
               >
                 <strong>
                   until
                 </strong>
               </span>
               <div
-                class="emotion-5"
+                class="emotion-4"
               >
                 <div
-                  class="emotion-4"
+                  class="emotion-0"
                 >
                   <div
-                    class="emotion-3"
+                    class="emotion-1"
                   >
                     <div
                       class="emotion-2"
                     >
                       <div
-                        class="emotion-1"
+                        class="emotion-8"
                       >
                         <input
                           autocomplete="off"
-                          class="emotion-0"
+                          class="emotion-9"
                           name="endDate"
                           placeholder="mm/dd/yyyy"
                           type="text"
@@ -1631,17 +1623,17 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
                 </div>
               </div>
               <span
-                class="emotion-15"
+                class="emotion-17"
               >
                 <button
-                  class="emotion-14"
+                  class="emotion-18"
                   tabindex="-1"
                   type="button"
                 >
                   <span>
                     <svg
                       aria-hidden="true"
-                      class="emotion-13"
+                      class="emotion-19"
                       height="1em"
                       role="img"
                       viewBox="0 0 24 24"
@@ -1660,20 +1652,20 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
       </div>
     </div>
     <div
-      class="emotion-68"
+      class="emotion-20"
       tabindex="-1"
     >
       <div
-        class="emotion-67"
+        class="emotion-21"
       >
         <div
-          class="emotion-30"
+          class="emotion-22"
         >
           <div
-            class="emotion-24"
+            class="emotion-23"
           >
             <button
-              class="emotion-21"
+              class="emotion-24"
               tabindex="-1"
               title="Previous month"
               type="button"
@@ -1681,7 +1673,7 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
               <span>
                 <svg
                   aria-hidden="true"
-                  class="emotion-13"
+                  class="emotion-19"
                   height="1em"
                   role="img"
                   viewBox="0 0 24 24"
@@ -1696,7 +1688,7 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
             </button>
             Oct
             <button
-              class="emotion-21"
+              class="emotion-24"
               tabindex="-1"
               title="Next month"
               type="button"
@@ -1704,7 +1696,7 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
               <span>
                 <svg
                   aria-hidden="true"
-                  class="emotion-13"
+                  class="emotion-19"
                   height="1em"
                   role="img"
                   viewBox="0 0 24 24"
@@ -1719,10 +1711,10 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
             </button>
           </div>
           <div
-            class="emotion-24"
+            class="emotion-23"
           >
             <button
-              class="emotion-21"
+              class="emotion-24"
               tabindex="-1"
               title="Previous year"
               type="button"
@@ -1730,7 +1722,7 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
               <span>
                 <svg
                   aria-hidden="true"
-                  class="emotion-13"
+                  class="emotion-19"
                   height="1em"
                   role="img"
                   viewBox="0 0 24 24"
@@ -1745,7 +1737,7 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
             </button>
             2018
             <button
-              class="emotion-21"
+              class="emotion-24"
               tabindex="-1"
               title="Next year"
               type="button"
@@ -1753,7 +1745,7 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
               <span>
                 <svg
                   aria-hidden="true"
-                  class="emotion-13"
+                  class="emotion-19"
                   height="1em"
                   role="img"
                   viewBox="0 0 24 24"
@@ -1769,7 +1761,7 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
           </div>
         </div>
         <table
-          class="emotion-66"
+          class="emotion-33"
         >
           <thead>
             <tr>
@@ -1803,7 +1795,7 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
               >
                 <span
                   aria-selected="false"
-                  class="emotion-31"
+                  class="emotion-34"
                   role="button"
                 >
                   30
@@ -1814,7 +1806,7 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
               >
                 <span
                   aria-selected="false"
-                  class="emotion-32"
+                  class="emotion-35"
                   role="button"
                 >
                   01
@@ -1825,7 +1817,7 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
               >
                 <span
                   aria-selected="false"
-                  class="emotion-32"
+                  class="emotion-35"
                   role="button"
                 >
                   02
@@ -1836,7 +1828,7 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
               >
                 <span
                   aria-selected="false"
-                  class="emotion-32"
+                  class="emotion-35"
                   role="button"
                 >
                   03
@@ -1847,7 +1839,7 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
               >
                 <span
                   aria-selected="false"
-                  class="emotion-32"
+                  class="emotion-35"
                   role="button"
                 >
                   04
@@ -1858,7 +1850,7 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
               >
                 <span
                   aria-selected="false"
-                  class="emotion-32"
+                  class="emotion-35"
                   role="button"
                 >
                   05
@@ -1869,7 +1861,7 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
               >
                 <span
                   aria-selected="false"
-                  class="emotion-32"
+                  class="emotion-35"
                   role="button"
                 >
                   06
@@ -1882,7 +1874,7 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
               >
                 <span
                   aria-selected="false"
-                  class="emotion-32"
+                  class="emotion-35"
                   role="button"
                 >
                   07
@@ -1893,7 +1885,7 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
               >
                 <span
                   aria-selected="false"
-                  class="emotion-32"
+                  class="emotion-35"
                   role="button"
                 >
                   08
@@ -1904,7 +1896,7 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
               >
                 <span
                   aria-selected="false"
-                  class="emotion-32"
+                  class="emotion-35"
                   role="button"
                 >
                   09
@@ -1915,7 +1907,7 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
               >
                 <span
                   aria-selected="false"
-                  class="emotion-32"
+                  class="emotion-35"
                   role="button"
                 >
                   10
@@ -1926,7 +1918,7 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
               >
                 <span
                   aria-selected="false"
-                  class="emotion-32"
+                  class="emotion-35"
                   role="button"
                 >
                   11
@@ -1937,7 +1929,7 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
               >
                 <span
                   aria-selected="false"
-                  class="emotion-32"
+                  class="emotion-35"
                   role="button"
                 >
                   12
@@ -1948,7 +1940,7 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
               >
                 <span
                   aria-selected="false"
-                  class="emotion-32"
+                  class="emotion-35"
                   role="button"
                 >
                   13
@@ -1961,7 +1953,7 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
               >
                 <span
                   aria-selected="false"
-                  class="emotion-32"
+                  class="emotion-35"
                   role="button"
                 >
                   14
@@ -1972,7 +1964,7 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
               >
                 <span
                   aria-selected="false"
-                  class="emotion-32"
+                  class="emotion-35"
                   role="button"
                 >
                   15
@@ -1983,7 +1975,7 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
               >
                 <span
                   aria-selected="false"
-                  class="emotion-32"
+                  class="emotion-35"
                   role="button"
                 >
                   16
@@ -1994,7 +1986,7 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
               >
                 <span
                   aria-selected="false"
-                  class="emotion-32"
+                  class="emotion-35"
                   role="button"
                 >
                   17
@@ -2005,7 +1997,7 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
               >
                 <span
                   aria-selected="false"
-                  class="emotion-32"
+                  class="emotion-35"
                   role="button"
                 >
                   18
@@ -2016,7 +2008,7 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
               >
                 <span
                   aria-selected="false"
-                  class="emotion-32"
+                  class="emotion-35"
                   role="button"
                 >
                   19
@@ -2027,7 +2019,7 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
               >
                 <span
                   aria-selected="false"
-                  class="emotion-32"
+                  class="emotion-35"
                   role="button"
                 >
                   20
@@ -2040,7 +2032,7 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
               >
                 <span
                   aria-selected="false"
-                  class="emotion-32"
+                  class="emotion-35"
                   role="button"
                 >
                   21
@@ -2051,7 +2043,7 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
               >
                 <span
                   aria-selected="false"
-                  class="emotion-32"
+                  class="emotion-35"
                   role="button"
                 >
                   22
@@ -2062,7 +2054,7 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
               >
                 <span
                   aria-selected="false"
-                  class="emotion-32"
+                  class="emotion-35"
                   role="button"
                 >
                   23
@@ -2073,7 +2065,7 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
               >
                 <span
                   aria-selected="false"
-                  class="emotion-32"
+                  class="emotion-35"
                   role="button"
                 >
                   24
@@ -2084,7 +2076,7 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
               >
                 <span
                   aria-selected="false"
-                  class="emotion-32"
+                  class="emotion-35"
                   role="button"
                 >
                   25
@@ -2095,7 +2087,7 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
               >
                 <span
                   aria-selected="false"
-                  class="emotion-32"
+                  class="emotion-35"
                   role="button"
                 >
                   26
@@ -2106,7 +2098,7 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
               >
                 <span
                   aria-selected="false"
-                  class="emotion-32"
+                  class="emotion-35"
                   role="button"
                 >
                   27
@@ -2119,7 +2111,7 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
               >
                 <span
                   aria-selected="false"
-                  class="emotion-32"
+                  class="emotion-35"
                   role="button"
                 >
                   28
@@ -2130,7 +2122,7 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
               >
                 <span
                   aria-selected="false"
-                  class="emotion-32"
+                  class="emotion-35"
                   role="button"
                 >
                   29
@@ -2141,7 +2133,7 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
               >
                 <span
                   aria-selected="false"
-                  class="emotion-32"
+                  class="emotion-35"
                   role="button"
                 >
                   30
@@ -2152,7 +2144,7 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
               >
                 <span
                   aria-selected="false"
-                  class="emotion-32"
+                  class="emotion-35"
                   role="button"
                 >
                   31
@@ -2163,7 +2155,7 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
               >
                 <span
                   aria-selected="false"
-                  class="emotion-31"
+                  class="emotion-34"
                   role="button"
                 >
                   01
@@ -2174,7 +2166,7 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
               >
                 <span
                   aria-selected="false"
-                  class="emotion-31"
+                  class="emotion-34"
                   role="button"
                 >
                   02
@@ -2185,7 +2177,7 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
               >
                 <span
                   aria-selected="false"
-                  class="emotion-31"
+                  class="emotion-34"
                   role="button"
                 >
                   03
@@ -2201,7 +2193,7 @@ exports[`DateRangePicker render should render correctly when opened 1`] = `
 `;
 
 exports[`DateRangePicker render should render correctyly when onlyWeeks 1`] = `
-.emotion-4 {
+.emotion-0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2211,25 +2203,25 @@ exports[`DateRangePicker render should render correctyly when onlyWeeks 1`] = `
   flex-direction: column;
 }
 
-.emotion-3 {
+.emotion-1 {
   display: inline-block;
   margin-bottom: 0rem;
   margin-top: 0rem;
 }
 
-.emotion-3:first-of-type {
+.emotion-1:first-of-type {
   margin-top: 0;
 }
 
-.emotion-3:last-of-type {
+.emotion-1:last-of-type {
   margin-bottom: 0;
 }
 
-.emotion-3:empty {
+.emotion-1:empty {
   display: none;
 }
 
-.emotion-16 {
+.emotion-3 {
   background-color: #FFFFFF;
   border: 1px solid#AAAAB9;
   border-radius: 2px;
@@ -2243,25 +2235,126 @@ exports[`DateRangePicker render should render correctyly when onlyWeeks 1`] = `
   transition: box-shadow .2s ease;
 }
 
-.emotion-16:required {
+.emotion-3:required {
   box-shadow: none;
 }
 
-.emotion-16:not(:disabled):hover {
+.emotion-3:not(:disabled):hover {
   border-color: #8F8FA2;
 }
 
-.emotion-16:not(:disabled):active {
+.emotion-3:not(:disabled):active {
   border-color: #0069D0;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.09);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
 }
 
-.emotion-16:focus-within:not(:disabled) {
+.emotion-3:focus-within:not(:disabled) {
   box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
   outline: none;
 }
 
-.emotion-6 {
+.emotion-4 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.emotion-8 {
+  position: relative;
+}
+
+.emotion-9 {
+  background-color: #FFFFFF;
+  border: solid 1px #8F8FA2;
+  border-radius: 2px;
+  color: #24252E;
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1rem;
+  margin: 0;
+  padding: calc(0.5rem - 1px) 0.5rem;
+  width: 100%;
+  transition-property: box-shadow;
+  transition-duration: .2s;
+  border: none;
+}
+
+.emotion-9[type="search"]::-webkit-search-decoration {
+  display: none;
+}
+
+.emotion-9[type="search"]::-webkit-search-cancel-button {
+  display: none;
+}
+
+.emotion-9[type="search"]::-webkit-search-results-button {
+  display: none;
+}
+
+.emotion-9[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+.emotion-9:required {
+  box-shadow: none;
+}
+
+.emotion-9::-webkit-input-placeholder {
+  color: #696979;
+}
+
+.emotion-9::-moz-placeholder {
+  color: #696979;
+}
+
+.emotion-9:-ms-input-placeholder {
+  color: #696979;
+}
+
+.emotion-9::placeholder {
+  color: #696979;
+}
+
+.emotion-9:disabled {
+  border-color: #D3D4DD;
+  background-color: #F0F0F5;
+}
+
+.emotion-9:not(:disabled):hover {
+  border-color: #7A7B8E;
+}
+
+.emotion-9:not(:disabled):focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
+}
+
+.emotion-9:not(:disabled):active {
+  border-color: #0069D0;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
+}
+
+.emotion-9::-webkit-input-placeholder {
+  color: #696979;
+}
+
+.emotion-9::-moz-placeholder {
+  color: #696979;
+}
+
+.emotion-9:-ms-input-placeholder {
+  color: #696979;
+}
+
+.emotion-9::placeholder {
+  color: #696979;
+}
+
+.emotion-9:focus {
+  box-shadow: none!important;
+}
+
+.emotion-10 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -2275,13 +2368,7 @@ exports[`DateRangePicker render should render correctyly when onlyWeeks 1`] = `
   position: relative;
 }
 
-.emotion-5 {
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-}
-
-.emotion-15 {
+.emotion-17 {
   background-color: #F0F0F5;
   display: -webkit-box;
   display: -webkit-flex;
@@ -2292,112 +2379,15 @@ exports[`DateRangePicker render should render correctyly when onlyWeeks 1`] = `
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   width: 2.5rem;
   border-top-right-radius: 1px;
   border-bottom-right-radius: 1px;
 }
 
-.emotion-1 {
-  position: relative;
-}
-
-.emotion-0 {
-  background-color: #FFFFFF;
-  border: solid 1px #8F8FA2;
-  border-radius: 2px;
-  color: #24252E;
-  font-family: "IBM Plex Sans",sans-serif;
-  font-size: 0.8125rem;
-  line-height: 1rem;
-  margin: 0;
-  padding: calc(0.5rem - 1px) 0.5rem;
-  width: 100%;
-  -webkit-transition-property: box-shadow;
-  transition-property: box-shadow;
-  -webkit-transition-duration: .2s;
-  transition-duration: .2s;
-  border: none;
-}
-
-.emotion-0[type="search"]::-webkit-search-decoration {
-  display: none;
-}
-
-.emotion-0[type="search"]::-webkit-search-cancel-button {
-  display: none;
-}
-
-.emotion-0[type="search"]::-webkit-search-results-button {
-  display: none;
-}
-
-.emotion-0[type="search"]::-webkit-search-results-decoration {
-  display: none;
-}
-
-.emotion-0:required {
-  box-shadow: none;
-}
-
-.emotion-0::-webkit-input-placeholder {
-  color: #696979;
-}
-
-.emotion-0::-moz-placeholder {
-  color: #696979;
-}
-
-.emotion-0:-ms-input-placeholder {
-  color: #696979;
-}
-
-.emotion-0::placeholder {
-  color: #696979;
-}
-
-.emotion-0:disabled {
-  border-color: #D3D4DD;
-  background-color: #F0F0F5;
-}
-
-.emotion-0:not(:disabled):hover {
-  border-color: #7A7B8E;
-}
-
-.emotion-0:not(:disabled):focus {
-  outline: none;
-  box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
-}
-
-.emotion-0:not(:disabled):active {
-  border-color: #0069D0;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.09);
-}
-
-.emotion-0::-webkit-input-placeholder {
-  color: #696979;
-}
-
-.emotion-0::-moz-placeholder {
-  color: #696979;
-}
-
-.emotion-0:-ms-input-placeholder {
-  color: #696979;
-}
-
-.emotion-0::placeholder {
-  color: #696979;
-}
-
-.emotion-0:focus {
-  box-shadow: none !important;
-}
-
-.emotion-14 {
+.emotion-18 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 0.8125rem;
   line-height: 1.5rem;
@@ -2407,8 +2397,8 @@ exports[`DateRangePicker render should render correctyly when onlyWeeks 1`] = `
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-user-select: none;
@@ -2431,7 +2421,7 @@ exports[`DateRangePicker render should render correctyly when onlyWeeks 1`] = `
   border-radius: inherit;
 }
 
-.emotion-14 > span {
+.emotion-18>span {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -2442,24 +2432,24 @@ exports[`DateRangePicker render should render correctyly when onlyWeeks 1`] = `
   display: inline-flex;
 }
 
-.emotion-14:not(:disabled):active {
-  box-shadow: inset 0 2px 8px 0 rgba(0,0,0,0.1);
+.emotion-18:not(:disabled):active {
+  box-shadow: inset 0 2px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
-.emotion-14:focus {
+.emotion-18:focus {
   outline: none;
   box-shadow: 0 0 0 2px #0069D0;
 }
 
-.emotion-14:not(:disabled):hover {
-  background-color: rgba(58,58,71,0.1);
+.emotion-18:not(:disabled):hover {
+  background-color: rgba(58, 58, 71, 0.1);
 }
 
-.emotion-14:focus {
+.emotion-18:focus {
   box-shadow: none;
 }
 
-.emotion-13 {
+.emotion-19 {
   fill: currentColor;
   font-size: 1.5rem;
 }
@@ -2467,36 +2457,36 @@ exports[`DateRangePicker render should render correctyly when onlyWeeks 1`] = `
 <div>
   <div>
     <div
-      class="emotion-4"
+      class="emotion-0"
     >
       <div
-        class="emotion-3"
+        class="emotion-1"
       >
         <div
           class="emotion-2"
         >
           <div>
             <div
-              class="emotion-16"
+              class="emotion-3"
             >
               <div
-                class="emotion-5"
+                class="emotion-4"
               >
                 <div
-                  class="emotion-4"
+                  class="emotion-0"
                 >
                   <div
-                    class="emotion-3"
+                    class="emotion-1"
                   >
                     <div
                       class="emotion-2"
                     >
                       <div
-                        class="emotion-1"
+                        class="emotion-8"
                       >
                         <input
                           autocomplete="off"
-                          class="emotion-0"
+                          class="emotion-9"
                           name="startDate"
                           placeholder="mm/dd/yyyy"
                           type="text"
@@ -2508,30 +2498,30 @@ exports[`DateRangePicker render should render correctyly when onlyWeeks 1`] = `
                 </div>
               </div>
               <span
-                class="emotion-6"
+                class="emotion-10"
               >
                 <strong>
                   until
                 </strong>
               </span>
               <div
-                class="emotion-5"
+                class="emotion-4"
               >
                 <div
-                  class="emotion-4"
+                  class="emotion-0"
                 >
                   <div
-                    class="emotion-3"
+                    class="emotion-1"
                   >
                     <div
                       class="emotion-2"
                     >
                       <div
-                        class="emotion-1"
+                        class="emotion-8"
                       >
                         <input
                           autocomplete="off"
-                          class="emotion-0"
+                          class="emotion-9"
                           name="endDate"
                           placeholder="mm/dd/yyyy"
                           type="text"
@@ -2543,17 +2533,17 @@ exports[`DateRangePicker render should render correctyly when onlyWeeks 1`] = `
                 </div>
               </div>
               <span
-                class="emotion-15"
+                class="emotion-17"
               >
                 <button
-                  class="emotion-14"
+                  class="emotion-18"
                   tabindex="-1"
                   type="button"
                 >
                   <span>
                     <svg
                       aria-hidden="true"
-                      class="emotion-13"
+                      class="emotion-19"
                       height="1em"
                       role="img"
                       viewBox="0 0 24 24"

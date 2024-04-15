@@ -1,19 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should allow styles override 1`] = `
-.emotion-1 {
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-}
-
 .emotion-0 {
-  fill: currentColor;
-  font-size: 1.5rem;
-  margin-right: 0.5rem;
-}
-
-.emotion-3 {
   padding: 0 1rem;
   min-height: 2.5rem;
   border-radius: 2px;
@@ -28,8 +16,8 @@ exports[`should allow styles override 1`] = `
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   line-height: 1.25rem;
   background: #ECF0FF;
@@ -38,7 +26,7 @@ exports[`should allow styles override 1`] = `
   color: red;
 }
 
-.emotion-2 {
+.emotion-1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -53,17 +41,29 @@ exports[`should allow styles override 1`] = `
   color: blue;
 }
 
+.emotion-2 {
+  fill: currentColor;
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.emotion-3 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
 <div>
   <div
-    class="emotion-3"
+    class="emotion-0"
     role="alert"
   >
     <div
-      class="emotion-2"
+      class="emotion-1"
     >
       <svg
         aria-hidden="true"
-        class="emotion-0"
+        class="emotion-2"
         height="1em"
         role="img"
         viewBox="0 0 24 24"
@@ -74,7 +74,7 @@ exports[`should allow styles override 1`] = `
         />
       </svg>
       <div
-        class="emotion-1"
+        class="emotion-3"
       >
         Information.
       </div>
@@ -84,39 +84,7 @@ exports[`should allow styles override 1`] = `
 `;
 
 exports[`should render correctly 1`] = `
-.emotion-2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-}
-
-.emotion-1 {
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-}
-
-.emotion-5 {
-  margin-left: auto;
-  padding-left: 1rem;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
-  align-self: center;
-}
-
-.emotion-6 {
+.emotion-0 {
   padding: 0 1rem;
   min-height: 2.5rem;
   border-radius: 2px;
@@ -131,8 +99,8 @@ exports[`should render correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   line-height: 1.25rem;
   background: #ECF0FF;
@@ -140,18 +108,45 @@ exports[`should render correctly 1`] = `
   border-color: #0069D0;
 }
 
-.emotion-3 {
-  fill: currentColor;
-  font-size: 1.5rem;
+.emotion-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 
-.emotion-0 {
+.emotion-2 {
   fill: currentColor;
   font-size: 1.5rem;
   margin-right: 0.5rem;
 }
 
+.emotion-3 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
 .emotion-4 {
+  margin-left: auto;
+  padding-left: 1rem;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.emotion-5 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 0.8125rem;
   line-height: 1.5rem;
@@ -161,8 +156,8 @@ exports[`should render correctly 1`] = `
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-user-select: none;
@@ -183,7 +178,7 @@ exports[`should render correctly 1`] = `
   padding: calc(0.25rem - 1px) calc(0.5rem - 1px);
 }
 
-.emotion-4 > span {
+.emotion-5>span {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -194,20 +189,25 @@ exports[`should render correctly 1`] = `
   display: inline-flex;
 }
 
-.emotion-4:not(:disabled):active {
-  box-shadow: inset 0 2px 8px 0 rgba(0,0,0,0.1);
+.emotion-5:not(:disabled):active {
+  box-shadow: inset 0 2px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
-.emotion-4:focus {
+.emotion-5:focus {
   outline: none;
   box-shadow: 0 0 0 2px #0069D0;
 }
 
-.emotion-4:not(:disabled):hover {
-  background-color: rgba(58,58,71,0.1);
+.emotion-5:not(:disabled):hover {
+  background-color: rgba(58, 58, 71, 0.1);
 }
 
-.emotion-13 {
+.emotion-6 {
+  fill: currentColor;
+  font-size: 1.5rem;
+}
+
+.emotion-7 {
   padding: 0 1rem;
   min-height: 2.5rem;
   border-radius: 2px;
@@ -222,8 +222,8 @@ exports[`should render correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   line-height: 1.25rem;
   background: #E1F6DF;
@@ -231,7 +231,7 @@ exports[`should render correctly 1`] = `
   border-color: #217B00;
 }
 
-.emotion-20 {
+.emotion-14 {
   padding: 0 1rem;
   min-height: 2.5rem;
   border-radius: 2px;
@@ -246,8 +246,8 @@ exports[`should render correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   line-height: 1.25rem;
   background: #FFECE8;
@@ -255,7 +255,7 @@ exports[`should render correctly 1`] = `
   border-color: #AD5000;
 }
 
-.emotion-27 {
+.emotion-21 {
   padding: 0 1rem;
   min-height: 2.5rem;
   border-radius: 2px;
@@ -270,8 +270,8 @@ exports[`should render correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   line-height: 1.25rem;
   background: #FEECED;
@@ -282,15 +282,15 @@ exports[`should render correctly 1`] = `
 <div>
   <div>
     <div
-      class="emotion-6"
+      class="emotion-0"
       role="alert"
     >
       <div
-        class="emotion-2"
+        class="emotion-1"
       >
         <svg
           aria-hidden="true"
-          class="emotion-0"
+          class="emotion-2"
           height="1em"
           role="img"
           viewBox="0 0 24 24"
@@ -301,24 +301,24 @@ exports[`should render correctly 1`] = `
           />
         </svg>
         <div
-          class="emotion-1"
+          class="emotion-3"
         >
           Information.
         </div>
       </div>
       <span
-        class="emotion-5"
+        class="emotion-4"
       >
         <button
           aria-label="Close"
-          class="emotion-4"
+          class="emotion-5"
           title="Close"
           type="button"
         >
           <span>
             <svg
               aria-hidden="true"
-              class="emotion-3"
+              class="emotion-6"
               height="1em"
               role="img"
               viewBox="0 0 24 24"
@@ -334,15 +334,15 @@ exports[`should render correctly 1`] = `
       </span>
     </div>
     <div
-      class="emotion-13"
+      class="emotion-7"
       role="alert"
     >
       <div
-        class="emotion-2"
+        class="emotion-1"
       >
         <svg
           aria-hidden="true"
-          class="emotion-0"
+          class="emotion-2"
           height="1em"
           role="img"
           viewBox="0 0 24 24"
@@ -353,24 +353,24 @@ exports[`should render correctly 1`] = `
           />
         </svg>
         <div
-          class="emotion-1"
+          class="emotion-3"
         >
           Success message.
         </div>
       </div>
       <span
-        class="emotion-5"
+        class="emotion-4"
       >
         <button
           aria-label="Close"
-          class="emotion-4"
+          class="emotion-5"
           title="Close"
           type="button"
         >
           <span>
             <svg
               aria-hidden="true"
-              class="emotion-3"
+              class="emotion-6"
               height="1em"
               role="img"
               viewBox="0 0 24 24"
@@ -386,15 +386,15 @@ exports[`should render correctly 1`] = `
       </span>
     </div>
     <div
-      class="emotion-20"
+      class="emotion-14"
       role="alert"
     >
       <div
-        class="emotion-2"
+        class="emotion-1"
       >
         <svg
           aria-hidden="true"
-          class="emotion-0"
+          class="emotion-2"
           height="1em"
           role="img"
           viewBox="0 0 24 24"
@@ -405,24 +405,24 @@ exports[`should render correctly 1`] = `
           />
         </svg>
         <div
-          class="emotion-1"
+          class="emotion-3"
         >
           Alert message.
         </div>
       </div>
       <span
-        class="emotion-5"
+        class="emotion-4"
       >
         <button
           aria-label="Close"
-          class="emotion-4"
+          class="emotion-5"
           title="Close"
           type="button"
         >
           <span>
             <svg
               aria-hidden="true"
-              class="emotion-3"
+              class="emotion-6"
               height="1em"
               role="img"
               viewBox="0 0 24 24"
@@ -438,15 +438,15 @@ exports[`should render correctly 1`] = `
       </span>
     </div>
     <div
-      class="emotion-27"
+      class="emotion-21"
       role="alert"
     >
       <div
-        class="emotion-2"
+        class="emotion-1"
       >
         <svg
           aria-hidden="true"
-          class="emotion-0"
+          class="emotion-2"
           height="1em"
           role="img"
           viewBox="0 0 24 24"
@@ -457,24 +457,24 @@ exports[`should render correctly 1`] = `
           />
         </svg>
         <div
-          class="emotion-1"
+          class="emotion-3"
         >
           Error message.
         </div>
       </div>
       <span
-        class="emotion-5"
+        class="emotion-4"
       >
         <button
           aria-label="Close"
-          class="emotion-4"
+          class="emotion-5"
           title="Close"
           type="button"
         >
           <span>
             <svg
               aria-hidden="true"
-              class="emotion-3"
+              class="emotion-6"
               height="1em"
               role="img"
               viewBox="0 0 24 24"
@@ -494,13 +494,31 @@ exports[`should render correctly 1`] = `
 `;
 
 exports[`should render correctly when inline 1`] = `
-.emotion-1 {
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
+.emotion-0 {
+  padding: 0 1rem;
+  min-height: 2rem;
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 1px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  line-height: 1.25rem;
+  background: #ECF0FF;
+  color: #0069D0;
+  border-color: #0069D0;
 }
 
-.emotion-2 {
+.emotion-1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -514,38 +532,20 @@ exports[`should render correctly when inline 1`] = `
   flex: 1;
 }
 
-.emotion-3 {
-  padding: 0 1rem;
-  min-height: 2rem;
-  border-radius: 2px;
-  border-style: solid;
-  border-width: 1px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  line-height: 1.25rem;
-  background: #ECF0FF;
-  color: #0069D0;
-  border-color: #0069D0;
-}
-
-.emotion-0 {
+.emotion-2 {
   fill: currentColor;
   font-size: 1rem;
   margin-top: 0.125rem;
   margin-right: 0.5rem;
 }
 
-.emotion-7 {
+.emotion-3 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.emotion-4 {
   padding: 0 1rem;
   min-height: 2rem;
   border-radius: 2px;
@@ -560,8 +560,8 @@ exports[`should render correctly when inline 1`] = `
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   line-height: 1.25rem;
   background: #E1F6DF;
@@ -569,7 +569,7 @@ exports[`should render correctly when inline 1`] = `
   border-color: #217B00;
 }
 
-.emotion-11 {
+.emotion-8 {
   padding: 0 1rem;
   min-height: 2rem;
   border-radius: 2px;
@@ -584,8 +584,8 @@ exports[`should render correctly when inline 1`] = `
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   line-height: 1.25rem;
   background: #FFECE8;
@@ -593,7 +593,7 @@ exports[`should render correctly when inline 1`] = `
   border-color: #AD5000;
 }
 
-.emotion-15 {
+.emotion-12 {
   padding: 0 1rem;
   min-height: 2rem;
   border-radius: 2px;
@@ -608,8 +608,8 @@ exports[`should render correctly when inline 1`] = `
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   line-height: 1.25rem;
   background: #FEECED;
@@ -620,15 +620,15 @@ exports[`should render correctly when inline 1`] = `
 <div>
   <div>
     <div
-      class="emotion-3"
+      class="emotion-0"
       role="alert"
     >
       <div
-        class="emotion-2"
+        class="emotion-1"
       >
         <svg
           aria-hidden="true"
-          class="emotion-0"
+          class="emotion-2"
           height="1em"
           role="img"
           viewBox="0 0 24 24"
@@ -639,22 +639,22 @@ exports[`should render correctly when inline 1`] = `
           />
         </svg>
         <div
-          class="emotion-1"
+          class="emotion-3"
         >
           Information.
         </div>
       </div>
     </div>
     <div
-      class="emotion-7"
+      class="emotion-4"
       role="alert"
     >
       <div
-        class="emotion-2"
+        class="emotion-1"
       >
         <svg
           aria-hidden="true"
-          class="emotion-0"
+          class="emotion-2"
           height="1em"
           role="img"
           viewBox="0 0 24 24"
@@ -665,22 +665,22 @@ exports[`should render correctly when inline 1`] = `
           />
         </svg>
         <div
-          class="emotion-1"
+          class="emotion-3"
         >
           Success message.
         </div>
       </div>
     </div>
     <div
-      class="emotion-11"
+      class="emotion-8"
       role="alert"
     >
       <div
-        class="emotion-2"
+        class="emotion-1"
       >
         <svg
           aria-hidden="true"
-          class="emotion-0"
+          class="emotion-2"
           height="1em"
           role="img"
           viewBox="0 0 24 24"
@@ -691,22 +691,22 @@ exports[`should render correctly when inline 1`] = `
           />
         </svg>
         <div
-          class="emotion-1"
+          class="emotion-3"
         >
           Alert message.
         </div>
       </div>
     </div>
     <div
-      class="emotion-15"
+      class="emotion-12"
       role="alert"
     >
       <div
-        class="emotion-2"
+        class="emotion-1"
       >
         <svg
           aria-hidden="true"
-          class="emotion-0"
+          class="emotion-2"
           height="1em"
           role="img"
           viewBox="0 0 24 24"
@@ -717,7 +717,7 @@ exports[`should render correctly when inline 1`] = `
           />
         </svg>
         <div
-          class="emotion-1"
+          class="emotion-3"
         >
           Error message.
         </div>

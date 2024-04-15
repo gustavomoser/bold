@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should render correctly 1`] = `
-.emotion-3 {
+.emotion-0 {
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -14,6 +14,38 @@ exports[`should render correctly 1`] = `
 }
 
 .emotion-1 {
+  opacity: 0;
+  margin-right: -13px;
+}
+
+.emotion-1:hover+.emotion-2 {
+  border-color: #7A7B8E;
+}
+
+.emotion-1:checked+.emotion-2 {
+  background-color: #0069D0;
+  border-color: #0069D0;
+}
+
+.emotion-1:checked+.emotion-2:after {
+  opacity: 1;
+}
+
+.emotion-1:focus+.emotion-2 {
+  box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
+}
+
+.emotion-1:disabled+.emotion-2 {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.emotion-1:disabled+.emotion-2+.emotion-3 {
+  color: #AAAAB9;
+  cursor: not-allowed;
+}
+
+.emotion-2 {
   background-color: #FFFFFF;
   border: 1px solid #8F8FA2;
   border-radius: 100px;
@@ -26,7 +58,7 @@ exports[`should render correctly 1`] = `
   width: 24px;
 }
 
-.emotion-1:after {
+.emotion-2:after {
   background-color: #FFFFFF;
   border: 5px solid #FFFFFF;
   border-radius: 100px;
@@ -42,55 +74,23 @@ exports[`should render correctly 1`] = `
   width: 2px;
 }
 
-.emotion-2 {
+.emotion-3 {
   margin-left: 0.5rem;
-}
-
-.emotion-0 {
-  opacity: 0;
-  margin-right: -13px;
-}
-
-.emotion-0:hover + .emotion-1 {
-  border-color: #7A7B8E;
-}
-
-.emotion-0:checked + .emotion-1 {
-  background-color: #0069D0;
-  border-color: #0069D0;
-}
-
-.emotion-0:checked + .emotion-1:after {
-  opacity: 1;
-}
-
-.emotion-0:focus + .emotion-1 {
-  box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
-}
-
-.emotion-0:disabled + .emotion-1 {
-  opacity: 0.4;
-  cursor: not-allowed;
-}
-
-.emotion-0:disabled + .emotion-1 + .emotion-2 {
-  color: #AAAAB9;
-  cursor: not-allowed;
 }
 
 <div>
   <label
-    class="emotion-3"
+    class="emotion-0"
   >
     <input
-      class="emotion-0"
+      class="emotion-1"
       type="radio"
     />
     <span
-      class="emotion-1"
+      class="emotion-2"
     />
     <span
-      class="emotion-2"
+      class="emotion-3"
     >
       First
     </span>

@@ -11,8 +11,8 @@ exports[`shoud allow override of the "component" prop 1`] = `
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-user-select: none;
@@ -33,7 +33,7 @@ exports[`shoud allow override of the "component" prop 1`] = `
   padding: calc(0.75rem - 1px) 1rem;
 }
 
-.emotion-0 > span {
+.emotion-0>span {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -45,7 +45,7 @@ exports[`shoud allow override of the "component" prop 1`] = `
 }
 
 .emotion-0:not(:disabled):active {
-  box-shadow: inset 0 2px 8px 0 rgba(0,0,0,0.1);
+  box-shadow: inset 0 2px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
 .emotion-0:focus {
@@ -72,12 +72,14 @@ exports[`should accept the loading prop 1`] = `
 @keyframes animation-0 {
   from {
     -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
     transform: rotate(0deg);
   }
 
   to {
     -webkit-transform: rotate(359deg);
+    -moz-transform: rotate(359deg);
     -ms-transform: rotate(359deg);
     transform: rotate(359deg);
   }
@@ -93,8 +95,8 @@ exports[`should accept the loading prop 1`] = `
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-user-select: none;
@@ -115,7 +117,7 @@ exports[`should accept the loading prop 1`] = `
   padding: calc(0.75rem - 1px) 1rem;
 }
 
-.emotion-0 > span {
+.emotion-0>span {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -127,7 +129,7 @@ exports[`should accept the loading prop 1`] = `
 }
 
 .emotion-0:not(:disabled):active {
-  box-shadow: inset 0 2px 8px 0 rgba(0,0,0,0.1);
+  box-shadow: inset 0 2px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
 .emotion-0:focus {
@@ -172,7 +174,7 @@ exports[`should accept the loading prop 1`] = `
 `;
 
 exports[`should render correctly with icon 1`] = `
-.emotion-1 {
+.emotion-0 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 0.8125rem;
   line-height: 1.5rem;
@@ -182,8 +184,8 @@ exports[`should render correctly with icon 1`] = `
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-user-select: none;
@@ -204,7 +206,7 @@ exports[`should render correctly with icon 1`] = `
   padding: calc(0.75rem - 1px) 1rem;
 }
 
-.emotion-1 > span {
+.emotion-0>span {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -215,33 +217,33 @@ exports[`should render correctly with icon 1`] = `
   display: inline-flex;
 }
 
-.emotion-1:not(:disabled):active {
-  box-shadow: inset 0 2px 8px 0 rgba(0,0,0,0.1);
+.emotion-0:not(:disabled):active {
+  box-shadow: inset 0 2px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
-.emotion-1:focus {
+.emotion-0:focus {
   outline: none;
   box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
 }
 
-.emotion-1:not(:disabled):hover {
+.emotion-0:not(:disabled):hover {
   background-color: #F0F0F5;
 }
 
-.emotion-0 {
+.emotion-1 {
   fill: currentColor;
   font-size: 1.5rem;
 }
 
 <div>
   <button
-    class="emotion-1"
+    class="emotion-0"
     type="button"
   >
     <span>
       <svg
         aria-hidden="true"
-        class="emotion-0"
+        class="emotion-1"
         height="1em"
         role="img"
         viewBox="0 0 24 24"
@@ -268,8 +270,8 @@ exports[`should render correctly with label 1`] = `
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-user-select: none;
@@ -290,7 +292,7 @@ exports[`should render correctly with label 1`] = `
   padding: calc(0.75rem - 1px) 1rem;
 }
 
-.emotion-0 > span {
+.emotion-0>span {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -302,7 +304,7 @@ exports[`should render correctly with label 1`] = `
 }
 
 .emotion-0:not(:disabled):active {
-  box-shadow: inset 0 2px 8px 0 rgba(0,0,0,0.1);
+  box-shadow: inset 0 2px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
 .emotion-0:focus {
@@ -337,8 +339,8 @@ exports[`should render the default skin 1`] = `
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-user-select: none;
@@ -359,7 +361,7 @@ exports[`should render the default skin 1`] = `
   padding: calc(0.75rem - 1px) 1rem;
 }
 
-.emotion-0 > span {
+.emotion-0>span {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -371,7 +373,7 @@ exports[`should render the default skin 1`] = `
 }
 
 .emotion-0:not(:disabled):active {
-  box-shadow: inset 0 2px 8px 0 rgba(0,0,0,0.1);
+  box-shadow: inset 0 2px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
 .emotion-0:focus {
@@ -406,8 +408,8 @@ exports[`should render the default skin 2`] = `
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-user-select: none;
@@ -431,7 +433,7 @@ exports[`should render the default skin 2`] = `
   padding: calc(0.75rem - 1px) 1rem;
 }
 
-.emotion-0 > span {
+.emotion-0>span {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -443,7 +445,7 @@ exports[`should render the default skin 2`] = `
 }
 
 .emotion-0:not(:disabled):active {
-  box-shadow: inset 0 2px 8px 0 rgba(0,0,0,0.1);
+  box-shadow: inset 0 2px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
 .emotion-0:focus {
@@ -482,8 +484,8 @@ exports[`should render the default skin 3`] = `
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-user-select: none;
@@ -507,7 +509,7 @@ exports[`should render the default skin 3`] = `
   padding: calc(0.75rem - 1px) 1rem;
 }
 
-.emotion-0 > span {
+.emotion-0>span {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -519,7 +521,7 @@ exports[`should render the default skin 3`] = `
 }
 
 .emotion-0:not(:disabled):active {
-  box-shadow: inset 0 2px 8px 0 rgba(0,0,0,0.1);
+  box-shadow: inset 0 2px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
 .emotion-0:focus {
@@ -562,8 +564,8 @@ exports[`should render the ghost skin 1`] = `
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-user-select: none;
@@ -584,7 +586,7 @@ exports[`should render the ghost skin 1`] = `
   padding: calc(0.75rem - 1px) 1rem;
 }
 
-.emotion-0 > span {
+.emotion-0>span {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -596,7 +598,7 @@ exports[`should render the ghost skin 1`] = `
 }
 
 .emotion-0:not(:disabled):active {
-  box-shadow: inset 0 2px 8px 0 rgba(0,0,0,0.1);
+  box-shadow: inset 0 2px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
 .emotion-0:focus {
@@ -605,7 +607,7 @@ exports[`should render the ghost skin 1`] = `
 }
 
 .emotion-0:not(:disabled):hover {
-  background-color: rgba(58,58,71,0.1);
+  background-color: rgba(58, 58, 71, 0.1);
 }
 
 <div>
@@ -631,8 +633,8 @@ exports[`should render the ghost skin 2`] = `
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-user-select: none;
@@ -654,7 +656,7 @@ exports[`should render the ghost skin 2`] = `
   padding: calc(0.75rem - 1px) 1rem;
 }
 
-.emotion-0 > span {
+.emotion-0>span {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -666,7 +668,7 @@ exports[`should render the ghost skin 2`] = `
 }
 
 .emotion-0:not(:disabled):active {
-  box-shadow: inset 0 2px 8px 0 rgba(0,0,0,0.1);
+  box-shadow: inset 0 2px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
 .emotion-0:focus {
@@ -675,7 +677,7 @@ exports[`should render the ghost skin 2`] = `
 }
 
 .emotion-0:not(:disabled):hover {
-  background-color: rgba(58,58,71,0.1);
+  background-color: rgba(58, 58, 71, 0.1);
 }
 
 <div>
@@ -701,8 +703,8 @@ exports[`should render the ghost skin 3`] = `
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-user-select: none;
@@ -724,7 +726,7 @@ exports[`should render the ghost skin 3`] = `
   padding: calc(0.75rem - 1px) 1rem;
 }
 
-.emotion-0 > span {
+.emotion-0>span {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -736,7 +738,7 @@ exports[`should render the ghost skin 3`] = `
 }
 
 .emotion-0:not(:disabled):active {
-  box-shadow: inset 0 2px 8px 0 rgba(0,0,0,0.1);
+  box-shadow: inset 0 2px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
 .emotion-0:focus {
@@ -745,7 +747,7 @@ exports[`should render the ghost skin 3`] = `
 }
 
 .emotion-0:not(:disabled):hover {
-  background-color: rgba(58,58,71,0.1);
+  background-color: rgba(58, 58, 71, 0.1);
 }
 
 .emotion-0:focus {
@@ -775,8 +777,8 @@ exports[`should render the outline skin 1`] = `
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-user-select: none;
@@ -797,7 +799,7 @@ exports[`should render the outline skin 1`] = `
   padding: calc(0.75rem - 1px) 1rem;
 }
 
-.emotion-0 > span {
+.emotion-0>span {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -809,7 +811,7 @@ exports[`should render the outline skin 1`] = `
 }
 
 .emotion-0:not(:disabled):active {
-  box-shadow: inset 0 2px 8px 0 rgba(0,0,0,0.1);
+  box-shadow: inset 0 2px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
 .emotion-0:focus {
@@ -818,7 +820,7 @@ exports[`should render the outline skin 1`] = `
 }
 
 .emotion-0:not(:disabled):hover {
-  background-color: rgba(122,123,142,0.16);
+  background-color: rgba(122, 123, 142, 0.16);
 }
 
 <div>
@@ -844,8 +846,8 @@ exports[`should render the outline skin 2`] = `
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-user-select: none;
@@ -868,7 +870,7 @@ exports[`should render the outline skin 2`] = `
   padding: calc(0.75rem - 1px) 1rem;
 }
 
-.emotion-0 > span {
+.emotion-0>span {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -880,7 +882,7 @@ exports[`should render the outline skin 2`] = `
 }
 
 .emotion-0:not(:disabled):active {
-  box-shadow: inset 0 2px 8px 0 rgba(0,0,0,0.1);
+  box-shadow: inset 0 2px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
 .emotion-0:focus {
@@ -889,11 +891,11 @@ exports[`should render the outline skin 2`] = `
 }
 
 .emotion-0:not(:disabled):hover {
-  background-color: rgba(122,123,142,0.16);
+  background-color: rgba(122, 123, 142, 0.16);
 }
 
 .emotion-0:not(:disabled):hover {
-  background-color: rgba(0,105,208,0.16);
+  background-color: rgba(0, 105, 208, 0.16);
 }
 
 <div>
@@ -919,8 +921,8 @@ exports[`should render the outline skin 3`] = `
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-user-select: none;
@@ -943,7 +945,7 @@ exports[`should render the outline skin 3`] = `
   padding: calc(0.75rem - 1px) 1rem;
 }
 
-.emotion-0 > span {
+.emotion-0>span {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -955,7 +957,7 @@ exports[`should render the outline skin 3`] = `
 }
 
 .emotion-0:not(:disabled):active {
-  box-shadow: inset 0 2px 8px 0 rgba(0,0,0,0.1);
+  box-shadow: inset 0 2px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
 .emotion-0:focus {
@@ -964,11 +966,11 @@ exports[`should render the outline skin 3`] = `
 }
 
 .emotion-0:not(:disabled):hover {
-  background-color: rgba(122,123,142,0.16);
+  background-color: rgba(122, 123, 142, 0.16);
 }
 
 .emotion-0:not(:disabled):hover {
-  background-color: rgba(208,30,41,0.1);
+  background-color: rgba(208, 30, 41, 0.1);
 }
 
 .emotion-0:focus {

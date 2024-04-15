@@ -1,7 +1,32 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`MonthPicker should render correctly with month and year 1`] = `
+.emotion-0 {
+  background-color: #FFFFFF;
+  display: inline-block;
+  padding: 1rem;
+  border: 1px solid #D3D4DD;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2),0 3px 1px -2px rgba(0, 0, 0, 0.12),0 2px 2px 0 rgba(0, 0, 0, 0.14);
+  border-radius: 2px;
+}
+
 .emotion-1 {
+  margin: -0.25rem -0.25rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-2 {
+  text-align: center;
+  margin: 0.25rem 0.25rem;
+  border-radius: 0.25rem;
+}
+
+.emotion-3 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 0.8125rem;
   line-height: 1.5rem;
@@ -11,8 +36,8 @@ exports[`MonthPicker should render correctly with month and year 1`] = `
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-user-select: none;
@@ -33,7 +58,7 @@ exports[`MonthPicker should render correctly with month and year 1`] = `
   padding: calc(0.25rem - 1px) calc(0.5rem - 1px);
 }
 
-.emotion-1 > span {
+.emotion-3>span {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -44,50 +69,25 @@ exports[`MonthPicker should render correctly with month and year 1`] = `
   display: inline-flex;
 }
 
-.emotion-1:not(:disabled):active {
-  box-shadow: inset 0 2px 8px 0 rgba(0,0,0,0.1);
+.emotion-3:not(:disabled):active {
+  box-shadow: inset 0 2px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
-.emotion-1:focus {
+.emotion-3:focus {
   outline: none;
   box-shadow: 0 0 0 2px #0069D0;
 }
 
-.emotion-1:not(:disabled):hover {
-  background-color: rgba(58,58,71,0.1);
+.emotion-3:not(:disabled):hover {
+  background-color: rgba(58, 58, 71, 0.1);
 }
 
-.emotion-0 {
+.emotion-4 {
   fill: currentColor;
   font-size: 1.5rem;
 }
 
-.emotion-33 {
-  background-color: #FFFFFF;
-  display: inline-block;
-  padding: 1rem;
-  border: 1px solid #D3D4DD;
-  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.2),0 3px 1px -2px rgba(0,0,0,0.12),0 2px 2px 0 rgba(0,0,0,0.14);
-  border-radius: 2px;
-}
-
-.emotion-32 {
-  margin: -0.25rem -0.25rem;
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.emotion-2 {
-  text-align: center;
-  margin: 0.25rem 0.25rem;
-  border-radius: 0.25rem;
-}
-
-.emotion-3 {
+.emotion-6 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 0.8125rem;
   line-height: 1.5;
@@ -96,7 +96,7 @@ exports[`MonthPicker should render correctly with month and year 1`] = `
   font-weight: bold;
 }
 
-.emotion-8 {
+.emotion-11 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 0.8125rem;
   line-height: 1.5rem;
@@ -106,8 +106,8 @@ exports[`MonthPicker should render correctly with month and year 1`] = `
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-user-select: none;
@@ -127,12 +127,11 @@ exports[`MonthPicker should render correctly with month and year 1`] = `
   font-size: 0.875rem;
   padding: calc(0.75rem - 1px) 1rem;
   padding: calc(0.25rem - 1px) 1rem;
-  -webkit-transition-property: background;
   transition-property: background;
   min-width: 70px;
 }
 
-.emotion-8 > span {
+.emotion-11>span {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -143,38 +142,38 @@ exports[`MonthPicker should render correctly with month and year 1`] = `
   display: inline-flex;
 }
 
-.emotion-8:not(:disabled):active {
-  box-shadow: inset 0 2px 8px 0 rgba(0,0,0,0.1);
+.emotion-11:not(:disabled):active {
+  box-shadow: inset 0 2px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
-.emotion-8:focus {
+.emotion-11:focus {
   outline: none;
   box-shadow: 0 0 0 2px #0069D0;
 }
 
-.emotion-8:not(:disabled):hover {
-  background-color: rgba(58,58,71,0.1);
+.emotion-11:not(:disabled):hover {
+  background-color: rgba(58, 58, 71, 0.1);
 }
 
 <div>
   <div
-    class="emotion-33"
+    class="emotion-0"
   >
     <div
-      class="emotion-32"
+      class="emotion-1"
     >
       <div
         class="emotion-2"
       >
         <button
-          class="emotion-1"
+          class="emotion-3"
           title="Previous year"
           type="button"
         >
           <span>
             <svg
               aria-hidden="true"
-              class="emotion-0"
+              class="emotion-4"
               height="1em"
               role="img"
               viewBox="0 0 24 24"
@@ -192,7 +191,7 @@ exports[`MonthPicker should render correctly with month and year 1`] = `
         class="emotion-2"
       >
         <span
-          class="emotion-3"
+          class="emotion-6"
         >
           2019
         </span>
@@ -201,14 +200,14 @@ exports[`MonthPicker should render correctly with month and year 1`] = `
         class="emotion-2"
       >
         <button
-          class="emotion-1"
+          class="emotion-3"
           title="Next year"
           type="button"
         >
           <span>
             <svg
               aria-hidden="true"
-              class="emotion-0"
+              class="emotion-4"
               height="1em"
               role="img"
               viewBox="0 0 24 24"
@@ -226,7 +225,7 @@ exports[`MonthPicker should render correctly with month and year 1`] = `
         class="emotion-2"
       >
         <button
-          class="emotion-8"
+          class="emotion-11"
           title="January"
           type="button"
         >
@@ -239,7 +238,7 @@ exports[`MonthPicker should render correctly with month and year 1`] = `
         class="emotion-2"
       >
         <button
-          class="emotion-8"
+          class="emotion-11"
           title="February"
           type="button"
         >
@@ -252,7 +251,7 @@ exports[`MonthPicker should render correctly with month and year 1`] = `
         class="emotion-2"
       >
         <button
-          class="emotion-8"
+          class="emotion-11"
           title="March"
           type="button"
         >
@@ -265,7 +264,7 @@ exports[`MonthPicker should render correctly with month and year 1`] = `
         class="emotion-2"
       >
         <button
-          class="emotion-8"
+          class="emotion-11"
           title="April"
           type="button"
         >
@@ -278,7 +277,7 @@ exports[`MonthPicker should render correctly with month and year 1`] = `
         class="emotion-2"
       >
         <button
-          class="emotion-8"
+          class="emotion-11"
           title="May"
           type="button"
         >
@@ -291,7 +290,7 @@ exports[`MonthPicker should render correctly with month and year 1`] = `
         class="emotion-2"
       >
         <button
-          class="emotion-8"
+          class="emotion-11"
           title="June"
           type="button"
         >
@@ -304,7 +303,7 @@ exports[`MonthPicker should render correctly with month and year 1`] = `
         class="emotion-2"
       >
         <button
-          class="emotion-8"
+          class="emotion-11"
           title="July"
           type="button"
         >
@@ -317,7 +316,7 @@ exports[`MonthPicker should render correctly with month and year 1`] = `
         class="emotion-2"
       >
         <button
-          class="emotion-8"
+          class="emotion-11"
           title="August"
           type="button"
         >
@@ -330,7 +329,7 @@ exports[`MonthPicker should render correctly with month and year 1`] = `
         class="emotion-2"
       >
         <button
-          class="emotion-8"
+          class="emotion-11"
           title="September"
           type="button"
         >
@@ -343,7 +342,7 @@ exports[`MonthPicker should render correctly with month and year 1`] = `
         class="emotion-2"
       >
         <button
-          class="emotion-8"
+          class="emotion-11"
           title="October"
           type="button"
         >
@@ -356,7 +355,7 @@ exports[`MonthPicker should render correctly with month and year 1`] = `
         class="emotion-2"
       >
         <button
-          class="emotion-8"
+          class="emotion-11"
           title="November"
           type="button"
         >
@@ -369,7 +368,7 @@ exports[`MonthPicker should render correctly with month and year 1`] = `
         class="emotion-2"
       >
         <button
-          class="emotion-8"
+          class="emotion-11"
           title="December"
           type="button"
         >
@@ -384,8 +383,8 @@ exports[`MonthPicker should render correctly with month and year 1`] = `
 `;
 
 exports[`getMonthNames createMonthStylesFn should return merged styles from all modifiers that apply 1`] = `
-Object {
-  ":hover": Object {
+{
+  ":hover": {
     "background": "#0069D0!important",
     "color": "#FFFFFF",
   },

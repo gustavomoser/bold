@@ -30,7 +30,7 @@ exports[`should accept "height" prop and render with custom height 1`] = `
 `;
 
 exports[`should accept "icon" prop 1`] = `
-.emotion-1 {
+.emotion-0 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -49,7 +49,7 @@ exports[`should accept "icon" prop 1`] = `
   background: #D3D4DD;
 }
 
-.emotion-0 {
+.emotion-1 {
   fill: currentColor;
   font-size: 1.5rem;
   font-size: 1rem;
@@ -58,11 +58,11 @@ exports[`should accept "icon" prop 1`] = `
 
 <div>
   <span
-    class="emotion-1"
+    class="emotion-0"
   >
     <svg
       aria-hidden="true"
-      class="emotion-0"
+      class="emotion-1"
       height="1em"
       role="img"
       viewBox="0 0 24 24"
@@ -78,7 +78,7 @@ exports[`should accept "icon" prop 1`] = `
 `;
 
 exports[`should accept "removable" prop and render remove icon 1`] = `
-.emotion-1 {
+.emotion-0 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -97,26 +97,26 @@ exports[`should accept "removable" prop and render remove icon 1`] = `
   background: #D3D4DD;
 }
 
-.emotion-0 {
+.emotion-1 {
   fill: currentColor;
   font-size: 1.5rem;
   font-size: 1rem;
   margin-left: 0.125rem;
 }
 
-.emotion-0:hover {
+.emotion-1:hover {
   cursor: pointer;
   color: #D01E29;
 }
 
 <div>
   <span
-    class="emotion-1"
+    class="emotion-0"
   >
     Removable
     <svg
       aria-hidden="true"
-      class="emotion-0"
+      class="emotion-1"
       height="1em"
       role="img"
       viewBox="0 0 24 24"

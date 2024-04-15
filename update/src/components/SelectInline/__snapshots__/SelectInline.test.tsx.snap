@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`SelectInline should render correctly when closed 1`] = `
-.emotion-2 {
+.emotion-0 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 0.8125rem;
   line-height: 1.5rem;
@@ -11,8 +11,8 @@ exports[`SelectInline should render correctly when closed 1`] = `
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-user-select: none;
@@ -33,7 +33,7 @@ exports[`SelectInline should render correctly when closed 1`] = `
   padding: calc(0.25rem - 1px) calc(0.5rem - 1px);
 }
 
-.emotion-2 > span {
+.emotion-0>span {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -44,27 +44,27 @@ exports[`SelectInline should render correctly when closed 1`] = `
   display: inline-flex;
 }
 
-.emotion-2:not(:disabled):active {
-  box-shadow: inset 0 2px 8px 0 rgba(0,0,0,0.1);
+.emotion-0:not(:disabled):active {
+  box-shadow: inset 0 2px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
-.emotion-2:focus {
+.emotion-0:focus {
   outline: none;
   box-shadow: 0 0 0 2px #0069D0;
 }
 
-.emotion-2:not(:disabled):hover {
-  background-color: rgba(58,58,71,0.1);
+.emotion-0:not(:disabled):hover {
+  background-color: rgba(58, 58, 71, 0.1);
 }
 
-.emotion-0 {
+.emotion-1 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 0.8125rem;
   line-height: 1.5;
   color: #24252E;
 }
 
-.emotion-1 {
+.emotion-2 {
   fill: currentColor;
   font-size: 1.5rem;
   margin-left: 0.5rem;
@@ -72,18 +72,18 @@ exports[`SelectInline should render correctly when closed 1`] = `
 
 <div>
   <button
-    class="emotion-2"
+    class="emotion-0"
     type="button"
   >
     <span>
       <span
-        class="emotion-0"
+        class="emotion-1"
       >
         Value #001
       </span>
       <svg
         aria-hidden="true"
-        class="emotion-1"
+        class="emotion-2"
         height="1em"
         role="img"
         viewBox="0 0 24 24"
@@ -100,7 +100,7 @@ exports[`SelectInline should render correctly when closed 1`] = `
 `;
 
 exports[`SelectInline should render correctly when opened 1`] = `
-.emotion-2 {
+.emotion-0 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 0.8125rem;
   line-height: 1.5rem;
@@ -110,8 +110,8 @@ exports[`SelectInline should render correctly when opened 1`] = `
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-user-select: none;
@@ -132,7 +132,7 @@ exports[`SelectInline should render correctly when opened 1`] = `
   padding: calc(0.25rem - 1px) calc(0.5rem - 1px);
 }
 
-.emotion-2 > span {
+.emotion-0>span {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -143,57 +143,58 @@ exports[`SelectInline should render correctly when opened 1`] = `
   display: inline-flex;
 }
 
-.emotion-2:not(:disabled):active {
-  box-shadow: inset 0 2px 8px 0 rgba(0,0,0,0.1);
+.emotion-0:not(:disabled):active {
+  box-shadow: inset 0 2px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
-.emotion-2:focus {
+.emotion-0:focus {
   outline: none;
   box-shadow: 0 0 0 2px #0069D0;
 }
 
-.emotion-2:not(:disabled):hover {
-  background-color: rgba(58,58,71,0.1);
+.emotion-0:not(:disabled):hover {
+  background-color: rgba(58, 58, 71, 0.1);
 }
 
-.emotion-0 {
+.emotion-1 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 0.8125rem;
   line-height: 1.5;
   color: #24252E;
 }
 
-.emotion-1 {
+.emotion-2 {
   fill: currentColor;
   font-size: 1.5rem;
   margin-left: 0.5rem;
 }
 
-.emotion-15 {
+.emotion-3 {
   z-index: 1200;
   border: 1px solid #D3D4DD;
-  box-shadow: 0 2px 4px -1px rgba(0,0,0,0.2),0 1px 10px 0 rgba(0,0,0,0.12),0 4px 5px 0 rgba(0,0,0,0.14);
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2),0 1px 10px 0 rgba(0, 0, 0, 0.12),0 4px 5px 0 rgba(0, 0, 0, 0.14);
   background-color: #FFFFFF;
   position: absolute;
   left: 0;
   top: 0;
 }
 
-.emotion-15 [role="combobox"] > div > div {
+.emotion-3 [role="combobox"]>div>div {
   margin: 0.5rem;
 }
 
-.emotion-15 ul > li:first-of-type {
+.emotion-3 ul>li:first-of-type {
   margin-top: 0.5rem;
   border-top: 1px solid #D3D4DD;
 }
 
-.emotion-15 ul {
+.emotion-3 ul {
   width: 100%;
   position: static;
   top: initial;
   left: initial;
   -webkit-transform: none;
+  -moz-transform: none;
   -ms-transform: none;
   transform: none;
   box-shadow: none;
@@ -201,7 +202,7 @@ exports[`SelectInline should render correctly when opened 1`] = `
   border-radius: 0;
 }
 
-.emotion-14 {
+.emotion-4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -211,29 +212,29 @@ exports[`SelectInline should render correctly when opened 1`] = `
   flex-direction: column;
 }
 
-.emotion-13 {
+.emotion-5 {
   display: inline-block;
   margin-bottom: 0rem;
   margin-top: 0rem;
 }
 
-.emotion-13:first-of-type {
+.emotion-5:first-of-type {
   margin-top: 0;
 }
 
-.emotion-13:last-of-type {
+.emotion-5:last-of-type {
   margin-bottom: 0;
 }
 
-.emotion-13:empty {
+.emotion-5:empty {
   display: none;
 }
 
-.emotion-4 {
+.emotion-8 {
   position: relative;
 }
 
-.emotion-3 {
+.emotion-9 {
   background-color: #FFFFFF;
   border: solid 1px #8F8FA2;
   border-radius: 2px;
@@ -244,65 +245,63 @@ exports[`SelectInline should render correctly when opened 1`] = `
   margin: 0;
   padding: calc(0.5rem - 1px) 0.5rem;
   width: 100%;
-  -webkit-transition-property: box-shadow;
   transition-property: box-shadow;
-  -webkit-transition-duration: .2s;
   transition-duration: .2s;
 }
 
-.emotion-3[type="search"]::-webkit-search-decoration {
+.emotion-9[type="search"]::-webkit-search-decoration {
   display: none;
 }
 
-.emotion-3[type="search"]::-webkit-search-cancel-button {
+.emotion-9[type="search"]::-webkit-search-cancel-button {
   display: none;
 }
 
-.emotion-3[type="search"]::-webkit-search-results-button {
+.emotion-9[type="search"]::-webkit-search-results-button {
   display: none;
 }
 
-.emotion-3[type="search"]::-webkit-search-results-decoration {
+.emotion-9[type="search"]::-webkit-search-results-decoration {
   display: none;
 }
 
-.emotion-3:required {
+.emotion-9:required {
   box-shadow: none;
 }
 
-.emotion-3::-webkit-input-placeholder {
+.emotion-9::-webkit-input-placeholder {
   color: #696979;
 }
 
-.emotion-3::-moz-placeholder {
+.emotion-9::-moz-placeholder {
   color: #696979;
 }
 
-.emotion-3:-ms-input-placeholder {
+.emotion-9:-ms-input-placeholder {
   color: #696979;
 }
 
-.emotion-3::placeholder {
+.emotion-9::placeholder {
   color: #696979;
 }
 
-.emotion-3:disabled {
+.emotion-9:disabled {
   border-color: #D3D4DD;
   background-color: #F0F0F5;
 }
 
-.emotion-3:not(:disabled):hover {
+.emotion-9:not(:disabled):hover {
   border-color: #7A7B8E;
 }
 
-.emotion-3:not(:disabled):focus {
+.emotion-9:not(:disabled):focus {
   outline: none;
   box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
 }
 
-.emotion-3:not(:disabled):active {
+.emotion-9:not(:disabled):active {
   border-color: #0069D0;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.09);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
 }
 
 .emotion-10 {
@@ -317,18 +316,18 @@ exports[`SelectInline should render correctly when opened 1`] = `
   border: 1px solid #D3D4DD;
   border-radius: 2px;
   background-color: #FFFFFF;
-  box-shadow: 0 2px 4px -1px rgba(0,0,0,0.2),0 1px 10px 0 rgba(0,0,0,0.12),0 4px 5px 0 rgba(0,0,0,0.14);
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2),0 1px 10px 0 rgba(0, 0, 0, 0.12),0 4px 5px 0 rgba(0, 0, 0, 0.14);
   max-height: 20rem;
 }
 
-.emotion-9 {
+.emotion-11 {
   list-style: none;
   margin: 0;
   padding: 0;
   border: 1px solid #D3D4DD;
   border-radius: 2px;
   background-color: #FFFFFF;
-  box-shadow: 0 2px 4px -1px rgba(0,0,0,0.2),0 1px 10px 0 rgba(0,0,0,0.12),0 4px 5px 0 rgba(0,0,0,0.14);
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2),0 1px 10px 0 rgba(0, 0, 0, 0.12),0 4px 5px 0 rgba(0, 0, 0, 0.14);
   max-height: 20rem;
   overflow-y: auto;
   overflow-x: hidden;
@@ -341,7 +340,7 @@ exports[`SelectInline should render correctly when opened 1`] = `
   max-height: auto;
 }
 
-.emotion-5 {
+.emotion-12 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 0.8125rem;
   line-height: 1.5;
@@ -353,15 +352,15 @@ exports[`SelectInline should render correctly when opened 1`] = `
   transition: .1s ease;
 }
 
-.emotion-5:last-of-type {
+.emotion-12:last-of-type {
   border-bottom: none;
 }
 
-.emotion-5:hover {
+.emotion-12:hover {
   background: #F0F0F5;
 }
 
-.emotion-5:focus {
+.emotion-12:focus {
   outline: 0;
   border-radius: 3px;
   box-shadow: inset 0 0 0 2px #0069D0;
@@ -370,18 +369,18 @@ exports[`SelectInline should render correctly when opened 1`] = `
 <body>
   <div>
     <button
-      class="emotion-2"
+      class="emotion-0"
       type="button"
     >
       <span>
         <span
-          class="emotion-0"
+          class="emotion-1"
         >
           Value #001
         </span>
         <svg
           aria-hidden="true"
-          class="emotion-1"
+          class="emotion-2"
           height="1em"
           role="img"
           viewBox="0 0 24 24"
@@ -395,33 +394,33 @@ exports[`SelectInline should render correctly when opened 1`] = `
       </span>
     </button>
     <div
-      class="emotion-15"
+      class="emotion-3"
     >
       <div
-        class="emotion-14"
+        class="emotion-4"
       >
         <div
-          class="emotion-13"
+          class="emotion-5"
         >
           <div
-            class="emotion-11"
+            class="emotion-6"
           >
             <div
               aria-expanded="true"
               aria-haspopup="listbox"
               aria-labelledby="downshift-0-label"
               aria-owns="downshift-0-menu"
-              class="emotion-11"
+              class="emotion-7"
               role="combobox"
             >
               <div>
                 <div
-                  class="emotion-4"
+                  class="emotion-8"
                 >
                   <input
                     aria-autocomplete="list"
                     aria-controls="downshift-0-menu"
-                    class="emotion-3"
+                    class="emotion-9"
                     id="downshift-0-input"
                     placeholder="Search for a value"
                     type="text"
@@ -437,11 +436,11 @@ exports[`SelectInline should render correctly when opened 1`] = `
                 style="position: absolute; left: 0px; top: 0px; width: 0px;"
               >
                 <ul
-                  class="emotion-9"
+                  class="emotion-11"
                 >
                   <li
                     aria-selected="false"
-                    class="emotion-5"
+                    class="emotion-12"
                     id="downshift-0-item-0"
                     role="option"
                   >
@@ -449,7 +448,7 @@ exports[`SelectInline should render correctly when opened 1`] = `
                   </li>
                   <li
                     aria-selected="false"
-                    class="emotion-5"
+                    class="emotion-12"
                     id="downshift-0-item-1"
                     role="option"
                   >
@@ -457,7 +456,7 @@ exports[`SelectInline should render correctly when opened 1`] = `
                   </li>
                   <li
                     aria-selected="false"
-                    class="emotion-5"
+                    class="emotion-12"
                     id="downshift-0-item-2"
                     role="option"
                   >
@@ -465,7 +464,7 @@ exports[`SelectInline should render correctly when opened 1`] = `
                   </li>
                   <li
                     aria-selected="false"
-                    class="emotion-5"
+                    class="emotion-12"
                     id="downshift-0-item-3"
                     role="option"
                   >

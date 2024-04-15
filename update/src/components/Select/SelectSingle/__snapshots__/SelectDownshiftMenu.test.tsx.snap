@@ -1,10 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`SelectDownshiftComponentCustom should accept actions inside children prop 1`] = `
-.emotion-2 {
+.emotion-0 {
   display: grid;
   grid-auto-flow: column;
-  grid-auto-columns: minmax(min-content,max-content);
+  grid-auto-columns: minmax(min-content, max-content);
   grid-gap: 1rem;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -12,18 +12,17 @@ exports[`SelectDownshiftComponentCustom should accept actions inside children pr
   align-items: center;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
-.emotion-0 {
+.emotion-1 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 0.8125rem;
   line-height: 1.5;
   color: #24252E;
 }
 
-.emotion-1 {
+.emotion-2 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 0.8125rem;
   line-height: 1.5rem;
@@ -33,8 +32,8 @@ exports[`SelectDownshiftComponentCustom should accept actions inside children pr
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-user-select: none;
@@ -58,7 +57,7 @@ exports[`SelectDownshiftComponentCustom should accept actions inside children pr
   padding: calc(0.25rem - 1px) calc(0.5rem - 1px);
 }
 
-.emotion-1 > span {
+.emotion-2>span {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -69,20 +68,20 @@ exports[`SelectDownshiftComponentCustom should accept actions inside children pr
   display: inline-flex;
 }
 
-.emotion-1:not(:disabled):active {
-  box-shadow: inset 0 2px 8px 0 rgba(0,0,0,0.1);
+.emotion-2:not(:disabled):active {
+  box-shadow: inset 0 2px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
-.emotion-1:focus {
+.emotion-2:focus {
   outline: none;
   box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
 }
 
-.emotion-1:not(:disabled):hover {
+.emotion-2:not(:disabled):hover {
   background-color: #F0F0F5;
 }
 
-.emotion-1:not(:disabled):hover {
+.emotion-2:not(:disabled):hover {
   background-color: #0051A2;
 }
 
@@ -91,15 +90,15 @@ exports[`SelectDownshiftComponentCustom should accept actions inside children pr
     style="background: rgb(240, 240, 245); padding: 0.25rem 0.5rem; cursor: initial;"
   >
     <div
-      class="emotion-2"
+      class="emotion-0"
     >
       <span
-        class="emotion-0"
+        class="emotion-1"
       >
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime quod modi, inventore quasi aut sed beatae corrupti repellendus minima voluptatem debitis, quibusdam repudiandae totam voluptatum odit.
       </span>
       <button
-        class="emotion-1"
+        class="emotion-2"
         type="button"
       >
         <span>

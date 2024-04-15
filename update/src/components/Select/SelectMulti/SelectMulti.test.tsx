@@ -1,5 +1,4 @@
 import { fireEvent, render } from '@testing-library/react'
-import { resetIdCounter } from 'downshift'
 import React from 'react'
 import { DefaultItemType } from '../SelectSingle'
 import { SelectMulti, SelectMultiProps } from './SelectMulti'
@@ -18,15 +17,13 @@ function SelectTest(props: Partial<SelectMultiProps>) {
   return (
     <SelectMulti
       items={items}
-      itemToString={item => item && item.label}
+      itemToString={(item) => item && item.label}
       placeholder='Select a value...'
       itemIsEqual={(a, b) => a.value === b.value}
       {...props}
     />
   )
 }
-
-beforeEach(() => resetIdCounter())
 
 it('should render correctly when closed', () => {
   const { container } = render(<SelectTest />)

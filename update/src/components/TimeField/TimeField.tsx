@@ -7,7 +7,7 @@ import { MaskedTextField, MaskedTextFieldProps } from '../MaskedTextField'
 
 const mask = [/\d/, /\d/, ':', /\d/, /\d/]
 
-export interface TimeFieldProps extends Omit<MaskedTextFieldProps, 'onChange'> {
+export interface TimeFieldProps extends Omit<MaskedTextFieldProps, 'onChange' | 'mask'> {
   /**
    * Original input change event handler
    */

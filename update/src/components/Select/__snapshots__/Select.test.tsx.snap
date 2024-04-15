@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`emptyItem should render when items is empty 1`] = `
-.emotion-11 {
+.emotion-0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -11,25 +11,103 @@ exports[`emptyItem should render when items is empty 1`] = `
   flex-direction: column;
 }
 
-.emotion-10 {
+.emotion-1 {
   display: inline-block;
   margin-bottom: 0rem;
   margin-top: 0rem;
 }
 
-.emotion-10:first-of-type {
+.emotion-1:first-of-type {
   margin-top: 0;
 }
 
-.emotion-10:last-of-type {
+.emotion-1:last-of-type {
   margin-bottom: 0;
 }
 
-.emotion-10:empty {
+.emotion-1:empty {
   display: none;
 }
 
-.emotion-3 {
+.emotion-4 {
+  position: relative;
+}
+
+.emotion-4 input {
+  padding-right: 3rem;
+}
+
+.emotion-5 {
+  background-color: #FFFFFF;
+  border: solid 1px #8F8FA2;
+  border-radius: 2px;
+  color: #24252E;
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1rem;
+  margin: 0;
+  padding: calc(0.5rem - 1px) 0.5rem;
+  width: 100%;
+  transition-property: box-shadow;
+  transition-duration: .2s;
+}
+
+.emotion-5[type="search"]::-webkit-search-decoration {
+  display: none;
+}
+
+.emotion-5[type="search"]::-webkit-search-cancel-button {
+  display: none;
+}
+
+.emotion-5[type="search"]::-webkit-search-results-button {
+  display: none;
+}
+
+.emotion-5[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+.emotion-5:required {
+  box-shadow: none;
+}
+
+.emotion-5::-webkit-input-placeholder {
+  color: #696979;
+}
+
+.emotion-5::-moz-placeholder {
+  color: #696979;
+}
+
+.emotion-5:-ms-input-placeholder {
+  color: #696979;
+}
+
+.emotion-5::placeholder {
+  color: #696979;
+}
+
+.emotion-5:disabled {
+  border-color: #D3D4DD;
+  background-color: #F0F0F5;
+}
+
+.emotion-5:not(:disabled):hover {
+  border-color: #7A7B8E;
+}
+
+.emotion-5:not(:disabled):focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
+}
+
+.emotion-5:not(:disabled):active {
+  border-color: #0069D0;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
+}
+
+.emotion-6 {
   position: absolute;
   background-color: #F0F0F5;
   display: -webkit-box;
@@ -41,8 +119,8 @@ exports[`emptyItem should render when items is empty 1`] = `
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   padding: 0.25rem;
   width: 2.5rem;
@@ -51,84 +129,7 @@ exports[`emptyItem should render when items is empty 1`] = `
   right: 1px;
 }
 
-.emotion-0 {
-  background-color: #FFFFFF;
-  border: solid 1px #8F8FA2;
-  border-radius: 2px;
-  color: #24252E;
-  font-family: "IBM Plex Sans",sans-serif;
-  font-size: 0.8125rem;
-  line-height: 1rem;
-  margin: 0;
-  padding: calc(0.5rem - 1px) 0.5rem;
-  width: 100%;
-  -webkit-transition-property: box-shadow;
-  transition-property: box-shadow;
-  -webkit-transition-duration: .2s;
-  transition-duration: .2s;
-}
-
-.emotion-0[type="search"]::-webkit-search-decoration {
-  display: none;
-}
-
-.emotion-0[type="search"]::-webkit-search-cancel-button {
-  display: none;
-}
-
-.emotion-0[type="search"]::-webkit-search-results-button {
-  display: none;
-}
-
-.emotion-0[type="search"]::-webkit-search-results-decoration {
-  display: none;
-}
-
-.emotion-0:required {
-  box-shadow: none;
-}
-
-.emotion-0::-webkit-input-placeholder {
-  color: #696979;
-}
-
-.emotion-0::-moz-placeholder {
-  color: #696979;
-}
-
-.emotion-0:-ms-input-placeholder {
-  color: #696979;
-}
-
-.emotion-0::placeholder {
-  color: #696979;
-}
-
-.emotion-0:disabled {
-  border-color: #D3D4DD;
-  background-color: #F0F0F5;
-}
-
-.emotion-0:not(:disabled):hover {
-  border-color: #7A7B8E;
-}
-
-.emotion-0:not(:disabled):focus {
-  outline: none;
-  box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
-}
-
-.emotion-0:not(:disabled):active {
-  border-color: #0069D0;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.09);
-}
-
-.emotion-1 {
-  fill: currentColor;
-  font-size: 1.5rem;
-}
-
-.emotion-2 {
+.emotion-7 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 0.8125rem;
   line-height: 1.5rem;
@@ -138,8 +139,8 @@ exports[`emptyItem should render when items is empty 1`] = `
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-user-select: none;
@@ -161,7 +162,7 @@ exports[`emptyItem should render when items is empty 1`] = `
   border-radius: inherit;
 }
 
-.emotion-2 > span {
+.emotion-7>span {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -172,24 +173,29 @@ exports[`emptyItem should render when items is empty 1`] = `
   display: inline-flex;
 }
 
-.emotion-2:not(:disabled):active {
-  box-shadow: inset 0 2px 8px 0 rgba(0,0,0,0.1);
+.emotion-7:not(:disabled):active {
+  box-shadow: inset 0 2px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
-.emotion-2:focus {
+.emotion-7:focus {
   outline: none;
   box-shadow: 0 0 0 2px #0069D0;
 }
 
-.emotion-2:not(:disabled):hover {
-  background-color: rgba(58,58,71,0.1);
+.emotion-7:not(:disabled):hover {
+  background-color: rgba(58, 58, 71, 0.1);
 }
 
-.emotion-2:focus {
+.emotion-7:focus {
   box-shadow: none;
 }
 
-.emotion-7 {
+.emotion-8 {
+  fill: currentColor;
+  font-size: 1.5rem;
+}
+
+.emotion-9 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -201,26 +207,18 @@ exports[`emptyItem should render when items is empty 1`] = `
   border: 1px solid #D3D4DD;
   border-radius: 2px;
   background-color: #FFFFFF;
-  box-shadow: 0 2px 4px -1px rgba(0,0,0,0.2),0 1px 10px 0 rgba(0,0,0,0.12),0 4px 5px 0 rgba(0,0,0,0.14);
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2),0 1px 10px 0 rgba(0, 0, 0, 0.12),0 4px 5px 0 rgba(0, 0, 0, 0.14);
   max-height: 20rem;
 }
 
-.emotion-4 {
-  position: relative;
-}
-
-.emotion-4 input {
-  padding-right: 3rem;
-}
-
-.emotion-6 {
+.emotion-10 {
   list-style: none;
   margin: 0;
   padding: 0;
   border: 1px solid #D3D4DD;
   border-radius: 2px;
   background-color: #FFFFFF;
-  box-shadow: 0 2px 4px -1px rgba(0,0,0,0.2),0 1px 10px 0 rgba(0,0,0,0.12),0 4px 5px 0 rgba(0,0,0,0.14);
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2),0 1px 10px 0 rgba(0, 0, 0, 0.12),0 4px 5px 0 rgba(0, 0, 0, 0.14);
   max-height: 20rem;
   overflow-y: auto;
   overflow-x: hidden;
@@ -233,7 +231,7 @@ exports[`emptyItem should render when items is empty 1`] = `
   max-height: auto;
 }
 
-.emotion-5 {
+.emotion-11 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 0.8125rem;
   line-height: 1.5;
@@ -249,15 +247,15 @@ exports[`emptyItem should render when items is empty 1`] = `
   cursor: initial;
 }
 
-.emotion-5:last-of-type {
+.emotion-11:last-of-type {
   border-bottom: none;
 }
 
-.emotion-5:hover {
+.emotion-11:hover {
   background: #F0F0F5;
 }
 
-.emotion-5:focus {
+.emotion-11:focus {
   outline: 0;
   border-radius: 3px;
   box-shadow: inset 0 0 0 2px #0069D0;
@@ -265,20 +263,20 @@ exports[`emptyItem should render when items is empty 1`] = `
 
 <div>
   <div
-    class="emotion-11"
+    class="emotion-0"
   >
     <div
-      class="emotion-10"
+      class="emotion-1"
     >
       <div
-        class="emotion-8"
+        class="emotion-2"
       >
         <div
           aria-expanded="true"
           aria-haspopup="listbox"
           aria-labelledby="downshift-11-label"
           aria-owns="downshift-11-menu"
-          class="emotion-8"
+          class="emotion-3"
           role="combobox"
         >
           <div>
@@ -288,23 +286,23 @@ exports[`emptyItem should render when items is empty 1`] = `
               <input
                 aria-autocomplete="list"
                 aria-controls="downshift-11-menu"
-                class="emotion-0"
+                class="emotion-5"
                 id="downshift-11-input"
                 type="text"
                 value=""
               />
               <span
-                class="emotion-3"
+                class="emotion-6"
               >
                 <button
-                  class="emotion-2"
+                  class="emotion-7"
                   tabindex="-1"
                   type="button"
                 >
                   <span>
                     <svg
                       aria-hidden="true"
-                      class="emotion-1"
+                      class="emotion-8"
                       height="1em"
                       role="img"
                       viewBox="0 0 24 24"
@@ -322,17 +320,17 @@ exports[`emptyItem should render when items is empty 1`] = `
           </div>
           <div
             aria-labelledby="downshift-11-label"
-            class="emotion-7"
+            class="emotion-9"
             id="downshift-11-menu"
             role="listbox"
             style="position: absolute; left: 0px; top: 0px; width: 0px;"
           >
             <ul
-              class="emotion-6"
+              class="emotion-10"
             >
               <li
                 aria-selected="false"
-                class="emotion-5"
+                class="emotion-11"
               >
                 No results were found
               </li>
@@ -692,13 +690,13 @@ exports[`emptyItem should render when items is null 1`] = `
 
 exports[`multiple should warn when value is NOT an array 1`] = `
 [MockFunction] {
-  "calls": Array [
-    Array [
+  "calls": [
+    [
       "Trying to set an object as value for <Select multiple /> but it should be an array",
     ],
   ],
-  "results": Array [
-    Object {
+  "results": [
+    {
       "type": "return",
       "value": null,
     },
@@ -707,7 +705,7 @@ exports[`multiple should warn when value is NOT an array 1`] = `
 `;
 
 exports[`select custom components should accept actions inside AppendItem 1`] = `
-.emotion-18 {
+.emotion-0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -717,33 +715,103 @@ exports[`select custom components should accept actions inside AppendItem 1`] = 
   flex-direction: column;
 }
 
-.emotion-17 {
+.emotion-1 {
   display: inline-block;
   margin-bottom: 0rem;
   margin-top: 0rem;
 }
 
-.emotion-17:first-of-type {
+.emotion-1:first-of-type {
   margin-top: 0;
 }
 
-.emotion-17:last-of-type {
+.emotion-1:last-of-type {
   margin-bottom: 0;
 }
 
-.emotion-17:empty {
+.emotion-1:empty {
   display: none;
 }
 
-.emotion-6 {
+.emotion-4 {
   position: relative;
 }
 
-.emotion-6 input {
+.emotion-4 input {
   padding-right: 4.5rem;
 }
 
-.emotion-2 {
+.emotion-5 {
+  background-color: #FFFFFF;
+  border: solid 1px #8F8FA2;
+  border-radius: 2px;
+  color: #24252E;
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1rem;
+  margin: 0;
+  padding: calc(0.5rem - 1px) 0.5rem;
+  width: 100%;
+  transition-property: box-shadow;
+  transition-duration: .2s;
+}
+
+.emotion-5[type="search"]::-webkit-search-decoration {
+  display: none;
+}
+
+.emotion-5[type="search"]::-webkit-search-cancel-button {
+  display: none;
+}
+
+.emotion-5[type="search"]::-webkit-search-results-button {
+  display: none;
+}
+
+.emotion-5[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+.emotion-5:required {
+  box-shadow: none;
+}
+
+.emotion-5::-webkit-input-placeholder {
+  color: #696979;
+}
+
+.emotion-5::-moz-placeholder {
+  color: #696979;
+}
+
+.emotion-5:-ms-input-placeholder {
+  color: #696979;
+}
+
+.emotion-5::placeholder {
+  color: #696979;
+}
+
+.emotion-5:disabled {
+  border-color: #D3D4DD;
+  background-color: #F0F0F5;
+}
+
+.emotion-5:not(:disabled):hover {
+  border-color: #7A7B8E;
+}
+
+.emotion-5:not(:disabled):focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
+}
+
+.emotion-5:not(:disabled):active {
+  border-color: #0069D0;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
+}
+
+.emotion-6 {
   position: absolute;
   right: 2.5rem;
   background: transparent;
@@ -755,8 +823,8 @@ exports[`select custom components should accept actions inside AppendItem 1`] = 
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -767,11 +835,16 @@ exports[`select custom components should accept actions inside AppendItem 1`] = 
   padding: 1px 6px;
 }
 
-.emotion-2:hover {
+.emotion-6:hover {
   color: #D01E29;
 }
 
-.emotion-5 {
+.emotion-7 {
+  fill: currentColor;
+  font-size: 1.5rem;
+}
+
+.emotion-8 {
   position: absolute;
   background-color: #F0F0F5;
   display: -webkit-box;
@@ -783,8 +856,8 @@ exports[`select custom components should accept actions inside AppendItem 1`] = 
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   padding: 0.25rem;
   width: 2.5rem;
@@ -793,84 +866,7 @@ exports[`select custom components should accept actions inside AppendItem 1`] = 
   right: 1px;
 }
 
-.emotion-0 {
-  background-color: #FFFFFF;
-  border: solid 1px #8F8FA2;
-  border-radius: 2px;
-  color: #24252E;
-  font-family: "IBM Plex Sans",sans-serif;
-  font-size: 0.8125rem;
-  line-height: 1rem;
-  margin: 0;
-  padding: calc(0.5rem - 1px) 0.5rem;
-  width: 100%;
-  -webkit-transition-property: box-shadow;
-  transition-property: box-shadow;
-  -webkit-transition-duration: .2s;
-  transition-duration: .2s;
-}
-
-.emotion-0[type="search"]::-webkit-search-decoration {
-  display: none;
-}
-
-.emotion-0[type="search"]::-webkit-search-cancel-button {
-  display: none;
-}
-
-.emotion-0[type="search"]::-webkit-search-results-button {
-  display: none;
-}
-
-.emotion-0[type="search"]::-webkit-search-results-decoration {
-  display: none;
-}
-
-.emotion-0:required {
-  box-shadow: none;
-}
-
-.emotion-0::-webkit-input-placeholder {
-  color: #696979;
-}
-
-.emotion-0::-moz-placeholder {
-  color: #696979;
-}
-
-.emotion-0:-ms-input-placeholder {
-  color: #696979;
-}
-
-.emotion-0::placeholder {
-  color: #696979;
-}
-
-.emotion-0:disabled {
-  border-color: #D3D4DD;
-  background-color: #F0F0F5;
-}
-
-.emotion-0:not(:disabled):hover {
-  border-color: #7A7B8E;
-}
-
-.emotion-0:not(:disabled):focus {
-  outline: none;
-  box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
-}
-
-.emotion-0:not(:disabled):active {
-  border-color: #0069D0;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.09);
-}
-
-.emotion-1 {
-  fill: currentColor;
-  font-size: 1.5rem;
-}
-
-.emotion-4 {
+.emotion-9 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 0.8125rem;
   line-height: 1.5rem;
@@ -880,8 +876,8 @@ exports[`select custom components should accept actions inside AppendItem 1`] = 
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-user-select: none;
@@ -903,7 +899,7 @@ exports[`select custom components should accept actions inside AppendItem 1`] = 
   border-radius: inherit;
 }
 
-.emotion-4 > span {
+.emotion-9>span {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -914,24 +910,24 @@ exports[`select custom components should accept actions inside AppendItem 1`] = 
   display: inline-flex;
 }
 
-.emotion-4:not(:disabled):active {
-  box-shadow: inset 0 2px 8px 0 rgba(0,0,0,0.1);
+.emotion-9:not(:disabled):active {
+  box-shadow: inset 0 2px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
-.emotion-4:focus {
+.emotion-9:focus {
   outline: none;
   box-shadow: 0 0 0 2px #0069D0;
 }
 
-.emotion-4:not(:disabled):hover {
-  background-color: rgba(58,58,71,0.1);
+.emotion-9:not(:disabled):hover {
+  background-color: rgba(58, 58, 71, 0.1);
 }
 
-.emotion-4:focus {
+.emotion-9:focus {
   box-shadow: none;
 }
 
-.emotion-14 {
+.emotion-11 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -943,7 +939,7 @@ exports[`select custom components should accept actions inside AppendItem 1`] = 
   border: 1px solid #D3D4DD;
   border-radius: 2px;
   background-color: #FFFFFF;
-  box-shadow: 0 2px 4px -1px rgba(0,0,0,0.2),0 1px 10px 0 rgba(0,0,0,0.12),0 4px 5px 0 rgba(0,0,0,0.14);
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2),0 1px 10px 0 rgba(0, 0, 0, 0.12),0 4px 5px 0 rgba(0, 0, 0, 0.14);
   max-height: 20rem;
 }
 
@@ -954,7 +950,7 @@ exports[`select custom components should accept actions inside AppendItem 1`] = 
   border: 1px solid #D3D4DD;
   border-radius: 2px;
   background-color: #FFFFFF;
-  box-shadow: 0 2px 4px -1px rgba(0,0,0,0.2),0 1px 10px 0 rgba(0,0,0,0.12),0 4px 5px 0 rgba(0,0,0,0.14);
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2),0 1px 10px 0 rgba(0, 0, 0, 0.12),0 4px 5px 0 rgba(0, 0, 0, 0.14);
   max-height: 20rem;
   overflow-y: auto;
   overflow-x: hidden;
@@ -967,7 +963,7 @@ exports[`select custom components should accept actions inside AppendItem 1`] = 
   max-height: auto;
 }
 
-.emotion-7 {
+.emotion-13 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 0.8125rem;
   line-height: 1.5;
@@ -977,23 +973,27 @@ exports[`select custom components should accept actions inside AppendItem 1`] = 
   padding: 0.5rem 0.5rem;
   -webkit-transition: .1s ease;
   transition: .1s ease;
+  background: #F0F0F5;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  cursor: initial;
 }
 
-.emotion-7:last-of-type {
+.emotion-13:last-of-type {
   border-bottom: none;
 }
 
-.emotion-7:hover {
+.emotion-13:hover {
   background: #F0F0F5;
 }
 
-.emotion-7:focus {
+.emotion-13:focus {
   outline: 0;
   border-radius: 3px;
   box-shadow: inset 0 0 0 2px #0069D0;
 }
 
-.emotion-13 {
+.emotion-14 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 0.8125rem;
   line-height: 1.5rem;
@@ -1003,8 +1003,8 @@ exports[`select custom components should accept actions inside AppendItem 1`] = 
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-user-select: none;
@@ -1028,7 +1028,7 @@ exports[`select custom components should accept actions inside AppendItem 1`] = 
   padding: calc(0.25rem - 1px) calc(0.5rem - 1px);
 }
 
-.emotion-13 > span {
+.emotion-14>span {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -1039,62 +1039,62 @@ exports[`select custom components should accept actions inside AppendItem 1`] = 
   display: inline-flex;
 }
 
-.emotion-13:not(:disabled):active {
-  box-shadow: inset 0 2px 8px 0 rgba(0,0,0,0.1);
+.emotion-14:not(:disabled):active {
+  box-shadow: inset 0 2px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
-.emotion-13:focus {
+.emotion-14:focus {
   outline: none;
   box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
 }
 
-.emotion-13:not(:disabled):hover {
+.emotion-14:not(:disabled):hover {
   background-color: #F0F0F5;
 }
 
-.emotion-13:not(:disabled):hover {
+.emotion-14:not(:disabled):hover {
   background-color: #0051A2;
 }
 
 <div>
   <div
-    class="emotion-18"
+    class="emotion-0"
   >
     <div
-      class="emotion-17"
+      class="emotion-1"
     >
       <div
-        class="emotion-15"
+        class="emotion-2"
       >
         <div
           aria-expanded="true"
           aria-haspopup="listbox"
           aria-labelledby="downshift-10-label"
           aria-owns="downshift-10-menu"
-          class="emotion-15"
+          class="emotion-3"
           role="combobox"
         >
           <div>
             <div
-              class="emotion-6"
+              class="emotion-4"
             >
               <input
                 aria-autocomplete="list"
                 aria-controls="downshift-10-menu"
-                class="emotion-0"
+                class="emotion-5"
                 id="downshift-10-input"
                 type="text"
                 value="Apple"
               />
               <span
-                class="emotion-2"
+                class="emotion-6"
                 role="button"
                 tabindex="-1"
                 title="Clear"
               >
                 <svg
                   aria-hidden="true"
-                  class="emotion-1"
+                  class="emotion-7"
                   height="1em"
                   role="img"
                   viewBox="0 0 24 24"
@@ -1107,17 +1107,17 @@ exports[`select custom components should accept actions inside AppendItem 1`] = 
                 </svg>
               </span>
               <span
-                class="emotion-5"
+                class="emotion-8"
               >
                 <button
-                  class="emotion-4"
+                  class="emotion-9"
                   tabindex="-1"
                   type="button"
                 >
                   <span>
                     <svg
                       aria-hidden="true"
-                      class="emotion-1"
+                      class="emotion-7"
                       height="1em"
                       role="img"
                       viewBox="0 0 24 24"
@@ -1135,7 +1135,7 @@ exports[`select custom components should accept actions inside AppendItem 1`] = 
           </div>
           <div
             aria-labelledby="downshift-10-label"
-            class="emotion-14"
+            class="emotion-11"
             id="downshift-10-menu"
             role="listbox"
             style="position: absolute; left: 0px; top: 0px; width: 0px;"
@@ -1145,50 +1145,16 @@ exports[`select custom components should accept actions inside AppendItem 1`] = 
             >
               <li
                 aria-selected="false"
-                class="emotion-7"
-                id="downshift-10-item-0"
-                role="option"
+                class="emotion-13"
               >
-                Apple
-              </li>
-              <li
-                aria-selected="false"
-                class="emotion-7"
-                id="downshift-10-item-1"
-                role="option"
-              >
-                Banana
-              </li>
-              <li
-                aria-selected="false"
-                class="emotion-7"
-                id="downshift-10-item-2"
-                role="option"
-              >
-                Grape
-              </li>
-              <li
-                aria-selected="false"
-                class="emotion-7"
-                id="downshift-10-item-3"
-                role="option"
-              >
-                Orange
-              </li>
-              <li
-                aria-selected="false"
-                class="emotion-7"
-                id="downshift-10-item-4"
-                role="option"
-              >
-                Pear
+                No results were found
               </li>
             </ul>
             <div
               style="background: rgb(240, 240, 245); padding: 0.25rem 0.5rem; cursor: initial;"
             >
               <button
-                class="emotion-13"
+                class="emotion-14"
                 data-testid="button"
                 type="button"
               >
@@ -1206,7 +1172,7 @@ exports[`select custom components should accept actions inside AppendItem 1`] = 
 `;
 
 exports[`select custom components should accept actions inside PrependItem 1`] = `
-.emotion-18 {
+.emotion-0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1216,33 +1182,103 @@ exports[`select custom components should accept actions inside PrependItem 1`] =
   flex-direction: column;
 }
 
-.emotion-17 {
+.emotion-1 {
   display: inline-block;
   margin-bottom: 0rem;
   margin-top: 0rem;
 }
 
-.emotion-17:first-of-type {
+.emotion-1:first-of-type {
   margin-top: 0;
 }
 
-.emotion-17:last-of-type {
+.emotion-1:last-of-type {
   margin-bottom: 0;
 }
 
-.emotion-17:empty {
+.emotion-1:empty {
   display: none;
 }
 
-.emotion-6 {
+.emotion-4 {
   position: relative;
 }
 
-.emotion-6 input {
+.emotion-4 input {
   padding-right: 4.5rem;
 }
 
-.emotion-2 {
+.emotion-5 {
+  background-color: #FFFFFF;
+  border: solid 1px #8F8FA2;
+  border-radius: 2px;
+  color: #24252E;
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1rem;
+  margin: 0;
+  padding: calc(0.5rem - 1px) 0.5rem;
+  width: 100%;
+  transition-property: box-shadow;
+  transition-duration: .2s;
+}
+
+.emotion-5[type="search"]::-webkit-search-decoration {
+  display: none;
+}
+
+.emotion-5[type="search"]::-webkit-search-cancel-button {
+  display: none;
+}
+
+.emotion-5[type="search"]::-webkit-search-results-button {
+  display: none;
+}
+
+.emotion-5[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+.emotion-5:required {
+  box-shadow: none;
+}
+
+.emotion-5::-webkit-input-placeholder {
+  color: #696979;
+}
+
+.emotion-5::-moz-placeholder {
+  color: #696979;
+}
+
+.emotion-5:-ms-input-placeholder {
+  color: #696979;
+}
+
+.emotion-5::placeholder {
+  color: #696979;
+}
+
+.emotion-5:disabled {
+  border-color: #D3D4DD;
+  background-color: #F0F0F5;
+}
+
+.emotion-5:not(:disabled):hover {
+  border-color: #7A7B8E;
+}
+
+.emotion-5:not(:disabled):focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
+}
+
+.emotion-5:not(:disabled):active {
+  border-color: #0069D0;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
+}
+
+.emotion-6 {
   position: absolute;
   right: 2.5rem;
   background: transparent;
@@ -1254,8 +1290,8 @@ exports[`select custom components should accept actions inside PrependItem 1`] =
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -1266,11 +1302,16 @@ exports[`select custom components should accept actions inside PrependItem 1`] =
   padding: 1px 6px;
 }
 
-.emotion-2:hover {
+.emotion-6:hover {
   color: #D01E29;
 }
 
-.emotion-5 {
+.emotion-7 {
+  fill: currentColor;
+  font-size: 1.5rem;
+}
+
+.emotion-8 {
   position: absolute;
   background-color: #F0F0F5;
   display: -webkit-box;
@@ -1282,8 +1323,8 @@ exports[`select custom components should accept actions inside PrependItem 1`] =
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   padding: 0.25rem;
   width: 2.5rem;
@@ -1292,84 +1333,7 @@ exports[`select custom components should accept actions inside PrependItem 1`] =
   right: 1px;
 }
 
-.emotion-0 {
-  background-color: #FFFFFF;
-  border: solid 1px #8F8FA2;
-  border-radius: 2px;
-  color: #24252E;
-  font-family: "IBM Plex Sans",sans-serif;
-  font-size: 0.8125rem;
-  line-height: 1rem;
-  margin: 0;
-  padding: calc(0.5rem - 1px) 0.5rem;
-  width: 100%;
-  -webkit-transition-property: box-shadow;
-  transition-property: box-shadow;
-  -webkit-transition-duration: .2s;
-  transition-duration: .2s;
-}
-
-.emotion-0[type="search"]::-webkit-search-decoration {
-  display: none;
-}
-
-.emotion-0[type="search"]::-webkit-search-cancel-button {
-  display: none;
-}
-
-.emotion-0[type="search"]::-webkit-search-results-button {
-  display: none;
-}
-
-.emotion-0[type="search"]::-webkit-search-results-decoration {
-  display: none;
-}
-
-.emotion-0:required {
-  box-shadow: none;
-}
-
-.emotion-0::-webkit-input-placeholder {
-  color: #696979;
-}
-
-.emotion-0::-moz-placeholder {
-  color: #696979;
-}
-
-.emotion-0:-ms-input-placeholder {
-  color: #696979;
-}
-
-.emotion-0::placeholder {
-  color: #696979;
-}
-
-.emotion-0:disabled {
-  border-color: #D3D4DD;
-  background-color: #F0F0F5;
-}
-
-.emotion-0:not(:disabled):hover {
-  border-color: #7A7B8E;
-}
-
-.emotion-0:not(:disabled):focus {
-  outline: none;
-  box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
-}
-
-.emotion-0:not(:disabled):active {
-  border-color: #0069D0;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.09);
-}
-
-.emotion-1 {
-  fill: currentColor;
-  font-size: 1.5rem;
-}
-
-.emotion-4 {
+.emotion-9 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 0.8125rem;
   line-height: 1.5rem;
@@ -1379,8 +1343,8 @@ exports[`select custom components should accept actions inside PrependItem 1`] =
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-user-select: none;
@@ -1402,7 +1366,7 @@ exports[`select custom components should accept actions inside PrependItem 1`] =
   border-radius: inherit;
 }
 
-.emotion-4 > span {
+.emotion-9>span {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -1413,24 +1377,24 @@ exports[`select custom components should accept actions inside PrependItem 1`] =
   display: inline-flex;
 }
 
-.emotion-4:not(:disabled):active {
-  box-shadow: inset 0 2px 8px 0 rgba(0,0,0,0.1);
+.emotion-9:not(:disabled):active {
+  box-shadow: inset 0 2px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
-.emotion-4:focus {
+.emotion-9:focus {
   outline: none;
   box-shadow: 0 0 0 2px #0069D0;
 }
 
-.emotion-4:not(:disabled):hover {
-  background-color: rgba(58,58,71,0.1);
+.emotion-9:not(:disabled):hover {
+  background-color: rgba(58, 58, 71, 0.1);
 }
 
-.emotion-4:focus {
+.emotion-9:focus {
   box-shadow: none;
 }
 
-.emotion-14 {
+.emotion-11 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1442,57 +1406,11 @@ exports[`select custom components should accept actions inside PrependItem 1`] =
   border: 1px solid #D3D4DD;
   border-radius: 2px;
   background-color: #FFFFFF;
-  box-shadow: 0 2px 4px -1px rgba(0,0,0,0.2),0 1px 10px 0 rgba(0,0,0,0.12),0 4px 5px 0 rgba(0,0,0,0.14);
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2),0 1px 10px 0 rgba(0, 0, 0, 0.12),0 4px 5px 0 rgba(0, 0, 0, 0.14);
   max-height: 20rem;
 }
 
-.emotion-13 {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  border: 1px solid #D3D4DD;
-  border-radius: 2px;
-  background-color: #FFFFFF;
-  box-shadow: 0 2px 4px -1px rgba(0,0,0,0.2),0 1px 10px 0 rgba(0,0,0,0.12),0 4px 5px 0 rgba(0,0,0,0.14);
-  max-height: 20rem;
-  overflow-y: auto;
-  overflow-x: hidden;
-  width: 100%;
-  z-index: 1300;
-  z-index: auto;
-  border: 0;
-  border-radius: 0;
-  box-shadow: none;
-  max-height: auto;
-}
-
-.emotion-8 {
-  font-family: "IBM Plex Sans",sans-serif;
-  font-size: 0.8125rem;
-  line-height: 1.5;
-  color: #24252E;
-  border-bottom: 1px solid #D3D4DD;
-  cursor: pointer;
-  padding: 0.5rem 0.5rem;
-  -webkit-transition: .1s ease;
-  transition: .1s ease;
-}
-
-.emotion-8:last-of-type {
-  border-bottom: none;
-}
-
-.emotion-8:hover {
-  background: #F0F0F5;
-}
-
-.emotion-8:focus {
-  outline: 0;
-  border-radius: 3px;
-  box-shadow: inset 0 0 0 2px #0069D0;
-}
-
-.emotion-7 {
+.emotion-12 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 0.8125rem;
   line-height: 1.5rem;
@@ -1502,8 +1420,8 @@ exports[`select custom components should accept actions inside PrependItem 1`] =
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-user-select: none;
@@ -1527,7 +1445,7 @@ exports[`select custom components should accept actions inside PrependItem 1`] =
   padding: calc(0.25rem - 1px) calc(0.5rem - 1px);
 }
 
-.emotion-7 > span {
+.emotion-12>span {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -1538,62 +1456,112 @@ exports[`select custom components should accept actions inside PrependItem 1`] =
   display: inline-flex;
 }
 
-.emotion-7:not(:disabled):active {
-  box-shadow: inset 0 2px 8px 0 rgba(0,0,0,0.1);
+.emotion-12:not(:disabled):active {
+  box-shadow: inset 0 2px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
-.emotion-7:focus {
+.emotion-12:focus {
   outline: none;
   box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
 }
 
-.emotion-7:not(:disabled):hover {
+.emotion-12:not(:disabled):hover {
   background-color: #F0F0F5;
 }
 
-.emotion-7:not(:disabled):hover {
+.emotion-12:not(:disabled):hover {
   background-color: #0051A2;
+}
+
+.emotion-13 {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #D3D4DD;
+  border-radius: 2px;
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2),0 1px 10px 0 rgba(0, 0, 0, 0.12),0 4px 5px 0 rgba(0, 0, 0, 0.14);
+  max-height: 20rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 100%;
+  z-index: 1300;
+  z-index: auto;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  max-height: auto;
+}
+
+.emotion-14 {
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: #24252E;
+  border-bottom: 1px solid #D3D4DD;
+  cursor: pointer;
+  padding: 0.5rem 0.5rem;
+  -webkit-transition: .1s ease;
+  transition: .1s ease;
+  background: #F0F0F5;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  cursor: initial;
+}
+
+.emotion-14:last-of-type {
+  border-bottom: none;
+}
+
+.emotion-14:hover {
+  background: #F0F0F5;
+}
+
+.emotion-14:focus {
+  outline: 0;
+  border-radius: 3px;
+  box-shadow: inset 0 0 0 2px #0069D0;
 }
 
 <div>
   <div
-    class="emotion-18"
+    class="emotion-0"
   >
     <div
-      class="emotion-17"
+      class="emotion-1"
     >
       <div
-        class="emotion-15"
+        class="emotion-2"
       >
         <div
           aria-expanded="true"
           aria-haspopup="listbox"
           aria-labelledby="downshift-9-label"
           aria-owns="downshift-9-menu"
-          class="emotion-15"
+          class="emotion-3"
           role="combobox"
         >
           <div>
             <div
-              class="emotion-6"
+              class="emotion-4"
             >
               <input
                 aria-autocomplete="list"
                 aria-controls="downshift-9-menu"
-                class="emotion-0"
+                class="emotion-5"
                 id="downshift-9-input"
                 type="text"
                 value="Apple"
               />
               <span
-                class="emotion-2"
+                class="emotion-6"
                 role="button"
                 tabindex="-1"
                 title="Clear"
               >
                 <svg
                   aria-hidden="true"
-                  class="emotion-1"
+                  class="emotion-7"
                   height="1em"
                   role="img"
                   viewBox="0 0 24 24"
@@ -1606,17 +1574,17 @@ exports[`select custom components should accept actions inside PrependItem 1`] =
                 </svg>
               </span>
               <span
-                class="emotion-5"
+                class="emotion-8"
               >
                 <button
-                  class="emotion-4"
+                  class="emotion-9"
                   tabindex="-1"
                   type="button"
                 >
                   <span>
                     <svg
                       aria-hidden="true"
-                      class="emotion-1"
+                      class="emotion-7"
                       height="1em"
                       role="img"
                       viewBox="0 0 24 24"
@@ -1634,7 +1602,7 @@ exports[`select custom components should accept actions inside PrependItem 1`] =
           </div>
           <div
             aria-labelledby="downshift-9-label"
-            class="emotion-14"
+            class="emotion-11"
             id="downshift-9-menu"
             role="listbox"
             style="position: absolute; left: 0px; top: 0px; width: 0px;"
@@ -1643,7 +1611,7 @@ exports[`select custom components should accept actions inside PrependItem 1`] =
               style="background: rgb(240, 240, 245); padding: 0.25rem 0.5rem; cursor: initial;"
             >
               <button
-                class="emotion-7"
+                class="emotion-12"
                 data-testid="button"
                 type="button"
               >
@@ -1657,43 +1625,9 @@ exports[`select custom components should accept actions inside PrependItem 1`] =
             >
               <li
                 aria-selected="false"
-                class="emotion-8"
-                id="downshift-9-item-0"
-                role="option"
+                class="emotion-14"
               >
-                Apple
-              </li>
-              <li
-                aria-selected="false"
-                class="emotion-8"
-                id="downshift-9-item-1"
-                role="option"
-              >
-                Banana
-              </li>
-              <li
-                aria-selected="false"
-                class="emotion-8"
-                id="downshift-9-item-2"
-                role="option"
-              >
-                Grape
-              </li>
-              <li
-                aria-selected="false"
-                class="emotion-8"
-                id="downshift-9-item-3"
-                role="option"
-              >
-                Orange
-              </li>
-              <li
-                aria-selected="false"
-                class="emotion-8"
-                id="downshift-9-item-4"
-                role="option"
-              >
-                Pear
+                No results were found
               </li>
             </ul>
           </div>
@@ -1706,13 +1640,13 @@ exports[`select custom components should accept actions inside PrependItem 1`] =
 
 exports[`single should warn when value is an array 1`] = `
 [MockFunction] {
-  "calls": Array [
-    Array [
+  "calls": [
+    [
       "Trying to set an array as value for <Select /> but it should be an object. Set the 'multiple' prop if it can have multiple values",
     ],
   ],
-  "results": Array [
-    Object {
+  "results": [
+    {
       "type": "return",
       "value": null,
     },

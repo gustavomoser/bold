@@ -18,14 +18,14 @@ exports[`should render correctly 1`] = `
 `;
 
 exports[`should render correctly 2`] = `
-.emotion-1 {
+.emotion-0 {
   z-index: 1400;
   -webkit-transition: opacity 200ms ease;
   transition: opacity 200ms ease;
   opacity: 0;
 }
 
-.emotion-0 {
+.emotion-1 {
   border-radius: 2px;
   max-width: 1280px;
   background: #3A3A47;
@@ -44,13 +44,13 @@ exports[`should render correctly 2`] = `
     >
       <div
         aria-hidden="false"
-        class="emotion-1"
+        class="emotion-0"
         id="tooltip-abc"
         role="tooltip"
         style="position: absolute; left: 0px; top: 0px;"
       >
         <div
-          class="emotion-0"
+          class="emotion-1"
         >
           Tooltip text
         </div>

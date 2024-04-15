@@ -9,8 +9,9 @@ const meta: Meta<CheckboxProps> = {
   args: {
     name: 'check',
     label: 'Component label',
-    disabled: false,
+    checked: false,
     indeterminate: false,
+    disabled: false,
     onChange: action('changed'),
   },
 }

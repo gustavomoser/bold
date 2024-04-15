@@ -123,18 +123,20 @@ exports[`SelectLoadingItem should render correctly 1`] = `
 @keyframes animation-0 {
   from {
     -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
     transform: rotate(0deg);
   }
 
   to {
     -webkit-transform: rotate(359deg);
+    -moz-transform: rotate(359deg);
     -ms-transform: rotate(359deg);
     transform: rotate(359deg);
   }
 }
 
-.emotion-1 {
+.emotion-0 {
   font-family: "IBM Plex Sans",sans-serif;
   font-size: 0.8125rem;
   line-height: 1.5;
@@ -150,21 +152,21 @@ exports[`SelectLoadingItem should render correctly 1`] = `
   cursor: initial;
 }
 
-.emotion-1:last-of-type {
+.emotion-0:last-of-type {
   border-bottom: none;
 }
 
-.emotion-1:hover {
+.emotion-0:hover {
   background: #F0F0F5;
 }
 
-.emotion-1:focus {
+.emotion-0:focus {
   outline: 0;
   border-radius: 3px;
   box-shadow: inset 0 0 0 2px #0069D0;
 }
 
-.emotion-0 {
+.emotion-1 {
   pointer-events: none;
   font-size: 1rem;
   line-height: 1;
@@ -172,7 +174,7 @@ exports[`SelectLoadingItem should render correctly 1`] = `
   float: right;
 }
 
-.emotion-0:after {
+.emotion-1:after {
   -webkit-animation: animation-0 450ms infinite linear;
   animation: animation-0 450ms infinite linear;
   border: 2px solid currentColor;
@@ -187,11 +189,11 @@ exports[`SelectLoadingItem should render correctly 1`] = `
 <div>
   <li
     aria-selected="false"
-    class="emotion-1"
+    class="emotion-0"
   >
     Loading...
     <span
-      class="emotion-0"
+      class="emotion-1"
     />
   </li>
 </div>
