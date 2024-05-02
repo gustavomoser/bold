@@ -1,0 +1,447 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should accept the style prop 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-1 {
+  display: inline-block;
+  margin-bottom: 0rem;
+  margin-top: 0rem;
+}
+
+.emotion-1:first-of-type {
+  margin-top: 0;
+}
+
+.emotion-1:last-of-type {
+  margin-bottom: 0;
+}
+
+.emotion-1:empty {
+  display: none;
+}
+
+.emotion-3 {
+  position: relative;
+}
+
+.emotion-4 {
+  background-color: #FFFFFF;
+  border: solid 1px #8F8FA2;
+  border-radius: 2px;
+  color: #24252E;
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1rem;
+  margin: 0;
+  padding: calc(0.5rem - 1px) 0.5rem;
+  width: 100%;
+  transition-property: box-shadow;
+  transition-duration: .2s;
+  color: red;
+}
+
+.emotion-4[type="search"]::-webkit-search-decoration {
+  display: none;
+}
+
+.emotion-4[type="search"]::-webkit-search-cancel-button {
+  display: none;
+}
+
+.emotion-4[type="search"]::-webkit-search-results-button {
+  display: none;
+}
+
+.emotion-4[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+.emotion-4:required {
+  box-shadow: none;
+}
+
+.emotion-4::-webkit-input-placeholder {
+  color: #696979;
+}
+
+.emotion-4::-moz-placeholder {
+  color: #696979;
+}
+
+.emotion-4:-ms-input-placeholder {
+  color: #696979;
+}
+
+.emotion-4::placeholder {
+  color: #696979;
+}
+
+.emotion-4:disabled {
+  border-color: #D3D4DD;
+  background-color: #F0F0F5;
+}
+
+.emotion-4:not(:disabled):hover {
+  border-color: #7A7B8E;
+}
+
+.emotion-4:not(:disabled):focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
+}
+
+.emotion-4:not(:disabled):active {
+  border-color: #0069D0;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
+}
+
+<div>
+  <div
+    class="emotion-0"
+  >
+    <div
+      class="emotion-1"
+    >
+      <div
+        class="emotion-2"
+      >
+        <div
+          class="emotion-3"
+        >
+          <input
+            class="emotion-4"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`should render correctly 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-1 {
+  display: inline-block;
+  margin-bottom: 0rem;
+  margin-top: 0rem;
+}
+
+.emotion-1:first-of-type {
+  margin-top: 0;
+}
+
+.emotion-1:last-of-type {
+  margin-bottom: 0;
+}
+
+.emotion-1:empty {
+  display: none;
+}
+
+.emotion-3 {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.25rem;
+  line-height: 20px;
+}
+
+.emotion-4 {
+  position: relative;
+}
+
+.emotion-5 {
+  background-color: #FFFFFF;
+  border: solid 1px #8F8FA2;
+  border-radius: 2px;
+  color: #24252E;
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1rem;
+  margin: 0;
+  padding: calc(0.5rem - 1px) 0.5rem;
+  width: 100%;
+  transition-property: box-shadow;
+  transition-duration: .2s;
+}
+
+.emotion-5[type="search"]::-webkit-search-decoration {
+  display: none;
+}
+
+.emotion-5[type="search"]::-webkit-search-cancel-button {
+  display: none;
+}
+
+.emotion-5[type="search"]::-webkit-search-results-button {
+  display: none;
+}
+
+.emotion-5[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+.emotion-5:required {
+  box-shadow: none;
+}
+
+.emotion-5::-webkit-input-placeholder {
+  color: #696979;
+}
+
+.emotion-5::-moz-placeholder {
+  color: #696979;
+}
+
+.emotion-5:-ms-input-placeholder {
+  color: #696979;
+}
+
+.emotion-5::placeholder {
+  color: #696979;
+}
+
+.emotion-5:disabled {
+  border-color: #D3D4DD;
+  background-color: #F0F0F5;
+}
+
+.emotion-5:not(:disabled):hover {
+  border-color: #7A7B8E;
+}
+
+.emotion-5:not(:disabled):focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
+}
+
+.emotion-5:not(:disabled):active {
+  border-color: #0069D0;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
+}
+
+<div>
+  <div
+    class="emotion-0"
+  >
+    <div
+      class="emotion-1"
+    >
+      <div
+        class="emotion-2"
+      >
+        <label
+          class="emotion-3"
+          id="label-abc"
+        >
+          Masked
+        </label>
+        <div
+          class="emotion-4"
+        >
+          <input
+            aria-labelledby="label-abc"
+            class="emotion-5"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`should render correctly with error 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-1 {
+  display: inline-block;
+  margin-bottom: 0rem;
+  margin-top: 0rem;
+}
+
+.emotion-1:first-of-type {
+  margin-top: 0;
+}
+
+.emotion-1:last-of-type {
+  margin-bottom: 0;
+}
+
+.emotion-1:empty {
+  display: none;
+}
+
+.emotion-3 {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.25rem;
+  line-height: 20px;
+}
+
+.emotion-4 {
+  position: relative;
+}
+
+.emotion-5 {
+  background-color: #FFFFFF;
+  border: solid 1px #8F8FA2;
+  border-radius: 2px;
+  color: #24252E;
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1rem;
+  margin: 0;
+  padding: calc(0.5rem - 1px) 0.5rem;
+  width: 100%;
+  transition-property: box-shadow;
+  transition-duration: .2s;
+  border: solid 1px #D01E29;
+}
+
+.emotion-5[type="search"]::-webkit-search-decoration {
+  display: none;
+}
+
+.emotion-5[type="search"]::-webkit-search-cancel-button {
+  display: none;
+}
+
+.emotion-5[type="search"]::-webkit-search-results-button {
+  display: none;
+}
+
+.emotion-5[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+.emotion-5:required {
+  box-shadow: none;
+}
+
+.emotion-5::-webkit-input-placeholder {
+  color: #696979;
+}
+
+.emotion-5::-moz-placeholder {
+  color: #696979;
+}
+
+.emotion-5:-ms-input-placeholder {
+  color: #696979;
+}
+
+.emotion-5::placeholder {
+  color: #696979;
+}
+
+.emotion-5:disabled {
+  border-color: #D3D4DD;
+  background-color: #F0F0F5;
+}
+
+.emotion-5:not(:disabled):hover {
+  border-color: #7A7B8E;
+}
+
+.emotion-5:not(:disabled):focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
+}
+
+.emotion-5:not(:disabled):active {
+  border-color: #0069D0;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
+}
+
+.emotion-5:not(:disabled):focus {
+  border: solid 1px #D3D4DD;
+  box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #D01E29;
+}
+
+.emotion-7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #D01E29;
+  margin-top: 0.25rem;
+  line-height: 20px;
+}
+
+<div>
+  <div
+    class="emotion-0"
+  >
+    <div
+      class="emotion-1"
+    >
+      <div
+        class="emotion-2"
+      >
+        <label
+          class="emotion-3"
+          id="label-abc"
+        >
+          Masked
+        </label>
+        <div
+          class="emotion-4"
+        >
+          <input
+            aria-errormessage="error-abc"
+            aria-invalid="true"
+            aria-labelledby="label-abc"
+            class="emotion-5"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="emotion-1"
+    >
+      <div
+        class="emotion-7"
+        id="error-abc"
+        role="alert"
+      >
+        Some error
+      </div>
+    </div>
+  </div>
+</div>
+`;

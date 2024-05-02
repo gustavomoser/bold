@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should accept placeholder 1`] = `
+.emotion-0 {
+  line-height: 1.5;
+}
+
+.emotion-1 {
+  font-weight: bold;
+}
+
+.emotion-2:empty::before {
+  content: "No value";
+  color: #696979;
+  font-style: italic;
+}
+
+<div>
+  <div
+    class="emotion-0"
+  >
+    <div
+      class="emotion-1"
+    >
+      Test
+    </div>
+    <div
+      class="emotion-2"
+    />
+  </div>
+</div>
+`;
+
+exports[`should render correctly 1`] = `
+.emotion-0 {
+  line-height: 1.5;
+}
+
+.emotion-1 {
+  font-weight: bold;
+}
+
+.emotion-2:empty::before {
+  content: "-";
+  color: #696979;
+  font-style: italic;
+}
+
+<div>
+  <div
+    class="emotion-0"
+  >
+    <div
+      class="emotion-1"
+    >
+      Test
+    </div>
+    <div
+      class="emotion-2"
+    >
+      Content
+    </div>
+  </div>
+</div>
+`;
+
+exports[`should render correctly 2`] = `
+.emotion-0 {
+  line-height: 1.5;
+}
+
+.emotion-1 {
+  font-weight: bold;
+  color: red;
+}
+
+.emotion-2 {
+  color: blue;
+}
+
+.emotion-2:empty::before {
+  content: "-";
+  color: #696979;
+  font-style: italic;
+}
+
+<div>
+  <div
+    class="emotion-0"
+  >
+    <div
+      class="emotion-1"
+    >
+      Test
+    </div>
+    <div
+      class="emotion-2"
+    >
+      Content
+    </div>
+  </div>
+</div>
+`;

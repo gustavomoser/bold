@@ -1,0 +1,348 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox should render correctly 1`] = `
+.emotion-0 {
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-1 {
+  opacity: 0;
+  margin-right: -13px;
+}
+
+.emotion-1:hover+.emotion-2 {
+  border-color: #7A7B8E;
+}
+
+.emotion-1:checked+.emotion-2 {
+  background-color: #0069D0;
+  border-color: #0069D0;
+}
+
+.emotion-1:checked+.emotion-2:after {
+  content: "";
+  border-right: 2px solid #FFFFFF;
+  border-bottom: 2px solid #FFFFFF;
+  position: absolute;
+  width: 8px;
+  height: 16px;
+  top: 0;
+  left: 7px;
+  opacity: 1;
+  -webkit-transform: rotate(45deg) scale(1);
+  -moz-transform: rotate(45deg) scale(1);
+  -ms-transform: rotate(45deg) scale(1);
+  transform: rotate(45deg) scale(1);
+  -webkit-transition: opacity .2s ease;
+  transition: opacity .2s ease;
+}
+
+.emotion-1:indeterminate+.emotion-2 {
+  background-color: #FFFFFF;
+  border-color: #0069D0;
+}
+
+.emotion-1:indeterminate+.emotion-2:after {
+  content: "";
+  border-bottom: 3px solid #0069D0;
+  position: absolute;
+  top: -1px;
+  left: 4px;
+  width: 14px;
+  height: 14px;
+  opacity: 1;
+  -webkit-transition: opacity .2s ease;
+  transition: opacity .2s ease;
+}
+
+.emotion-1:focus+.emotion-2 {
+  box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
+}
+
+.emotion-1:disabled+.emotion-2 {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.emotion-1:disabled+.emotion-2+.emotion-3 {
+  color: #AAAAB9;
+  cursor: not-allowed;
+}
+
+.emotion-2 {
+  background-color: #FFFFFF;
+  border: 1px solid #8F8FA2;
+  border-radius: 2px;
+  display: inline-block;
+  height: 24px;
+  position: relative;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+  vertical-align: middle;
+  width: 24px;
+  min-width: 24px;
+}
+
+.emotion-3 {
+  margin-left: 0.5rem;
+}
+
+<div>
+  <label
+    class="emotion-0"
+  >
+    <input
+      class="emotion-1"
+      type="checkbox"
+    />
+    <span
+      class="emotion-2"
+    />
+    <span
+      class="emotion-3"
+    >
+      check
+    </span>
+  </label>
+</div>
+`;
+
+exports[`Checkbox should render correctly when disabled 1`] = `
+.emotion-0 {
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: not-allowed;
+}
+
+.emotion-1 {
+  opacity: 0;
+  margin-right: -13px;
+}
+
+.emotion-1:hover+.emotion-2 {
+  border-color: #7A7B8E;
+}
+
+.emotion-1:checked+.emotion-2 {
+  background-color: #0069D0;
+  border-color: #0069D0;
+}
+
+.emotion-1:checked+.emotion-2:after {
+  content: "";
+  border-right: 2px solid #FFFFFF;
+  border-bottom: 2px solid #FFFFFF;
+  position: absolute;
+  width: 8px;
+  height: 16px;
+  top: 0;
+  left: 7px;
+  opacity: 1;
+  -webkit-transform: rotate(45deg) scale(1);
+  -moz-transform: rotate(45deg) scale(1);
+  -ms-transform: rotate(45deg) scale(1);
+  transform: rotate(45deg) scale(1);
+  -webkit-transition: opacity .2s ease;
+  transition: opacity .2s ease;
+}
+
+.emotion-1:indeterminate+.emotion-2 {
+  background-color: #FFFFFF;
+  border-color: #0069D0;
+}
+
+.emotion-1:indeterminate+.emotion-2:after {
+  content: "";
+  border-bottom: 3px solid #0069D0;
+  position: absolute;
+  top: -1px;
+  left: 4px;
+  width: 14px;
+  height: 14px;
+  opacity: 1;
+  -webkit-transition: opacity .2s ease;
+  transition: opacity .2s ease;
+}
+
+.emotion-1:focus+.emotion-2 {
+  box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
+}
+
+.emotion-1:disabled+.emotion-2 {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.emotion-1:disabled+.emotion-2+.emotion-3 {
+  color: #AAAAB9;
+  cursor: not-allowed;
+}
+
+.emotion-2 {
+  background-color: #FFFFFF;
+  border: 1px solid #8F8FA2;
+  border-radius: 2px;
+  display: inline-block;
+  height: 24px;
+  position: relative;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+  vertical-align: middle;
+  width: 24px;
+  min-width: 24px;
+}
+
+.emotion-3 {
+  margin-left: 0.5rem;
+}
+
+<div>
+  <label
+    class="emotion-0"
+  >
+    <input
+      class="emotion-1"
+      disabled=""
+      type="checkbox"
+    />
+    <span
+      class="emotion-2"
+    />
+    <span
+      class="emotion-3"
+    >
+      check
+    </span>
+  </label>
+</div>
+`;
+
+exports[`Checkbox should render correctly when indeterminate 1`] = `
+.emotion-0 {
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-1 {
+  opacity: 0;
+  margin-right: -13px;
+}
+
+.emotion-1:hover+.emotion-2 {
+  border-color: #7A7B8E;
+}
+
+.emotion-1:checked+.emotion-2 {
+  background-color: #0069D0;
+  border-color: #0069D0;
+}
+
+.emotion-1:checked+.emotion-2:after {
+  content: "";
+  border-right: 2px solid #FFFFFF;
+  border-bottom: 2px solid #FFFFFF;
+  position: absolute;
+  width: 8px;
+  height: 16px;
+  top: 0;
+  left: 7px;
+  opacity: 1;
+  -webkit-transform: rotate(45deg) scale(1);
+  -moz-transform: rotate(45deg) scale(1);
+  -ms-transform: rotate(45deg) scale(1);
+  transform: rotate(45deg) scale(1);
+  -webkit-transition: opacity .2s ease;
+  transition: opacity .2s ease;
+}
+
+.emotion-1:indeterminate+.emotion-2 {
+  background-color: #FFFFFF;
+  border-color: #0069D0;
+}
+
+.emotion-1:indeterminate+.emotion-2:after {
+  content: "";
+  border-bottom: 3px solid #0069D0;
+  position: absolute;
+  top: -1px;
+  left: 4px;
+  width: 14px;
+  height: 14px;
+  opacity: 1;
+  -webkit-transition: opacity .2s ease;
+  transition: opacity .2s ease;
+}
+
+.emotion-1:focus+.emotion-2 {
+  box-shadow: 0 0 0 2px #F0F0F5,0 0 0 4px #0069D0;
+}
+
+.emotion-1:disabled+.emotion-2 {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.emotion-1:disabled+.emotion-2+.emotion-3 {
+  color: #AAAAB9;
+  cursor: not-allowed;
+}
+
+.emotion-2 {
+  background-color: #FFFFFF;
+  border: 1px solid #8F8FA2;
+  border-radius: 2px;
+  display: inline-block;
+  height: 24px;
+  position: relative;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+  vertical-align: middle;
+  width: 24px;
+  min-width: 24px;
+}
+
+.emotion-3 {
+  margin-left: 0.5rem;
+}
+
+<div>
+  <label
+    class="emotion-0"
+  >
+    <input
+      class="emotion-1"
+      type="checkbox"
+    />
+    <span
+      class="emotion-2"
+    />
+    <span
+      class="emotion-3"
+    >
+      check
+    </span>
+  </label>
+</div>
+`;
